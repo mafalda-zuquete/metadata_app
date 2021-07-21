@@ -663,8 +663,8 @@ def location_places_json(place,n_clicks):
             with open('location.json', 'w') as outfile:
                 json.dump(location_meta, outfile)
 
-            return 'Submetido'
-            #return str(location_meta)
+            #return 'Submetido'
+            return str(location_meta)
 
 @app.callback(
     Output('div_final','children'),
