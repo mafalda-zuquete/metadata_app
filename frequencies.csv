@@ -1,0 +1,31 @@
+code,name,description
+TRIENNIAL,trienal,The event occurs every three years.
+BIENNIAL,bienal,The event occurs every two years.
+ANNUAL,anual,The event occurs once a year.
+ANNUAL_2,semianual,The event occurs twice a year.
+ANNUAL_3,três vezes por ano,The event occurs three times a year.
+QUARTERLY,trimestral,The event occurs every three months.
+BIMONTHLY,quinzenal,The event occurs every two months.
+MONTHLY,mensal,The event occurs once a month.
+MONTHLY_2,duas vezes por mês,The event occurs twice a month.
+BIWEEKLY,quinzenal,The event occurs every two weeks.
+MONTHLY_3,três vezes por mês,The event occurs three times a month.
+WEEKLY,hebdomadário,The event occurs once a week.
+WEEKLY_2,duas vezes por semana,The event occurs twice a week.
+WEEKLY_3,três vezes por semana,The event occurs three times a week.
+DAILY,diário,The event occurs once a day.
+UPDATE_CONT,continuamente atualizado,The event repeats without interruption.
+IRREG,irregular,The event occurs at uneven intervals.
+UNKNOWN,desconhecido,The event occurs with unknown regularity.
+OTHER,outro,"The event occurs with another type of regularity (for instance, every leap year)."
+DAILY_2,duas vezes por dia,The event occurs twice a day.
+CONT,contínuo,The item is updated more frequent than daily.
+NEVER,nunca,The item is never updated.
+QUADRENNIAL,quadrienal,The event occurs every four years.
+QUINQUENNIAL,quinquenal,The event occurs every five years.
+HOURLY,hora a hora,The event occurs every hour.
+DECENNIAL,de dez em dez anos,The event occurs every ten years.
+BIHOURLY,de duas em duas horas,The event occurs every two hours.
+TRIHOURLY,de três em três horas,The event occurs every three hours.
+BIDECENNIAL,de vinte em vinte anos,The event occurs every twenty years.
+TRIDECENNIAL,de trinta em trinta anos,The event occurs every thirty years.

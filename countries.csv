@@ -1,0 +1,253 @@
+code,name
+AND,Andorra
+ALB,Albânia
+AUT,Áustria
+BIH,Bósnia e Herzegovina
+BEL,Bélgica
+BLR,Bielorrússia
+CHE,Suíça
+CYP,Chipre
+DNK,Dinamarca
+EST,Estónia
+GRC,Grécia
+ESP,Espanha
+FIN,Finlândia
+FRO,Ilhas Feroe
+FRA,França
+GGY,Guernsey
+GIB,Gibraltar
+GRL,Gronelândia
+HRV,Croácia
+IRL,Irlanda
+IMN,Ilha de Man
+ISL,Islândia
+ITA,Itália
+JEY,Jersey
+LIE,Liechtenstein
+LTU,Lituânia
+LUX,Luxemburgo
+LVA,Letónia
+MCO,Mónaco
+MDA,Moldávia
+MNE,Montenegro
+MLT,Malta
+NLD,Países Baixos
+NOR,Noruega
+POL,Polónia
+PRT,Portugal
+ROU,Roménia
+SRB,Sérvia
+RUS,Rússia
+SWE,Suécia
+SVN,Eslovénia
+SVK,Eslováquia
+SMR,San Marino
+TUR,Turquia
+UKR,Ucrânia
+GBR,Reino Unido
+VAT,Estado da Cidade do Vaticano
+BGR,Bulgária
+DEU,Alemanha
+ALA,Alanda
+DZA,Argélia
+ASM,Samoa Americana
+AGO,Angola
+AIA,Anguila
+ATA,Antártida
+ATG,Antígua e Barbuda
+ARG,Argentina
+ARM,Arménia
+ABW,Aruba
+AUS,Austrália
+AZE,Azerbaijão
+BHS,Baamas
+BHR,Barém
+BGD,Bangladexe
+BRB,Barbados
+BLZ,Belize
+BEN,Benim
+BMU,Bermudas
+BTN,Butão
+BOL,Bolívia
+BWA,Botsuana
+BVT,Ilha Bouvet
+BRA,Brasil
+IOT,Território Britânicodo Oceano Índico
+VGB,Ilhas Virgens Britânicas
+BRN,Brunei
+BFA,Burquina Fasso
+BDI,Burundi
+KHM,Camboja
+CMR,Camarões
+CAN,Canadá
+CPV,Cabo Verde
+CYM,Ilhas Caimão
+CAF,República Centro-Africana
+TCD,Chade
+CHL,Chile
+CHN,China
+CXR,Ilha Christmas
+CPT,Clipperton
+CCK,Ilhas Cocos
+COL,Colômbia
+COM,Comores
+COG,Congo-Brazzaville
+COK,Ilhas Cook
+CRI,Costa Rica
+CIV,Costa do Marfim
+CUB,Cuba
+COD,Congo-Kinshasa
+DJI,Jibuti
+DMA,Domínica
+DOM,República Dominicana
+TLS,Timor-Leste
+ECU,Equador
+EGY,Egipto
+SLV,Salvador
+GNQ,Guiné Equatorial
+ERI,Eritreia
+ETH,Etiópia
+FLK,Ilhas Falkland
+FJI,Fiji
+GUF,Guiana Francesa
+PYF,Polinésia Francesa
+GAB,Gabão
+GMB,Gâmbia
+GEO,Geórgia
+GHA,Gana
+GRD,Granada
+GLP,Guadalupe
+GUM,Guam
+GTM,Guatemala
+GIN,Guiné
+GNB,Guiné-Bissau
+GUY,Guiana
+HTI,Haiti
+HMD,Ilhas Heard e McDonald
+HND,Honduras
+HKG,Hong Kong
+IND,Índia
+IDN,Indonésia
+IRN,Irão
+IRQ,Iraque
+ISR,Israel
+JAM,Jamaica
+JPN,Japão
+JOR,Jordânia
+KAZ,Cazaquistão
+KEN,Quénia
+KIR,Quiribati
+KWT,Koweit
+KGZ,Quirguizistão
+LAO,Laos
+LBN,Líbano
+LSO,Lesoto
+LBR,Libéria
+MAC,Macau
+MDG,Madagáscar
+MWI,Malavi
+MYS,Malásia
+MDV,Maldivas
+MLI,Mali
+MHL,Ilhas Marshall
+MTQ,Martinica
+MRT,Mauritânia
+MUS,Maurícia
+MEX,México
+FSM,Micronésia
+MNG,Mongólia
+MSR,Monserrate
+MAR,Marrocos
+MOZ,Moçambique
+NAM,Namíbia
+NRU,Nauru
+NZL,Nova Zelândia
+NIC,Nicarágua
+NER,Níger
+NGA,Nigéria
+NIU,Niue
+NFK,Ilha Norfolk
+PRK,Coreia do Norte
+MNP,Ilhas Marianas do Norte
+OMN,Omã
+PAK,Paquistão
+PLW,Palau
+PSE,Palestina
+PAN,Panamá
+PNG,Papuásia-Nova Guiné
+PRY,Paraguai
+PER,Peru
+PHL,Filipinas
+PCN,Pitcairn
+PRI,Porto Rico
+QAT,Catar
+REU,Reunião
+RWA,Ruanda
+BLM,São Bartolomeu
+KNA,São Cristóvão e Nevis
+LCA,Santa Lúcia
+MAF,São Martinho
+SPM,São Pedro e Miquelon
+VCT,São Vicente e Granadinas
+WSM,Samoa
+STP,São Tomé e Príncipe
+SAU,Arábia Saudita
+SEN,Senegal
+SYC,Seicheles
+SLE,Serra Leoa
+SGP,Singapura
+SLB,Ilhas Salomão
+ZAF,África do Sul
+SGS,Ilhas Geórgia do Sul e Sandwich do Sul
+KOR,Coreia do Sul
+LKA,Seri Lanca
+SDN,Sudão
+SUR,Suriname
+SJM,Svalbard e Jan Mayen
+SYR,Síria
+TWN,Taiwan
+TJK,Tajiquistão
+TZA,Tanzânia
+THA,Tailândia
+TGO,Togo
+TKL,Tokelau
+TON,Tonga
+TTO,Trindade e Tobago
+TUN,Tunísia
+TKM,Turquemenistão
+TCA,Ilhas Turcas e Caicos
+TUV,Tuvalu
+UGA,Uganda
+ARE,Emirados Árabes Unidos
+USA,Estados Unidos
+UMI,Ilhas Menores Distantes dos Estados Unidos
+URY,Uruguai
+VIR,Ilhas Virgens
+UZB,Usbequistão
+VUT,Vanuatu
+VEN,Venezuela
+VNM,Vietname
+ESH,Sara Ocidental
+YEM,Iémen
+ZMB,Zâmbia
+ZWE,Zimbabué
+AFG,Afeganistão
+1A0,Kosovo
+FQ0,Terras Austrais e Antárticas Francesas
+NPL,Nepal
+SHN,"Santa Helena, Ascensão e Tristão da Cunha"
+BES,"Bonaire, Santo Eustáquio e Saba"
+CUW,Curaçau
+SXM,São Martinho
+HUN,Hungria
+SSD,Sudão do Sul
+NCL,Nova Caledónia
+MYT,Maiote
+MMR,Mianmar/Birmânia
+SOM,Somália
+EUR,União Europeia
+LBY,Líbia
+WLF,Wallis e Futuna
+CZE,Chéquia
+SWZ,Essuatíni
+MKD,Macedónia do Norte

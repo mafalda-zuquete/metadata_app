@@ -1,0 +1,3074 @@
+code,name
+AND_ALV,Andorra-a-Velha
+ALB_TIA,Tirana
+AGO_LAD,Luanda
+AUT_BRZ,Bregenz
+AUT_EIT,Eisenstadt
+AUT_GRZ,Graz
+AUT_INN,Insbruque
+AUT_KLU,Klagenfurt am Wörthersee
+AUT_LNZ,Linz
+AUT_SZG,Salzburgo
+AUT_PLT,Sankt Pölten
+AUT_VIE,Viena
+AZE_BAK,Baku
+BEL_AAB,Aalst
+BEL_ANR,Antuérpia
+BEL_ARL,Arlon
+BEL_ATH,Ath
+BEL_BSG,Bastogne
+NOR_BGN,Bergen
+BEL_BGS,Bruges
+BEL_BRU,Bruxelas
+BEL_CRL,Charleroi
+BEL_DDR,Dendermonde
+BEL_DIK,Diksmuide
+BEL_DIA,Dinant
+BEL_TRN,Tournai
+BEL_ESE,Ixelles
+BEL_EGI,Enghien
+DEU_ESS,Essenj
+BEL_VOS,Forest
+BEL_GEL,Geel
+BEL_GNE,Gante
+BEL_GEA,Geraardsbergen
+BEL_HSS,Hasselt
+BEL_HUY,Huy
+BEL_IPR,Ipres
+BEL_KJK,Courtrai
+BEL_LPG,Leopoldsburg
+BEL_LEU,Lovaina
+BEL_LGG,Liège
+BEL_MSK,Maaseik
+BEL_MEF,Marche-en-Famenne
+BEL_ECH,Malines
+BEL_MOS,Mouscron
+BEL_MQS,Mons
+BEL_NAM,Namur
+BEL_NCA,Neufchâteau
+BEL_NIV,Nivelles
+BEL_OST,Ostende
+BEL_OUD,Oudenaarde
+BEL_PHI,Philippeville
+BEL_ROE,Roeselare
+BEL_SGI,Saint-Gilles
+BEL_SBK,Schaerbeek
+BEL_SLW,Woluwe-Saint-Lambert
+BEL_SPO,Woluwe-Saint-Pierre
+BEL_SOI,Soignies
+BEL_SNK,Sint-Niklaas
+BEL_STR,Sint-Truiden
+BEL_SVH,Sankt Vith
+BEL_THU,Thuin
+BEL_TLT,Tielt
+BEL_TON,Tongeren
+BEL_TUR,Turnhout
+BEL_UKE,Uccle
+BEL_VIR,Virton
+BEL_WRE,Waremme
+BEL_WBV,Watermael-Boisfort
+BEL_ZEE,Zeebrugge
+BFA_OUA,Uagadugu
+BGR_BLN,Blagoevgrad
+BGR_BOJ,Burgas
+BGR_DOD,Dobrich
+BGR_GAV,Gabrovo
+BGR_HKV,Haskovo
+BGR_KRM,Kurdzhali
+BGR_KYS,Kyustendil
+BGR_LVP,Lovech
+BGR_OZA,Montana
+BGR_PZA,Pazardzhik
+BGR_PNZ,Pernik
+BGR_PVN,Pleven
+BGR_PDV,Plovdiv
+BGR_RGL,Razgrad
+BGR_RDU,Ruse
+BGR_SMN,Shumen
+BGR_SLS,Silistra
+BGR_SLP,Sliven
+BGR_SML,Smolyan
+BGR_SOF,Sófia
+BGR_SZR,Stara Zagora
+BGR_TGV,Targovishte
+BGR_VAR,Varna
+BGR_VTT,Veliko Tarnovo
+BGR_VID,Vidin
+BGR_VRA,Vratsa
+BGR_YAM,Yambol
+BDI_BJM,Bujumbura
+BHS_FPO,Freeport
+GBR_BRS,Bristol
+CAN_MTR,Montreal
+CAN_NOL,Niagara-on-the-Lake
+CAN_OTT,Otava
+CAN_TOR,Toronto
+FRA_DUN,Verdun
+CHE_BSL,Basileia
+CHE_BRN,Berna
+CHE_CHR,Chur
+CHE_GVA,Genebra
+CHE_INT,Interlaken
+CHE_LAU,Lausana
+CHE_LUG,Lugano
+CHE_LZN,Lucerna
+CHE_QGL,São Galo
+CHE_THU,Thoune
+CHE_ZRH,Zurique
+CIV_ABJ,Abidjã
+CHL_CGN,Cartagena
+CHL_SCL,Santiago
+CMR_YAO,Iaundé
+CRI_BAI,Buenos Aires
+CYP_NFA,Nicósia
+CZE_PRG,Praga
+DEU_AAH,Aachen
+DEU_AGB,Augsburgo
+DEU_BAM,Bamberga
+DEU_BER,Berlim
+DEU_BON,Bona
+DEU_BBG,Brandeburgo
+DEU_BWE,Braunschweig
+DEU_BRE,Brema
+DEU_COB,Coburgo
+DEU_DRS,Dresda
+DEU_DUI,Duisburgo
+DEU_DUS,Dusseldorf
+DEU_ERF,Erfurt
+DEU_FRA,Francoforte do Meno
+DEU_FFO,Francoforte do Óder
+DEU_FBG,Friburgo em Brisgóvia
+DEU_GOE,Göttingen
+DEU_HAM,Hamburgo
+DEU_HAJ,Hanôver
+DEU_HEI,Heidelberga
+DEU_JEN,Jena
+DEU_KLT,Kaiserslautern
+DEU_KAE,Karlsruhe
+DEU_KLE,Kleve
+DEU_KOB,Coblença
+DEU_CGN,Colónia
+DEU_KON,Constança
+DEU_LEJ,Leipzig
+DEU_LEV,Leverkusen
+DEU_LIM,Limburgo
+DEU_LBC,Lubeque
+DEU_ZAX,Vitemberga
+DEU_MAG,Magdeburgo
+DEU_MAI,Mainz
+DEU_MHG,Mannheim
+DEU_MAR,Marburgo
+DEU_MUC,Munique
+DEU_NEB,Neubrandenburgo
+DEU_NUE,Nuremberga
+DEU_POT,Potsdam
+DEU_REG,Ratisbona
+DEU_SCN,Saarbrücken
+DEU_SPE,Speyer
+DEU_STR,Estugarda
+DEU_TRI,Trier
+DEU_TUE,Tübingen
+DEU_WMR,Weimar
+DEU_WUE,Wurzburgo
+DJI_JIB,Jibuti
+DNK_AAR,Aarhus
+DNK_HLS,Helsenor
+DNK_CPH,Copenhaga
+DZA_ALG,Argel
+DZA_ORN,Orão
+EST_TLL,Taline
+EGY_CAI,Cairo
+ESP_ALC,Alicante
+ESP_LEI,Almeria
+ESP_BCN,Barcelona
+ESP_BIO,Bilbau
+ESP_CCS,Cáceres
+ESP_CAD,Cádis
+ESP_CAR,Cartagena
+ESP_ODB,Córdova
+ESP_GRO,Gerona
+ESP_GRX,Granada
+ESP_LCG,Corunha
+ESP_LEN,Leão
+ESP_LGR,Logronho
+ESP_MAD,Madrid
+ESP_AGP,Málaga
+ESP_MEA,Mérida
+ESP_MJV,Múrcia
+ESP_PMI,Palma de Maiorca
+ESP_PNA,Pamplona
+ESP_SLM,Salamanca
+ESP_EAS,São Sebastião
+ESP_SCQ,Santiago de Compostela
+ESP_SEG,Segóvia
+ESP_SVQ,Sevilha
+ESP_TAR,Tarragona
+ESP_TOL,Toledo
+ESP_TRJ,Torrejón de Ardoz
+ESP_VLC,Valência
+ESP_VGO,Vigo
+ESP_ZAZ,Saragoça
+ETH_ADD,Adis Abeba
+FIN_TKU,Turku
+FIN_POR,Pori
+FIN_PRV,Porvoo
+FIN_ESP,Espoo
+FIN_HMN,Hamina
+FIN_HMY,Hämeenlinna
+FIN_HEL,Helsínquia
+FIN_HYV,Hyvinkää
+FIN_KAA,Kaarina
+FIN_KAJ,Kajaani
+FIN_KKI,Kirkkonummi
+FIN_KOK,Koivulahti
+FIN_KHO,Mustasaari
+FIN_LHI,Lahti
+FIN_LPP,Lappeenranta
+FIN_LHJ,Lohja
+FIN_MHQ,Mariehamn
+FIN_MIK,Mikkeli
+FIN_SVL,Sipoo
+FIN_UKI,Uusikaupunki
+FIN_SIP,Savonlinna
+FIN_TMP,Tampere
+FIN_TAI,Tammisaari
+FIN_TUU,Tuusula
+FIN_VAA,Vaasa
+FIN_VAT,Vantaa
+FJI_SUV,Suva
+FSM_PNI,Pohnpei
+FRO_TOR,Torshavn
+FRA_AJA,Ajácio
+FRA_ANE,Angers
+FRA_ANG,Angolema
+FRA_ARR,Arras
+FRA_AVN,Avinhão
+FRA_BAY,Baiona
+FRA_BSN,Besançon
+FRA_BOD,Bordéus
+FRA_BOU,Burges
+FRA_CEQ,Cannes
+FRA_CCF,Carcassona
+FRA_CMF,Chambéry
+FRA_CER,Cherburgo
+FRA_CNG,Cognac
+FRA_QCR,Corte
+FRA_DIJ,Dijon
+FRA_DKK,Dunquerque
+FRA_LEH,Le Havre
+FRA_LLE,Lille
+FRA_LIO,Lião
+FRA_MRS,Marselha
+FRA_MZM,Metz
+FRA_MLH,Mulhouse
+FRA_NAR,Narbona
+FRA_NCE,Nice
+FRA_FNI,Nîmes
+FRA_ORR,Orleães
+FRA_PAR,Paris
+FRA_PGF,Perpinhão
+FRA_RHE,Reims
+FRA_URO,Ruão
+FRA_ZJZ,São João da Luz
+FRA_SXB,Estrasburgo
+FRA_TLN,Toulon
+FRA_TLS,Toulouse
+FRA_VAL,Valenciennes
+FRA_VIE,Vienne
+GAB_LBV,Libreville
+GBR_ABD,Aberdeen
+GBR_BEL,Belfast
+GBR_BHM,Birmingham
+GBR_BLK,Blackpool
+GBR_CMG,Cambrígia
+GBR_CNB,Cantuária
+GBR_CDF,Cardife
+GBR_DVR,Dover
+GBR_EDI,Edimburgo
+GBR_GLW,Glasgow
+GBR_HFX,Halifax
+GBR_LIV,Liverpool
+GBR_LON,Londres
+GBR_MNC,Manchester
+GBR_NTG,Nottingham
+GBR_OXF,Oxford
+GBR_SLS,Salisbury
+GBR_SOU,Southampton
+GBR_WHG,Washington
+GBR_YRK,Iorque
+GEO_TBS,Tiblíssi
+GUF_CAY,Caiena
+GHA_ACC,Acra
+GIB_GIB,Gibraltar
+GIN_CKY,Conacri
+GNQ_SSG,Malabo
+GRC_GAH,Aigaleo
+GRC_ANI,Agios Nikolaos
+GRC_AGQ,Agrinio
+GRC_AXD,Alexandrópolis
+GRC_ASI,Marousi
+GRC_ABO,Ampelokipoi
+GRC_ARG,Argos
+GRC_ARM,Argostoli
+GRC_ART,Arta
+GRC_ATH,Atenas
+GRC_CHQ,Chania
+GRC_JKH,Quios
+GRC_DRM,Drama
+GRC_EDE,Edessa
+GRC_FIA,Florina
+GRC_HER,Eraklion
+GRC_IOA,Ioannina
+GRC_KLX,Calamata
+GRC_KLA,Kallithea
+GRC_KRD,Karditsa
+GRC_KSS,Karpenisi
+GRC_KSO,Castória
+GRC_KEI,Katerini
+GRC_KVA,Cavala
+GRC_KTS,Keratsini
+GRC_CFU,Corfu
+GRC_KFS,Kifisia
+GRC_KKZ,Kilkis
+GRC_KOM,Komotini
+GRC_KYD,Korydallos
+GRC_KZI,Kozani
+GRC_LAM,Lâmia
+GRC_LRA,Larissa
+GRC_LEA,Livadia
+GRC_LOU,Loutraki
+GRC_MEL,Mesolongi
+GRC_JMK,Míconos
+GRC_MJT,Mitilene
+GRC_NAF,Náuplia
+GRC_NAR,Nea Artaki
+GRC_NIK,Nikaia
+GRC_PPG,Pallini
+GRC_GPA,Patras
+GRC_PRI,Peristeri
+GRC_PIR,Pireu
+GRC_PYR,Pirgos
+GRC_RET,Rethymno
+GRC_RHO,Rodes
+GRC_SMI,Samos
+GRC_SMT,Schimatari
+GRC_SPA,Esparta
+GRC_JSY,Siros
+GRC_TIN,Tinos
+GRC_TRI,Trikala
+GRC_TRP,Trípoli
+GRC_VER,Vérria
+GRC_VOL,Volos
+GRC_XAN,Xanthi
+GRC_XYL,Xylokastro
+GRC_ZTH,Zakynthos
+HRV_DBV,Dubrovnik
+HRV_RJK,Rijeka
+HRV_ZAD,Zadar
+HRV_ZAG,Zagrebe
+HUN_BUD,Budapeste
+HUN_PEC,Pécs
+IDN_DPS,Denpasar
+IDN_JKT,Jacarta
+IRL_DFT,Dublim Ferryport terminals
+IRL_DUB,Dublim
+BHS_NAS,Nassau
+IND_ICD,Nova Déli
+ISL_REY,Reiquiavique
+ITA_AGR,Agrigento
+ITA_AOI,Ancona
+ITA_AOT,Aosta
+ITA_BRI,Bari
+ITA_BEN,Benevento
+ITA_BGO,Bérgamo
+ITA_BLQ,Bolonha
+ITA_BZO,Bolzano
+ITA_BEK,Bruneck
+ITA_CPU,Capua
+ITA_CRA,Carrara
+ITA_CST,Caserta
+ITA_CTA,Catânia
+ITA_OMO,Como
+ITA_CUN,Cuneo
+ITA_FRR,Ferrara
+ITA_FLR,Florença
+ITA_GOA,Génova
+ITA_GZA,Gorizia
+ITA_ISR,Ispra
+ITA_LVE,Laives
+ITA_LIV,Livorno
+ITA_MAN,Mântua
+ITA_MEN,Merano
+ITA_MSN,Messina
+ITA_MIL,Milão
+ITA_MOD,Modena
+ITA_MGF,Monguelfo-Tesido
+ITA_NAP,Nápoles
+ITA_NVR,Novara
+ITA_ORA,Ora
+ITA_SIT,Ostia
+ITA_PDA,Pádua
+ITA_PMO,Palermo
+ITA_PMF,Parma
+ITA_PAV,Pavia
+ITA_PSR,Pescara
+ITA_PMP,Pompeia
+ITA_RGA,Ragusa
+ITA_RAN,Ravena
+ITA_REG,Reggio Calabria
+ITA_RNE,Reggio Emilia
+ITA_RMI,Rimini
+ITA_RVL,Rivoli
+ITA_ROM,Roma
+ITA_SAL,Salerno
+ITA_SRE,São Remo
+ITA_SVN,Savona
+ITA_SNA,Sena
+ITA_SIR,Siracusa
+ITA_TAR,Tarento
+ITA_TIV,Tivoli
+ITA_TRT,Trento
+ITA_TRN,Turim
+ITA_TRV,Treviso
+ITA_TRS,Trieste
+ITA_VAR,Varese
+ITA_VCE,Veneza
+ITA_VEN,Ventimiglia
+ITA_VRN,Verona
+JAM_KIN,Kingston
+JAM_MBJ,Montego Bay
+JOR_AMM,Amã
+KHM_PNH,Pnom Pene
+LBN_BEY,Beirute
+LKA_CMB,Colombo
+LKA_SRJ,Seri Jaiavardenapura-Cota
+LBR_MLW,Monróvia
+LTU_VNO,Vílnius
+LUX_DIE,Diekirch
+LUX_EZT,Esch-sur-Alzette
+LUX_LUX,Luxemburgo
+LVA_RIX,Riga
+LBY_TIP,Trípoli
+MAR_RAK,Marraquexe
+MAR_RBA,Rabat
+MAR_TNG,Tânger
+MDG_TNR,Antananarivo
+MKD_SKP,Escópia
+MLI_BKO,Bamaco
+MLI_TOM,Timbuctu
+MNG_ULN,Ulã Bator
+MRT_NKC,Nuaquechote
+MLT_MLA,Valeta
+MUS_PLU,Port Louis
+MOZ_MPM,Maputo
+NAM_WDH,Vinduque
+NGA_ABV,Abuja
+NGA_KAN,Cano
+NGA_LOS,Lagos
+NLD_AMS,Amesterdão
+NLD_ARN,Arnhem
+NLD_EIN,Eindhoven
+NLD_GRQ,Groningen
+NLD_LID,Leiden
+NLD_MST,Maastricht
+NLD_NIJ,Nimega
+NLD_PET,Petten
+NLD_RTM,Roterdão
+NLD_HAG,Haia
+NLD_HTB,'s-Hertogenbosch
+NLD_UTC,Utreque
+NLD_VLI,Vlissingen
+NOR_LLH,Lillehammer
+NOR_OSL,Oslo
+NOR_SVG,Stavanger
+NPL_KTM,Catmandu
+PAN_PAC,Cidade do Panamá
+PAK_ISB,Islamabade
+POL_GDN,Gdansk
+POL_KRK,Cracóvia
+POL_SZZ,Szczecin
+POL_WAW,Varsóvia
+POL_WRO,Wroclaw
+PRT_BGC,Bragança
+PRT_EVR,Évora
+PRT_FNC,Funchal
+PRT_LOS,Lagos
+PRT_LIS,Lisboa
+PRT_OPO,Porto
+ROU_BUH,Bucareste
+ROU_SBZ,Sibiu
+ROU_TCE,Tulcea
+SRB_BEG,Belgrado
+RUS_MOW,Moscovo
+RUS_LED,Sampetersburgo
+RUS_SOC,Sotchi
+RWA_KGL,Quigali
+SWE_GOT,Gotemburgo
+SWE_LLA,Luleå
+SWE_MMA,Malmo
+SWE_OVE,Övertornea
+SWE_PIT,Piteå
+SWE_STO,Estocolmo
+SWE_TBY,Täby
+SWE_UME,Umeå
+SWE_UPP,Upsália
+SGP_SIN,Singapura
+SVN_BLE,Bled
+SVN_LJU,Liubliana
+SVK_BTS,Bratislava
+SMR_SAI,São Marinho
+SEN_DKR,Dacar
+SOM_MGQ,Mogadixo
+SLV_SAL,São Salvador
+SYR_DAM,Damasco
+TCD_NDJ,Jamena
+TGO_LFW,Lomé
+THA_BKK,Banguecoque
+THA_PYX,Pattaya
+TUN_TUN,Tunes
+TUR_ANK,Ancara
+TUR_IST,Istanbul
+TUR_MRM,Marmaris
+TUR_SFQ,Urfa
+UKR_IEV,Kiev
+UKR_YAL,Ialta
+URY_MVD,Montevideu
+UZB_TAS,Tasquente
+ZAF_CPT,Cidade do Cabo
+ZAF_PAA,Paarl
+ZAF_PRY,Pretória
+ZMB_LUN,Lusaca
+ZWE_HRE,Harare
+ARG_BUE,Buenos Aires
+AUS_CBR,Camberra
+BGD_DAC,Daca
+BRA_BSB,Brasília
+BRA_RIO,Rio de Janeiro
+COD_FIH,Quinxassa
+CAF_BGF,Bangui
+CHN_BJS,Pequim
+HKG_NKG,Hong Kong
+IRL_ORK,Cork
+JPN_OSA,Osaca
+JPN_SPK,Sapporo
+JPN_TYO,Tóquio
+JPN_UKY,Quioto
+JPN_YOK,Iocoama
+KEN_MBA,Mombaça
+KEN_NBO,Nairóbi
+KOR_SEL,Seul
+MAC_MFM,Macau
+MYS_KUL,Cuala Lumpur
+NZL_WLG,Wellington
+USA_ATL,Atlanta
+USA_AXR,Alexandria
+USA_BAL,Baltimore
+USA_CHI,Chicago
+USA_DET,Detroit
+USA_HNL,Honolulu
+USA_HSO,Houston
+USA_IND,Indianápolis
+USA_LAX,Los Angeles
+USA_MES,Mineápolis
+USA_MIA,Miami
+USA_MSY,Nova Orleães
+USA_NYC,Nova Iorque
+USA_PHL,Filadélfia
+USA_SFO,São Francisco
+USA_SYT,St Louis
+USA_WAS,Washington
+AFG_KBL,Cabul
+GBR_BZX,Bramshill
+LUX_SCH,Schengen
+ISR_JER,Jerusalém
+PSE_GZA,Gaza
+SVN_BPK,Brdo pri Kranju
+BEN_COO,Cotonou
+CZE_SNR,Senohraby
+ARM_EVN,Erevã
+BIH_SJJ,Saraievo
+BRB_BGI,Bridgetown
+BOL_LPB,La Paz
+BWA_GBE,Gaborone
+BLR_MSQ,Minsk
+COG_BZV,Brazzaville
+COL_BOG,Bogotá
+ECU_UIO,Quito
+CRI_SJO,São José
+SRB_NBD,Novi Beograd
+MNE_TGD,Podgoritza
+CPV_RAI,Praia
+DOM_SDQ,São Domingos
+CUB_HAV,Havana
+ERI_ASM,Asmara
+GTM_GUA,Cidade da Guatemala
+GUY_GEO,Georgetown
+SUR_PBM,Paramaribo
+TTO_POS,Porto de Espanha
+HTI_PAP,Porto do Príncipe
+TLS_DIL,Díli
+ISR_RMG,Ramat Gan
+PRK_FNJ,Pionguiangue
+KAZ_ALA,Almati
+KAZ_ASA,Nur-Sultã
+KGZ_FRU,Bisqueque
+TJK_DYU,Duxambé
+LAO_VTE,Vienciana
+MDA_KIV,Quixinau
+MWI_LLW,Lilongué
+MEX_CIU,Cidade do México
+NER_NIM,Niamei
+NIC_MGA,Manágua
+PER_LIM,Lima
+PHL_MTI,Makati City
+SAU_RUH,Riade
+SLE_FNA,Freetown
+MMR_RGN,Yangon
+TZA_DAR,Dar es Salaam
+UGA_KLA,Campala
+PRY_ASU,Assunção
+VEN_CCS,Caracas
+VNM_HAN,Hanói
+VUT_VLI,Porto Vila
+1A0_PRN,Pristina
+TWN_TPE,Taipé
+GMB_BJL,Banjul
+GNB_PXB,Bissau
+PNG_POM,Porto Moresby
+SLB_HIR,Honiara
+SDN_KRT,Cartum
+YEM_SAH,Saná
+SWZ_QMN,Mebabane
+LSO_MSU,Maseru
+JPN_NGO,Nagoya
+CAN_CHX,Chalk River
+PSE_JER,Jerusalém
+CIV_ASK,Iamussucro
+SVK_KSC,Košice
+BEL_EEK,Eeklo
+BEL_EUP,Eupen
+BEL_VER,Verviers
+BEL_VEU,Veurne
+CYP_FMG,Famagusta
+CYP_KYR,Cirénia
+CYP_LCA,Lárnaca
+CYP_LMS,Limassol
+CYP_PFO,Pafos
+FIN_JOE,Joensuu
+FIN_JVP,Järvenpää
+FIN_JYV,Jyväskylä
+FIN_KEM,Kemi
+FIN_KUO,Kuopio
+FIN_KVO,Kouvola
+FIN_OUL,Oulu
+FIN_RAA,Raahe
+FIN_RVN,Rovaniemi
+FIN_SJY,Seinäjoki
+GRC_CLK,Cálcis
+BEL_HFB,Halle
+GRC_KRT,Corinto
+GRC_KFL,Cefalónia
+GRC_SKG,Tessalonica
+GRC_SRS,Serres
+BEL_AEJ,Arendonk
+BEL_AES,Asse
+BEL_BEA,Beaumont
+GRC_AND,Andros
+GRC_AOK,Cárpatos
+NLD_ZST,Zaanstad
+GRC_ATN,Santorini
+GRC_GVA,Grevena
+GRC_JIK,Icária
+BEL_AAS,Aarschot
+GRC_JNX,Náxos
+BEL_BEV,Beveren
+GRC_KGS,Kos
+GRC_KMI,Calímnos
+GRC_LEV,Levkas
+GRC_LXS,Lemnos
+GRC_MLO,Milos
+GRC_PAS,Paros
+GRC_PPL,Pela
+LUX_MME,Mamer
+GRC_VTA,Beócia
+HRV_KAR,Karlovac
+HRV_SPU,Split
+HRV_VUK,Vukovar
+BEL_BOM,Boom
+BEL_BOG,Borgloon
+BEL_RIN,Beringen
+BEL_BLA,Braine l'Alleud
+BEL_BRA,Brasschaat
+BEL_BRE,Bree
+BEL_CHA,Châtelet
+BEL_CRA,Cheratte
+BEL_CNY,Ciney
+BEL_DEZ,Deinze
+BEL_DIE,Diest
+BEL_DOU,Dour
+BEL_ETE,Etterbeek
+BEL_FEQ,Fontaine-l'Évêque
+BEL_FSV,Fosses-la-Ville
+BEL_GEM,Gembloux
+BEL_GNK,Genk
+BEL_GOS,Gosselies
+BEL_GHE,Grâce-Hollogne
+BEL_GRB,Grimbergen
+BEL_GVI,Grivegnée
+BEL_HAC,Haacht
+BEL_HMO,Hamoir
+BEL_HEJ,Harelbeke
+BEL_HPG,Heist-op-den-Berg
+BEL_HER,Herentals
+BEL_HEN,Herne
+BEL_HRS,Herstal
+BEL_HOO,Hoogstraten
+BEL_HRU,Hornu
+BEL_HHE,Houthalen-Helchteren
+BEL_JAM,Jambes
+BEL_JET,Jette
+BEL_JDO,Jodoigne
+BEL_JUM,Jumet
+BEL_KPN,Kapellen
+BEL_KON,Kontich
+BEL_KRA,Kraainem
+BEL_LLO,La Louvière
+BEL_LAD,Landen
+BEL_LIK,Lennik
+BEL_LIM,Limbourg
+BEL_LOK,Lokeren
+BEL_LUV,Louveigné
+BEL_MMN,Maasmechelen
+BEL_MBW,Malmédy
+BEL_MAP,Marchienne-au-Pont
+BEL_MIS,Meise
+BEL_MEN,Menen
+BEL_MRL,Merelbeke
+BEL_NRP,Neerpelt
+BEL_NNV,Ninove
+BEL_OVR,Overijse
+BEL_RSX,Ressaix
+BEL_RON,Ronse
+BEL_RCT,Roucourt
+BEL_SHU,Saint-Hubert
+BEL_SNO,Saint-Nicolas
+BEL_SCE,Schilde
+BEL_SEN,Seneffe
+BEL_ZER,Seraing
+BEL_MSJ,Sint-Jans-Molenbeek
+BEL_SJN,Saint-Josse-ten-Noode
+NLD_HMM,Haarlemmermeer
+BEL_TIE,Tienen
+BEL_TRT,Torhout
+BEL_TBZ,Tubize
+BEL_VSM,Vielsalm
+BEL_VIL,Vilvoorde
+BEL_WCO,Walcourt
+BEL_WAR,Waregem
+BEL_WVR,Wavre
+BEL_WER,Wervik
+BEL_WES,Westerlo
+BEL_WET,Wetteren
+BEL_WLB,Willebroek
+BEL_ZAN,Zandhoven
+BEL_ZEL,Zelzate
+BEL_ZRM,Zomergem
+BEL_ZOT,Zottegem
+FRA_ANM,Annemasse
+FRA_AOY,Annonay
+FRA_ATY,Antony
+FRA_ARL,Arles
+FRA_AQS,Asnières-sur-Seine
+FRA_ABG,Aubagne
+FRA_AUF,Auxerre
+FRA_AVR,Avranches
+FRA_BZR,Béziers
+FRA_BOY,Boissy-Saint-Léger
+FRA_BOV,Bonneville
+FRA_OGB,Boulogne-Billancourt
+FRA_CNP,Charenton-le-Pont
+FRA_CHA,Chartres
+FRA_CTD,Châteaudun
+FRA_CMT,Chaumont
+FRA_CET,Cholet
+FRA_CCY,Clamecy
+FRA_CFE,Clermont-Ferrand
+CZE_SVB,Austerlitz
+FRA_CMR,Colmar
+FRA_CLB,Colombes
+FRA_CMP,Compiègne
+FRA_COD,Condom
+FRA_CRB,Courbevoie
+FRA_COT,Coutances
+FRA_CRL,Creil
+FRA_CTE,Créteil
+FRA_CWU,Cusset
+FRA_DAX,Dax
+FRA_DPE,Dieppe
+FRA_DGN,Digne-les-Bains
+FRA_DLE,Dole
+FRA_DOI,Douai
+FRA_DRA,Draguignan
+FRA_DRE,Dreux
+FRA_EPL,Épinal
+FRA_EVX,Évreux
+FRA_EVR,Évry
+FRA_FAS,Falaise
+FRA_FGA,Figeac
+FRA_FLE,Flers
+FRA_FOI,Foix
+FRA_FBU,Fontainebleau
+FRA_FOC,Fontenay-le-Comte
+FRA_FOR,Forbach
+MTQ_FDF,Forte de França
+FRA_FOU,Fougères
+FRA_FRJ,Fréjus
+FRA_GAT,Gap
+FRA_ONE,Gonesse
+FRA_GRS,Grasse
+FRA_GNB,Grenoble
+FRA_GWB,Guebwiller
+FRA_GUE,Guéret
+FRA_GUI,Guingamp
+FRA_HAG,Haguenau
+FRA_HZB,Hazebrouck
+FRA_IKG,Illkirch-Graffenstaden
+FRA_IVS,Ivry-sur-Seine
+FRA_JUV,Juvisy-sur-Orge
+FRA_LFL,La Flèche
+FRA_LRH,La Rochelle
+FRA_EDM,La Roche-sur-Yon
+FRA_LGM,Lagny-sur-Marne
+FRA_LAO,Laon
+FRA_LVA,Laval
+FRA_LCR,Le Creusot
+FRA_LME,Le Mans
+FRA_LPY,Le Puy-en-Velay
+FRA_ICY,Le Raincy
+FRA_LEN,Lens
+FRA_LAY,Les Andelys
+FRA_LSO,Les Sables d'Olonne
+FRA_LIB,Libourne
+FRA_LIG,Limoges
+FRA_LIX,Lisieux
+FRA_LNJ,Longjumeau
+FRA_LOY,Longwy
+FRA_LLS,Lons-le-Saunier
+FRA_LRT,Lorient
+FRA_LUD,Loudéac
+FRA_LVS,Louviers
+FRA_LVL,Lunéville
+FRA_LRE,Lure
+FRA_MAC,Mâcon
+MYT_MAM,Mamudzu
+FRA_MAQ,Manosque
+FRA_MAR,Marmande
+FRA_MAU,Maubeuge
+FRA_MEA,Meaux
+FRA_MEL,Melun
+FRA_MEN,Mende
+FRA_ETN,Menton
+FRA_MIL,Millau
+FRA_BVE,Brive-la-Gaillarde
+FRA_MJK,Mirande
+FRA_MOL,Molsheim
+FRA_MOS,Montargis
+FRA_MOT,Montauban
+FRA_MOD,Montbard
+FRA_MTD,Montbéliard
+FRA_MTB,Montbrison
+FRA_MDM,Mont-de-Marsan
+FRA_MTM,Montélimar
+FRA_MCU,Montluçon
+FRA_FMY,Montmorency
+FRA_MPL,Montpellier
+FRA_MTL,Montreuil
+FRA_MMC,Montreuil-sur-Mer
+FRA_MXN,Morlaix
+FRA_MOU,Moulins
+FRA_MUR,Muret
+FRA_ENC,Nancy
+FRA_NAN,Nanterre
+FRA_NTE,Nantes
+FRA_NNU,Nantua
+FRA_ABB,Abbeville
+FRA_NVS,Nevers
+FRA_NIT,Niort
+FRA_NME,Nogent-sur-Marne
+NCL_NOU,Numeá
+FRA_ORA,Orange
+FRA_OYO,Oyonnax
+FRA_PAL,Palaiseau
+FRA_TIN,Pantin
+PYF_PPT,Papeete
+FRA_PUF,Pau
+FRA_PGX,Périgueux
+FRA_PEO,Peronne
+FRA_PTU,Pertuis
+GLP_PAP,Pointe-à-Pitre
+FRA_POI,Poissy
+FRA_PIS,Poitiers
+FRA_PQR,Pontarlier
+FRA_PTE,Pontoise
+FRA_PRV,Privas
+NLD_AER,Almere
+NLD_ALK,Alkmaar
+NLD_ALM,Almelo
+NLD_AME,Amersfoort
+NLD_APE,Apeldoorn
+NLD_APN,Alphen aan den Rijn
+BEL_BLZ,Bilzen
+NLD_ASS,Assen
+NLD_BAD,Badhoevedorp
+NLD_BEZ,Beetsterzwaag
+NLD_BOX,Boxmeer
+NLD_BRD,Breda
+NLD_BRI,Brielle
+NLD_BZM,Bergen op Zoom
+NLD_DFT,Delft
+NLD_DEV,Deventer
+NLD_DHR,Den Helder
+NLD_DOR,Dordrecht
+NLD_EMM,Emmen
+NLD_ENS,Enschede
+NLD_GOR,Gorinchem
+NLD_GOU,Gouda
+NLD_GRN,Groenlo
+NLD_HAA,Haarlem
+NLD_HEN,Heerlen
+NLD_HRN,Hoorn
+NLD_LEY,Lelystad
+NLD_MDL,Middelburg
+NLD_MID,Middelburg
+NLD_OMD,Roermond
+NLD_TLB,Tilburg
+NLD_ZAA,Zaandam
+NLD_ZUT,Zutphen
+NLD_ZWO,Zwolle
+NLD_BGN,Bergen
+FRA_PUT,Puteaux
+FRA_UIP,Quimper
+FRA_RDN,Redon
+FRA_REH,Rethel
+FRA_RIO,Riom
+FRA_RNE,Roanne
+FRA_RCO,Rochefort
+FRA_RDZ,Rodez
+FRA_RSU,Romans-sur-Isère
+FRA_ROU,Roubaix
+FRA_STA,Saint-Avold
+FRA_SBK,Saint-Brieuc
+FRA_STC,Saint-Claude
+FRA_NCC,Saint-Contest
+FRA_YSD,Saint-Denis
+REU_RUN,São Dinis
+FRA_SZR,Saint-Dizier
+REU_CLO,Sainte-Clotilde
+FRA_SIN,Saintes
+FRA_EBU,Saint-Etienne
+FRA_SGL,Saint-Germain-en-Laye
+FRA_ZXG,Saint-Girons
+FRA_SLO,Saint-Lô
+FRA_SML,Saint-Malo
+FRA_XUA,Saint-Maur-des-Fossés
+FRA_SNR,Saint-Nazaire
+FRA_STO,Saint-Omer
+REU_ZSE,Saint-Pierre
+SPM_MQC,Miquelon
+SPM_FSP,São Pedro
+FRA_STQ,Saint-Quentin
+FRA_SDP,Salon-de-Provence
+FRA_SNW,Sannois
+FRA_SLC,Sarlat-la-Canéda
+FRA_SBG,Sarrebourg
+FRA_SAR,Sarreguemines
+FRA_SAU,Saumur
+FRA_SAV,Saverne
+FRA_SCH,Schiltigheim
+FRA_SED,Sedan
+FRA_SEL,Sélestat
+FRA_SNO,Senlis
+FRA_SEN,Sens
+FRA_SET,Sète
+FRA_SOI,Soissons
+FRA_TSC,Tarascon
+FRA_TAB,Tarbes
+FRA_THA,Thann
+FRA_TRS,Thiers
+FRA_TVL,Thionville
+FRA_THO,Thonon-les-Bains
+FRA_THS,Thouars
+FRA_TOG,Tourcoing
+FRA_TUF,Tours
+FRA_TRX,Trévoux
+FRA_QYR,Troyes
+PYF_UTU,Uturoa
+WLF_WLS,Uvea
+FRA_UZE,Uzès
+FRA_VAF,Valence
+FRA_VNE,Vannes
+FRA_VER,Versailles
+FRA_VEL,Vesoul
+FRA_VHY,Vichy
+FRA_VSS,Villefranche-sur-Saône
+FRA_VIJ,Villejuif
+FRA_VLX,Villeneuve-sur-Lot
+FRA_VBN,Villeurbanne
+FRA_VRS,Vire
+FRA_NSS,Neuilly-sur-Seine
+HUN_NOG,Nógrád
+HUN_BEK,Békéscsaba
+HUN_BES,Békés
+HUN_BIC,Bicske
+ESP_OVO,Oviedo
+ESP_SDR,Santander
+ESP_VIT,Vitoria-Gasteiz
+ESP_LPA,Las Palmas de Gran Canaria
+ESP_SCT,Santa Cruz de Tenerife
+ESP_CEU,Ceuta
+ESP_MLN,Melilha
+AUT_RUS,Rust
+AUT_NAS,Neusiedl am See
+AUT_MAT,Mattersburg
+AUT_JDF,Jennersdorf
+AUT_OBE,Oberpullendorf
+AUT_GSS,Güssing
+AUT_ATT,Amstetten
+AUT_WAF,Waidhofen an der Ybbs
+AUT_OWT,Oberwart
+AUT_SBB,Scheibbs
+AUT_MEL,Melk
+AUT_LLF,Lilienfeld
+AUT_TLN,Tulln an der Donau
+BEL_AND,Andenne
+AUT_KAN,Krems an der Donau
+AUT_BDN,Baden
+AUT_WNR,Wiener Neustadt
+AUT_BKL,Bruck an der Leitha
+AUT_MOE,Mödling
+AUT_NKN,Neunkirchen
+AUT_GMU,Gmünd
+AUT_HOR,Horn
+AUT_WAI,Waidhofen an der Thaya
+AUT_ZWT,Zwettl
+AUT_HOL,Hollabrunn
+AUT_MIS,Mistelbach
+AUT_GNF,Gänserndorf
+AUT_KBG,Korneuburg
+AUT_VLH,Villach
+AUT_HPS,Hermagor-Pressegger See
+AUT_FKI,Feldkirchen im Kärnten
+AUT_SPI,Spittal an der Drau
+AUT_SVG,Sankt Veit an der Glan
+AUT_VOT,Völkermarkt
+AUT_WOF,Wolfsberg
+AUT_LZN,Liezen
+AUT_BRU,Bruck an der Mur
+AUT_MZZ,Mürzzuschlag
+AUT_LBN,Leobene
+AUT_HTA,Hartberg
+AUT_FUF,Fürstenfeld
+AUT_FED,Feldbach
+AUT_DEU,Deutschlandsberg
+AUT_LEI,Leibnitz
+AUT_VTB,Voitsberg
+AUT_JDN,Judenburg
+AUT_SLD,Schladming
+AUT_BRA,Braunau am Inn
+AUT_GIE,Grieskirchen
+AUT_RIK,Ried im Innkreis
+AUT_SDG,Schärding
+AUT_WLS,Wels
+AUT_EFR,Eferding
+AUT_NEH,Neulengbach
+AUT_PUF,Purkersdorf
+AUT_SHT,Schwechat
+AUT_KTU,Klosterneuburg
+AUT_FSD,Freistadt
+AUT_ROH,Rohrbach
+AUT_PER,Perg
+AUT_TNQ,Traun
+AUT_SER,Steyr
+AUT_KKM,Kirchdorf an der Krems
+AUT_GDN,Gmunden
+AUT_VOC,Vöcklabruck
+AUT_ICH,Bad Ischl
+AUT_TAM,Tamsweg
+AUT_JOA,Sankt Johann im Pongau
+AUT_ZAS,Zell am See
+AUT_HLL,Hallein
+AUT_RTE,Reutte
+AUT_LEZ,Lienz
+AUT_IMZ,Imst
+AUT_LAN,Landeck
+AUT_KIT,Kitzbühel
+AUT_KFS,Kufstein
+AUT_SCZ,Schwaz
+AUT_BLU,Bludenz
+BEL_ANL,Anderlecht
+AUT_DOR,Dornbirn
+AUT_FKT,Feldkirch
+BEL_ODE,Auderghem
+NLD_HRD,Harderwijk
+NLD_HRV,Heerenveen
+NLD_HLM,Helmond
+NLD_HVS,Hilversum
+NLD_HFD,Hoofddorp
+NLD_MEP,Meppel
+NLD_OBG,Oostburg
+NLD_OBL,Oud-Beijerland
+NLD_SCI,Schiedam
+NLD_SIT,Sittard
+NLD_SNK,Sneek
+NLD_MIH,Middelharnis
+NLD_STW,Steenwijk
+NLD_TBO,Terborg
+NLD_TNZ,Terneuzen
+NLD_TIE,Tiel
+NLD_ZBO,Zuidbroek
+NLD_VDM,Veendam
+NLD_VEN,Venlo
+NLD_WGW,Wageningen
+NLD_WSC,Winschoten
+GLP_BBR,Basse-Terre
+FRA_CFR,Caen
+FRA_CME,Cagnes-sur-Mer
+FRA_AGF,Agen
+FRA_QXB,Aix-en-Provence
+FRA_AXB,Aix-les-Bains
+FRA_ATV,Albertville
+FRA_BBI,Albi
+FRA_ALE,Alençon
+FRA_ALS,Alès
+FRA_AMI,Amiens
+FRA_NCY,Annecy
+FRA_ANT,Antibes
+FRA_AGX,Argentan
+FRA_AUC,Auch
+FRA_ASB,Aulnay-sous-Bois
+FRA_AUR,Aurillac
+FRA_ASH,Avesnes-sur-Helpe
+FRA_BLD,Bar-le-Duc
+FRA_BIA,Bastia
+FRA_BVA,Beauvais
+FRA_BOR,Belfort
+FRA_BLX,Belley
+FRA_EGC,Bergerac
+FRA_BER,Bernay
+FRA_BET,Béthune
+FRA_BLO,Blois
+FRA_BOB,Bobigny
+FRA_BOL,Boulogne-sur-Mer
+FRA_BEB,Bourg-en-Bresse
+FRA_BGJ,Bourgoin-Jallieu
+FRA_RSE,Bressuire
+FRA_BES,Brest
+FRA_RIY,Briey
+SLV_CUS,Antiguo Cuscatlán
+HND_TGU,Tegucigalpa
+IRQ_BGW,Bagdade
+ARE_AUH,Abu Dabi
+FRA_ZAO,Cahors
+FRA_CQF,Calais
+FRA_CMB,Cambrai
+FRA_CRP,Carpentras
+FRA_CTN,Castelsarrasin
+FRA_CAT,Castres
+FRA_CSM,Châlons-en-Champagne
+FRA_CSS,Chalon-sur-Saône
+FRA_CHM,Charleville-Mézières
+CZE_PLZ,Plzeň
+ITA_MTR,Matera
+NLD_LWR,Leeuwarden
+PRT_GUI,Guimarães
+SVN_MBX,Maribor
+BEL_BCI,Binche
+BEL_MLO,Mol
+BEL_LKN,Laeken
+GBR_CUH,Culham
+NLD_ZVB,Zevenbergen
+NLD_ZIE,Zierikzee
+HUN_BTF,Berettyóújfalu
+HUN_CGD,Csongrád
+HUN_DEB,Debrecen
+HUN_DUU,Dunaújváros
+HUN_EGR,Eger
+HUN_HAA,Érd
+HUN_GYO,Győr
+HUN_HDM,Hódmezővásárhely
+HUN_HEV,Heves
+HUN_KCS,Kecskemét
+HUN_KPS,Kaposvár
+HUN_MCQ,Miskolc
+HUN_NGH,Nyíregyháza
+HUN_NGY,Nagykanizsa
+HUN_SAL,Salgótarján
+HUN_SOP,Sopron
+HUN_SZE,Szeged
+HUN_SZK,Szekszárd
+HUN_SZL,Szolnok
+HUN_SZR,Székesfehérvár
+HUN_SZY,Szombathely
+HUN_TAA,Tatabánya
+HUN_TNA,Tolna
+HUN_VZP,Veszprém
+HUN_ZER,Zalaegerszeg
+MLT_ATT,Attard
+MLT_BAL,Balzan
+MLT_BIR,Birkirkara
+MLT_BZB,Birżebbuġa
+MLT_COS,Cospicua
+MLT_DIN,Dingli
+MLT_FGU,Fgura
+MLT_FON,Fontana
+MLT_FLO,Floriana
+MLT_GHB,Għarb
+MLT_GHJ,Għajnsielem
+MLT_GHI,Għasri
+MLT_GUD,Gudja
+MLT_GXQ,Għaxaq
+MLT_GZI,Gżira
+MLT_HRN,Hamrun
+MLT_IKL,Iklin
+MLT_KAL,Kalkara
+MLT_KER,Kerċem
+MLT_KIR,Kirkop
+MLT_LIJ,Lija
+MLT_LUQ,Luqa
+MLT_MAR,Marsaxlokk
+MLT_MDI,Mdina
+MLT_MEL,Mellieħa
+MLT_MGR,Mgarr
+MLT_MOA,Mosta
+MLT_MQA,Mqabba
+MLT_MSA,Marsa
+MLT_MSD,Msida
+MLT_MSS,Marsaskala
+MLT_MTA,Mtarfa
+MLT_MUN,Munxar
+MLT_NAD,Nadur
+MLT_NXR,Naxxar
+MLT_PAO,Paola
+MLT_PEM,Pembroke
+MLT_PTA,Pietà
+MLT_QAL,Qala
+MLT_QRD,Qrendi
+MLT_RAB,Rabat
+MLT_RMI,Qormi
+MLT_SAF,Safi
+MLT_SAN,Sannat
+MLT_SEN,Senglea
+MLT_SGG,Siġġiewi
+MLT_GHA,Għargħur
+MLT_SGW,Saint John
+MLT_SJN,Saint Julian
+MLT_SLM,Sliema
+MLT_SLU,Saint Lucia
+MLT_SLW,Saint Lawrence
+MLT_SPB,Saint Paul's Bay
+MLT_STV,Saint Venera
+MLT_SWI,Swieqi
+MLT_TAX,Ta' Xbiex
+MLT_VTR,Victoria
+MLT_XAG,Xgħajra
+MLT_XGA,Xagħra
+MLT_XWK,Xewkija
+MLT_ZBR,Żabbar
+MLT_ZEB,Żebbuġ
+MLT_ZEG,Ħaż‐Żebbuġ
+MLT_ZTN,Żejtun
+MLT_ZUR,Żurrieq
+MLT_TAR,Tarxien
+MLT_5GA,Vittoriosa
+PCN_ADM,Adamstown
+GUM_AGA,Aganha
+ESH_EAI,Laiune
+NIU_ALO,Alofi
+WSM_APW,Apia
+TKM_ASB,Asgabade
+COK_AVA,Avarua
+BRN_BWN,Bandar Seri Begauã
+KNA_BAS,Basseterre
+BLZ_BMP,Belmopã
+LCA_CAS,Castries
+VIR_CHA,Charlotte Amalie
+TCA_COT,Cockburn Town
+TZA_DOD,Dodoma
+QAT_DOH,Doa
+IMN_DGS,Douglas
+CXR_FFC,Flying Fish Cove
+TUV_FUN,Funafuti
+CYM_GEC,George Town
+BLM_SBH,Gustávia
+BMU_BDA,Hamilton
+SHN_SHN,Jamestown
+SSD_JUB,Juba
+SGS_GRV,King Edward Point
+NFK_NLK,Kingston
+VCT_KTN,Kingstown
+KWT_KWI,Cidade do Koweit
+SJM_LYR,Longyearbyen
+SJM_OLO,Olonkinbyen
+MHL_MAJ,Majuro
+MDV_MLE,Malé
+BHR_AMH,Manama
+PHL_MNL,Manila
+MAF_MAR,Marigot
+WLF_MAU,Mata Utu
+PLW_MKK,Melequeoque
+MCO_MON,Mónaco
+COM_YVA,Moroni
+OMN_MCT,Mascate
+MMR_NPD,Nepiedó
+TON_TBU,Nucualofa
+GRL_GOH,Nuuk
+ABW_ORJ,Oranjestad
+ASM_PPG,Pago Pago
+FSM_PLK,Paliquir
+SXM_PHI,Philipsburg
+MSR_PLY,Plymouth
+MSR_BRD,Brades
+VGB_RAD,Road Town
+DMA_RSU,Roseau
+MNP_SPN,Saipã
+PRI_SJU,São João
+STP_STM,São Tomé
+GRD_STG,São Jorge
+JEY_STH,Santo Helério
+ATG_SJO,São João
+GGY_SPT,Porto de São Pedro
+FLK_PSY,Stanley
+BOL_SRE,Sucre
+KIR_TRW,Taraua
+IRN_THR,Teerão
+AIA_VAL,The Valley
+BTN_THI,Timbu
+LIE_VDZ,Vaduz
+SYC_POV,Vitória
+CCK_WIL,Ilha Ocidental
+CUW_WIL,Willemstad
+NRU_YRN,Iarém
+CAN_DAR,Dartmouth
+BEN_PTN,Porto Novo
+LTU_AYS,Alytus
+LTU_KLJ,Klaipėda
+LTU_KUN,Kaunas
+LTU_MJP,Marijampolė
+LTU_PNV,Panevėžys
+LTU_SQQ,Šiauliai
+LTU_TAU,Tauragė
+LTU_TEL,Telšiai
+LTU_UTA,Utena
+LVA_ZRA,Ādaži
+LVA_AGL,Aglona
+LVA_AIZ,Aizkraukle
+LVA_APE,Aizpute
+LVA_AKI,Aknīste
+LVA_ALJ,Aloja
+LVA_6LV,Alsunga
+LVA_ASE,Alūksne
+LVA_AUC,Auce
+LVA_B9G,Baldone
+LVA_BLN,Baltinava
+LVA_BAL,Balvi
+LVA_BAU,Bauska
+LVA_BRC,Brocēni
+LVA_BRT,Burtnieki
+LVA_BRK,Burtnieki
+LVA_H5D,Carnikava
+LVA_CES,Cēsis
+LVA_CSV,Cesvaine
+LVA_CBL,Cibla
+LVA_DGD,Dagda
+LVA_DGP,Daugavpils
+LVA_DOB,Dobele
+LVA_DUN,Dundaga
+LVA_DRB,Durbe
+LVA_EGE,Engure
+LVA_ERG,Ērgļi
+LVA_GBA,Grobiņa
+LVA_GUL,Gulbene
+LVA_ICV,Iecava
+LVA_IKK,Ikšķile
+LVA_ICK,Inčukalns
+LVA_JAU,Jaunauce
+LVA_JAP,Jaunpagasts
+LVA_JNJ,Jaunjelgava
+LVA_JNP,Jaunpiebalga
+LVA_JPL,Jaunpils
+LVA_JPS,Jēkabpils
+LVA_JGA,Jelgava
+LVA_KDV,Kandava
+LVA_UTY,Kārsava
+LVA_KGM,Ķegums
+LVA_KKV,Ķekava
+LVA_KOC,Kocēni
+LVA_ZKE,Koknese
+LVA_KRA,Krāslava
+LVA_KRU,Krustpils
+LVA_KDA,Kuldīga
+LVA_LVD,Lielvārde
+LVA_LPX,Liepāja
+LVA_LGT,Līgatne
+LVA_LBZ,Limbaži
+LVA_LVI,Līvāni
+LVA_LBN,Lubāna
+LVA_BNH,Ludza
+LVA_MAD,Madona
+LVA_MPS,Mālpils
+LVA_ZVT,Mārupe
+LVA_MZC,Mazsalaca
+LVA_MRX,Mērsrags
+LVA_NKS,Naukšēni
+LVA_NRT,Nereta
+LVA_NCA,Nīca
+LVA_ORE,Ogre
+LVA_OLA,Olaine
+LVA_D7G,Ozolnieki
+LVA_PVT,Pāvilosta
+LVA_PVN,Pļaviņas
+LVA_PRE,Preiļi
+LVA_PKL,Priekule
+LVA_PKU,Priekuļi
+LVA_RNA,Rauna
+LVA_REZ,Rēzekne
+LVA_RBN,Riebiņi
+LVA_ROJ,Roja
+LVA_RPZ,Ropaži
+LVA_ZRU,Rucava
+LVA_RGJ,Rugāji
+LVA_RJN,Rūjiena
+LVA_RDL,Rundalė
+LVA_SLA,Sala
+LVA_SAL,Salacgrīva
+LVA_SPS,Salaspils
+LVA_SDS,Saldus
+LVA_SKT,Saulkrasti
+LVA_ZSA,Seda
+LVA_SEJ,Sēja
+LVA_SGD,Sigulda
+LVA_SKR,Skrīveri
+LVA_SRD,Skrunda
+LVA_STE,Smiltene
+LVA_STO,Stopiņi
+LVA_STC,Strenči
+LVA_TSI,Talsi
+LVA_TVT,Tērvete
+LVA_TRV,Tērvete
+LVA_TKM,Tukums
+LVA_VND,Vaiņode
+LVA_VAL,Valka
+LVA_VIA,Valmiera
+LVA_VKN,Varakļāni
+LVA_VRK,Vārkava
+LVA_VKV,Vārkava
+LVA_VBG,Vecpiebalga
+LVA_VCK,Vecumnieki
+LVA_VMK,Vecumnieki
+LVA_VNT,Ventspils
+LVA_VST,Viesīte
+LVA_VIL,Viļaka
+LVA_VLN,Viļāni
+LVA_ZLP,Zilupe
+FRA_SXD,Sophia Antipolis
+AUT_VOR,Bezau
+AUT_BBG,Bleiburg
+AUT_EKV,Eisenkappel-Vellach
+AUT_FLH,Ferlach
+AUT_MTH,Mattighofen
+AUT_MUR,Murau
+AUT_NWS,Neumarkt am Wallersee
+AUT_OBR,Oberndorf bei Salzburg
+AUT_RTB,Rattenberg
+AUT_SSM,Saalfelden am Steinernen Meer
+AUT_SHS,Schruns
+AUT_SLZ,Silz
+AUT_TEL,Telfs
+AUT_TGU,Thalgau
+AUT_WEZ,Weiz
+AUT_ZEZ,Zell am Ziller
+CZE_HKR,Hradec Králové
+CZE_CKB,České Budějovice
+CZE_KLV,Karlovy Vary
+CZE_LBR,Liberec
+CZE_OSR,Ostrava
+CZE_OLO,Olomouc
+CZE_PRB,Pardubice
+CZE_ULN,Ústí nad Labem
+CZE_JHV,Jihlava
+CZE_ZLN,Zlín
+CZE_BEN,Benešov
+CZE_BER,Beroun
+CZE_BLA,Blansko
+CZE_BNT,Bruntál
+CZE_BVA,Břeclav
+CZE_CLI,Česká Lípa
+CZE_CKR,Český Krumlov
+CZE_DCB,Děčín
+CZE_DOM,Domažlice
+CZE_FRM,Frýdek-Místek
+CZE_HVB,Havlíčkův Brod
+CZE_HOD,Hodonín
+CZE_CHB,Cheb
+CZE_CHM,Chomutov
+CZE_CHR,Chrudim
+CZE_JNJ,Jablonec nad Nisou
+CZE_JSN,Jeseník
+CZE_JIC,Jičín
+CZE_JNH,Jindřichův Hradec
+CZE_KRV,Karviná
+CZE_KLD,Kladno
+CZE_KTV,Klatovy
+CZE_KLN,Kolín
+CZE_KMR,Kroměříž
+CZE_KUH,Kutná Hora
+CZE_LTC,Litoměřice
+CZE_LOU,Louny
+CZE_MLK,Mělník
+CZE_MBV,Mladá Boleslav
+CZE_MST,Most
+CZE_NAA,Náchod
+CZE_NJC,Nový Jičín
+CZE_NMB,Nymburk
+CZE_OPA,Opava
+CZE_PEL,Pelhřimov
+CZE_PSK,Písek
+CZE_PRT,Prachatice
+CZE_PRO,Prostějov
+CZE_PRV,Přerov
+CZE_PRI,Příbram
+CZE_RAK,Rakovník
+CZE_RKC,Rokycany
+CZE_RNK,Rychnov nad Kněžnou
+CZE_SML,Semily
+CZE_SOK,Sokolov
+CZE_SKN,Strakonice
+CZE_STV,Svitavy
+CZE_SUM,Šumperk
+CZE_TAB,Tábor
+CZE_TAC,Tachov
+CZE_TEP,Teplice
+CZE_TRU,Trutnov
+CZE_TRB,Třebíč
+CZE_UHE,Uherské Hradiště
+CZE_TNO,Ústí nad Orlicí
+CZE_VST,Vsetín
+CZE_VKV,Vyškov
+CZE_ZMO,Znojmo
+CZE_ZNS,Žďár nad Sázavou
+DEU_AAL,Aalen
+DEU_ACH,Achern
+DEU_ACM,Achim
+DEU_ADH,Adelsheim
+DEU_AHA,Ahaus
+DEU_AHL,Ahlen
+DEU_AHR,Ahrensburg
+DEU_AIC,Aichach
+DEU_ALB,Albstadt
+DEU_ALF,Alfeld (Leine)
+DEU_ALD,Alsfeld
+DEU_ALT,Altena
+DEU_ALC,Altenburg
+DEU_ALK,Altenkirchen (Westerwald)
+DEU_ALG,Altötting
+DEU_ALZ,Alzenau
+DEU_AZY,Alzey
+DEU_AMB,Amberg
+DEU_AND,Andernach
+DEU_ANS,Ansbach
+DEU_APO,Apolda
+DEU_ARN,Arnsberg
+DEU_ARS,Arnstadt
+DEU_ASC,Aschaffenburg
+DEU_ASN,Aschersleben
+DEU_AUZ,Aue (Sachsen)
+DEU_AUE,Auerbach (Vogtland)
+DEU_AUR,Aurich
+DEU_BAC,Backnang
+DEU_BZN,Bad Bergzabern
+DEU_BBE,Bad Berleburg
+DEU_BDU,Bad Dürkheim
+DEU_BFA,Bad Freienwalde
+DEU_BGM,Bad Gandersheim
+DEU_BHE,Bad Hersfeld
+DEU_BAJ,Bad Iburg
+DEU_BKI,Bad Kissingen
+DEU_BKR,Bad Kreuznach
+DEU_BLZ,Bad Langensalza
+DEU_BQB,Bad Liebenwerda
+DEU_BME,Bad Mergentheim
+DEU_BNR,Bad Neuenahr-Ahrweiler
+DEU_BOY,Bad Oeynhausen
+DEU_BSA,Bad Säckingen
+DEU_BSZ,Bad Salzungen
+DEU_BSG,Bad Saulgau
+DEU_SHW,Bad Schwalbach
+DEU_BSE,Bad Segeberg
+DEU_ZFL,Bad Sobernheim
+DEU_URH,Bad Urach
+DEU_BWS,Bad Waldsee
+DEU_BAL,Balingen
+DEU_BAU,Bautzen
+DEU_BYU,Bayreuth
+DEU_BEC,Beckum
+DEU_BEH,Bensheim
+DEU_BGE,Bergen auf Rügen
+DEU_BHM,Bergheim
+DEU_BGL,Bergisch Gladbach
+DEU_RNR,Bernau bei Berlin
+DEU_BEQ,Bernburg (Saale)
+DEU_BEK,Bernkastel-Kues
+DEU_BBK,Bersenbrück
+DEU_BEM,Besigheim
+DEU_BET,Betzdorf
+DEU_BKF,Biedenkopf
+DEU_BFE,Bielefeld
+DEU_BIN,Bingen am Rhein
+DEU_BIT,Bitburg
+DEU_BMG,Blomberg
+DEU_BWU,Böblingen
+DEU_BHT,Bocholt
+DEU_BOM,Bochum
+DEU_BOR,Borken
+DEU_BOX,Borna
+DEU_BOT,Bottrop
+DEU_BCM,Brackenheim
+DEU_BKE,Brake (Unterweser)
+DEU_BKK,Brakel
+LVA_AMT,Amata
+DEU_BSH,Breisach
+DEU_BRV,Bremerhaven
+DEU_BMV,Bremervörde
+DEU_BTN,Bretten
+DEU_BRI,Brilon
+DEU_BCL,Bruchsal
+DEU_BRU,Brühl
+DEU_BUC,Buchen (Odenwald)
+DEU_BCB,Bückeburg
+DEU_BUN,Büdingen
+DEU_BUL,Bühl
+DEU_BUE,Bünde
+DEU_BGX,Burg
+DEU_BWL,Burgwedel
+DEU_BUX,Buxtehude
+DEU_CAL,Calw
+DEU_CRL,Castrop-Rauxel
+DEU_CEL,Celle
+DEU_CHA,Cham
+DEU_CHE,Chemnitz
+DEU_CLO,Cloppenburg
+DEU_COC,Cochem
+DEU_COF,Coesfeld
+DEU_COT,Cottbus
+DEU_CRH,Crailsheim
+DEU_CUX,Cuxhaven
+DEU_DAC,Dachau
+DEU_DNG,Dannenberg (Elbe)
+DEU_DAR,Darmstadt
+DEU_DAU,Daun
+DEU_DEG,Deggendorf
+DEU_DEK,Delbrück
+DEU_DEL,Delmenhorst
+DEU_DMN,Demmin
+DEU_DET,Detmold
+DEU_DIG,Dieburg
+DEU_DIZ,Diepholz
+DEU_DEZ,Diez
+DEU_DIB,Dillenburg
+DEU_DLD,Dillingen an der Donau
+DEU_DIN,Dinslaken
+DEU_DPW,Dippoldiswalde
+DEU_DOE,Döbeln
+DEU_DEN,Donaueschingen
+DEU_DON,Dorsten
+DEU_DTM,Dortmund
+DEU_DUD,Duderstadt
+DEU_DUN,Dülmen
+DEU_DUE,Düren
+DEU_EEG,Ebersberg
+DEU_EBW,Eberswalde
+DEU_ECK,Eckernförde
+DEU_EHI,Ehingen (Donau)
+DEU_ENB,Eilenburg
+DEU_EIB,Einbeck
+DEU_EIS,Eisenach
+DEU_EHS,Eisenhüttenstadt
+DEU_ELW,Ellwangen
+DEU_ELM,Elmshorn
+DEU_ELZ,Elze
+DEU_EME,Emden
+DEU_EMM,Emmerich am Rhein
+DEU_ERG,Erding
+DEU_ERK,Erkelenz
+DEU_ERL,Erlangen
+DEU_ESW,Eschwege
+DEU_ESR,Eschweiler
+DEU_EGN,Esslingen am Neckar
+DEU_ETI,Ettenheim
+DEU_ETT,Ettlingen
+DEU_EUS,Euskirchen
+DEU_EUT,Eutin
+DEU_FLF,Flensburg
+DEU_FOH,Forchheim
+DEU_FKG,Frankenberg
+DEU_FTL,Frankenthal
+DEU_FIG,Freiberg
+DEU_FRG,Freising
+DEU_FST,Freudenstadt
+DEU_FRY,Freyung
+DEU_FRB,Friedberg
+DEU_FRZ,Fritzlar
+DEU_FUL,Fulda
+DEU_FEL,Fürstenfeldbruck
+DEU_FTE,Fürstenwalde (Spree)
+DEU_FUE,Fürth (Bayern)
+DEU_FUR,Fürth (Hessen)
+DEU_GAR,Gardelegen
+DEU_GAP,Garmisch-Partenkirchen
+DEU_GKI,Geilenkirchen
+DEU_GLI,Geislingen an der Steige
+DEU_GDN,Geldern
+DEU_GEH,Gelnhausen
+DEU_GEK,Gelsenkirchen
+DEU_GEM,Gemünden am Main
+DEU_GGH,Gengenbach
+DEU_GEA,Gera
+DEU_GER,Germersheim
+DEU_GBH,Gernsbach
+DEU_GIE,Giessen
+DEU_GIF,Gifhorn
+DEU_GLA,Gladbeck
+DEU_GON,Göppingen
+DEU_GOR,Görlitz
+DEU_GOS,Goslar
+DEU_GOA,Gotha
+DEU_GRD,Greifswald
+DEU_GRI,Greiz
+DEU_GRV,Grevenbroich
+DEU_GVY,Grevesmühlen
+DEU_GMA,Grimma
+DEU_GNU,Gronau (Westf.)
+DEU_GRG,Gross-Gerau
+DEU_GRT,Grünstadt
+DEU_GUB,Guben
+DEU_GUM,Gummersbach
+DEU_GUG,Günzburg
+DEU_GUW,Güstrow
+DEU_GTO,Gütersloh
+DEU_HAD,Hadamar
+DEU_HAG,Hagen
+DEU_HST,Halberstadt
+DEU_HLH,Haldensleben
+DEU_HAL,Halle (Salle)
+DEU_HAE,Halle (Westf.)
+DEU_HAN,Hameln
+DEU_HMM,Hamm
+DEU_HAU,Hanau
+DEU_HMU,Hann. Münden
+DEU_HAS,Hassfurt
+DEU_HAT,Hattingen
+DEU_HEC,Hechingen
+DEU_HD2,Heidenheim an der Brenz
+DEU_HHI,Heilbad Heiligenstadt
+DEU_HEN,Heilbronn
+DEU_HEG,Heinsberg
+DEU_HEL,Helmstedt
+DEU_HRD,Herford
+DEU_HMK,Hermeskeil
+DEU_HEE,Herne
+DEU_HEK,Hersbruck
+DEU_HBG,Herzberg am Harz
+DEU_HIL,Hildesheim
+DEU_HOQ,Hof (Saale)
+DEU_HGM,Hofgeismar
+DEU_HOI,Hohenstein-Ernstthal
+DEU_HZN,Holzminden
+DEU_HOM,Homburg
+DEU_HOB,Horb am Neckar
+DEU_HOX,Höxter
+DEU_HWE,Hoyerswerda
+DEU_HUD,Hünfeld
+DEU_HUS,Husum
+DEU_IBB,Ibbenbüren
+DEU_ION,Idar-Oberstein
+DEU_IDS,Idstein
+DEU_INU,Ilmenau
+DEU_ING,Ingolstadt
+DEU_ISE,Iserlohn
+DEU_ITZ,Itzehoe
+DEU_JEV,Jever
+DEU_JUE,Jülich
+DEU_KMN,Kamen
+DEU_KAZ,Kamenz
+DEU_KNL,Kandel
+DEU_KAS,Kassel
+DEU_KAU,Kaufbeuren
+DEU_KEH,Kehl
+DEU_KEM,Kelheim
+DEU_KMP,Kempen
+DEU_KEN,Kempten (Allgäu)
+DEU_KRP,Kerpen
+DEU_KER,Kerpen (Eifel)
+DEU_KEL,Kiel
+DEU_KHH,Kirchhain
+DEU_KCI,Kirchheim unter Teck
+DEU_KIT,Kitzingen
+DEU_KOS,Königstein im Taunus
+DEU_KOW,Königswinter
+DEU_KOH,Korbach
+DEU_KOA,Köthen (Anhalt)
+DEU_KRE,Krefeld
+DEU_KRO,Kronach
+DEU_KUL,Kulmbach
+DEU_VMG,Künzelsau
+DEU_KUS,Kusel
+DEU_LAH,Lahnstein
+DEU_LAR,Lahr (Schwarzwald)
+DEU_LAM,Lampertheim
+DEU_LDU,Landau an der Isar
+DEU_LAD,Landau in der Pfalz
+DEU_LXL,Landsberg am Lech
+DEU_LDH,Landshut
+DEU_LSL,Landstuhl
+DEU_LED,Langen (Emsland)
+DEU_LNN,Langen (Hessen)
+DEU_LBU,Langenburg
+DEU_LGF,Langenfeld
+DEU_LNS,Laufen
+DEU_LEB,Lebach
+DEU_LEE,Leer
+DEU_LEH,Lehrte
+DEU_LEM,Lemgo
+DEU_LST,Lennestadt
+DEU_LEO,Leonberg
+DEU_LEU,Leutkirch im Allgäu
+DEU_LIC,Lichtenfels
+DEU_LML,Limburg an der Lahn
+DEU_LIU,Lindau (Bodensee)
+DEU_LIG,Lingen (Ems)
+DEU_LRN,Linz am Rhein
+DEU_LIP,Lippstadt
+DEU_LBA,Löbau
+DEU_LOE,Lörrach
+DEU_LBE,Lübbecke
+DEU_LUB,Lübben (Spreewald)
+DEU_LUQ,Luckenwalde
+DEU_LUD,Lüdenscheid
+DEU_LUN,Lüdinghausen
+DEU_LWG,Ludwigsburg
+DEU_LWR,Ludwigshafen am Rhein
+DEU_LUL,Ludwigslust
+DEU_LBG,Lüneburg
+DEU_LUE,Lünen
+DEU_EIN,Lutherstadt Eisleben
+DEU_BAB,Baden-Baden
+DEU_IAD,Biberach an der Riss
+DEU_BID,Bitterfeld-Wolfen
+DEU_BZT,Burgdorf
+DEU_CUL,Clausthal-Zellerfeld
+DEU_EMN,Emmendingen
+DEU_GTL,Geestland
+DEU_HB4,Hildburghausen
+DEU_MNC,Marbach am Neckar
+DEU_MRI,Marienberg
+DEU_MAL,Marl
+DEU_MSG,Marsberg
+DEU_MBN,Maulbronn
+DEU_MAY,Mayen
+DEU_MDB,Medebach
+DEU_MZN,Meinerzhagen
+DEU_MNI,Meiningen
+DEU_MEI,Meissen
+DEU_MEL,Meldorf
+DEU_MLS,Melsungen
+DEU_MMN,Memmingen
+DEU_MEN,Menden (Sauerland)
+DEU_MEP,Meppen
+DEU_MEG,Merseburg
+DEU_MER,Merzig
+DEU_MSE,Meschede
+DEU_MET,Mettmann
+DEU_MIS,Michelstadt
+DEU_MIE,Miesbach
+DEU_MIL,Miltenberg
+DEU_MID,Minden
+DEU_MOS,Moers
+DEU_MGL,Mönchengladbach
+DEU_MOU,Monschau
+DEU_MON,Montabaur
+DEU_MOB,Mosbach
+DEU_MUF,Mühldorf am Inn
+DEU_MHL,Mühlhausen
+DEU_MUH,Mülheim an der Ruhr
+DEU_MUE,Müllheim (Baden)
+DEU_MGN,Münsingen
+DEU_MSR,Münster
+DEU_NAG,Nagold
+DEU_NUQ,Nauen
+DEU_NBU,Naumburg (Saale)
+DEU_NSH,Neresheim
+DEU_NTL,Nettetal
+DEU_NBG,Neuburg an der Donau
+DEU_NET,Neumarkt in der Oberpfalz
+DEU_NEU,Neumünster
+DEU_NPP,Neuruppin
+DEU_NSS,Neuss
+DEU_NRB,Neustadt am Rübenberge
+DEU_NSA,Neustadt an der Aisch
+DEU_NSW,Neustadt an der Weinstrasse
+DEU_NER,Neustrelitz
+DEU_NUL,Neu-Ulm
+DEU_NED,Neuwied
+DEU_NIL,Niebüll
+DEU_NIE,Nienburg
+DEU_NOD,Norden
+DEU_NHA,Nordenham
+DEU_NOT,Norderstedt
+DEU_NDH,Nordhausen
+DEU_NHN,Nordhorn
+DEU_NON,Nördlingen
+DEU_NOM,Northeim
+DEU_NUN,Nürtingen
+DEU_OBE,Oberhausen
+DEU_OKH,Oberkirch
+DEU_OBG,Obernburg am Main
+DEU_ODF,Oberndorf am Neckar
+DEU_OFF,Offenbach am Main
+DEU_OFG,Offenburg
+DEU_OEH,Öhringen
+DEU_OLO,Oldenburg
+DEU_OLH,Oldenburg in Holstein
+DEU_OLE,Olpe
+DEU_ORA,Oranienburg
+DEU_OLN,Oschersleben
+DEU_OSN,Osnabrück
+DEU_OSS,Osterholz-Scharmbeck
+DEU_OSE,Osterode am Harz
+DEU_OTT,Otterndorf
+DEU_OWE,Ottweiler
+DEU_PAD,Paderborn
+DEU_PAP,Papenburg
+DEU_PWK,Pasewalk
+DEU_PAS,Passau
+DEU_PEI,Peine
+DEU_PEB,Perleberg
+DEU_PFA,Pfaffenhofen an der Ilm
+DEU_PFO,Pforzheim
+DEU_PHG,Philippsburg
+DEU_PIN,Pinneberg
+DEU_PIR,Pirmasens
+DEU_PRA,Pirna
+DEU_PLU,Plauen
+DEU_PLE,Plettenberg
+DEU_PLN,Plön
+DEU_PTV,Pössneck
+DEU_BPU,Prenzlau
+DEU_PRU,Prüm
+DEU_QUE,Quedlinburg
+DEU_RAD,Radolfzell am Bodensee
+DEU_RAH,Rahden
+DEU_RAS,Rastatt
+DEU_RNW,Rathenow
+DEU_RAT,Ratingen
+DEU_RZG,Ratzeburg
+DEU_RAV,Ravensburg
+DEU_REC,Recklinghausen
+DEU_REI,Reinbek
+DEU_RED,Remscheid
+DEU_REN,Rendsburg
+DEU_REU,Reutligen
+DEU_RHW,Rheda-Wiedenbrück
+DEU_RHH,Rheinbach
+DEU_RHB,Rheinberg
+DEU_RHE,Rheine
+DEU_RZD,Ribnitz-Damgarten
+DEU_RIE,Riedlingen
+DEU_RSA,Riesa
+DEU_RIN,Rinteln
+DEU_ROH,Rockenhausen
+DEU_ROS,Rosenheim
+DEU_RSK,Rostock
+DEU_ROW,Rotenburg (Wümme)
+DEU_ZFI,Rottenburg am Neckar
+DEU_ROL,Rottweil
+DEU_RUE,Rüdesheim am Rhein
+DEU_RUL,Rudolstadt
+DEU_RUM,Rüsselsheim
+DEU_SAD,Saalfeld
+DEU_SAG,Saarburg
+DEU_SAA,Saarlouis
+DEU_SAR,Salzgitter
+DEU_SZW,Salzwedel
+DEU_SHA,Sangerhausen
+DEU_SBL,Sankt Blasien
+DEU_SCV,Schleiden (Gemünd)
+DEU_SLS,Schleswig
+DEU_SLN,Schlüchtern
+DEU_SLG,Schmallenberg
+DEU_SMS,Schönau im Schwarzwald
+DEU_ASQ,Schönebeck
+DEU_SHM,Schopfheim
+DEU_SDF,Schorndorf
+DEU_SWB,Schwabach
+DEU_SGD,Schwäbisch Gmünd
+DEU_SHL,Schwäbisch Hall
+DEU_SCT,Schwalmstadt
+DEU_SCF,Schwandorf
+DEU_ZFK,Schwarzenbek
+DEU_SJW,Schwedt (Oder)
+DEU_SCW,Schweinfurt
+DEU_SLM,Schwelm
+DEU_SWR,Schwerin
+DEU_SCE,Schwerte
+DEU_SCH,Schwetzingen
+DEU_SEE,Seesen
+DEU_SLT,Seligenstadt
+DEU_SFT,Senftenberg
+DEU_SIG,Siegburg
+DEU_SGE,Siegen
+DEU_SMG,Sigmaringen
+DEU_SIM,Simmern (Hunsrück)
+DEU_SIN,Singen
+DEU_SIH,Sinsheim
+DEU_SZG,Sinzig
+DEU_SOE,Soest
+DEU_SOL,Solingen
+DEU_SOU,Soltau
+DEU_SOM,Sömmerda
+DEU_SDH,Sondershausen
+DEU_SON,Sonneberg
+DEU_SFN,Sonthofen
+DEU_SPA,Spaichingen
+DEU_SRE,Springe
+DEU_83J,Sankt Goar
+DEU_STI,Sankt Ingbert
+DEU_SWE,Sankt Wendel
+DEU_STA,Stade
+DEU_STH,Stadthagen
+DEU_SYA,Stadtroda
+DEU_STN,Starnberg
+DEU_STF,Stassfurt
+DEU_SBR,Staufen im Breisgau
+DEU_S9T,Steinfurt
+DEU_STQ,Stendal
+DEU_SKH,Stockach
+DEU_SLJ,Stolzenau
+DEU_STL,Stralsund
+DEU_STB,Straubing
+DEU_SB2,Strausberg
+DEU_SUL,Suhl
+DEU_SUN,Sulingen
+DEU_SYK,Syke
+DEU_TAU,Tauberbischofsheim
+DEU_TKB,Tecklenburg
+DEU_TET,Tettnang
+DEU_TIR,Tirschenreuth
+DEU_TNE,Titisee-Neustadt
+DEU_TOU,Torgau
+DEU_TST,Tostedt
+DEU_TRA,Traunstein
+DEU_TUT,Tuttlingen
+DEU_UEB,Überlingen
+DEU_UEL,Uelzen
+DEU_ULM,Ulm
+DEU_UNN,Unna
+DEU_VAI,Vaihingen an der Enz
+DEU_VAR,Varel
+DEU_VEC,Vechta
+DEU_VEL,Velbert
+DEU_VER,Verden (Aller)
+DEU_VIT,Viechtach
+DEU_VIE,Viersen
+DEU_VIS,Villingen-Schwenningen
+DEU_VOE,Völklingen
+DEU_WND,Wadern
+DEU_WAI,Waiblingen
+DEU_WAB,Waldbröl
+DEU_WKR,Waldkirch
+DEU_WAT,Waldshut-Tiengen
+DEU_WAL,Walsrode
+DEU_WGN,Wangen im Allgäu
+DEU_WAG,Warburg
+DEU_WRZ,Waren (Müritz)
+DEU_WAD,Warendorf
+DEU_WAN,Warstein
+DEU_WEI,Weiden in der Oberpfalz
+DEU_WEG,Weilburg
+DEU_WEM,Weilheim in Oberbayern
+DEU_WHM,Weinheim
+DEU_WNG,Weissenburg in Bayern
+DEU_WEF,Weissenfels
+DEU_WWS,Weisswasser
+DEU_WEX,Wennigsen (Deister)
+DEU_WEL,Werl
+DEU_WEK,Wermelskirchen
+DEU_WGE,Wernigerode
+DEU_WTM,Wertheim
+DEU_WES,Wesel
+DEU_WBG,Westerburg
+DEU_WSE,Westerstede
+DEU_WTR,Wetter (Ruhr)
+DEU_WET,Wetzlar
+DEU_WIB,Wiesbaden
+DEU_WSY,Wiesloch
+DEU_WWU,Wildau
+DEU_WHU,Wildeshausen
+DEU_WVN,Wilhelmshaven
+DEU_WII,Winsen (Luhe)
+DEU_WPH,Wipperfürth
+DEU_WIS,Wismar
+DEU_WTT,Witten
+DEU_WTH,Wittlich
+DEU_WMD,Wittmund
+DEU_WDL,Wolfach
+DEU_WBL,Wolfenbüttel
+DEU_WOH,Wolfratshausen
+DEU_WOB,Wolfsburg
+DEU_WOL,Wolgast
+DEU_QWS,Wolmirstedt
+DEU_WOR,Worms
+DEU_WUL,Wunsiedel
+DEU_WUP,Wuppertal
+DEU_ZHD,Zehdenick
+DEU_ZEZ,Zeitz
+DEU_ZBT,Zerbst (Anhalt)
+DEU_ZEV,Zeven
+DEU_ZIT,Zittau
+DEU_ZOS,Zossen
+DEU_ZWE,Zweibrücken
+DEU_ZWI,Zwickau
+DEU_BHO,Bad Homburg vor der Höhe
+LTU_NAK,Naujoji Akmenė
+LTU_VIS,Visaginas
+LTU_ZAR,Zarasai
+LTU_IGL,Ignalina
+LTU_SKA,Šakiai
+TZA_ARK,Arusha
+BRB_STM,Saint Michael
+KWT_SAF,Safat
+PSE_RMH,Ramallah
+PHL_MDL,Mandaluyong
+NOR_TOS,Tromsø
+HUN_SZD,Szentendre
+MNE_DNL,Danilovgrad
+AUT_LXE,Laxenburg
+LUX_HES,Hesperange
+LUX_NAN,Niederanven
+IRL_GRG,Grange
+CHN_SGH,Xangai
+LUX_BEE,Beaufort
+LUX_BCH,Bech
+LUX_BDF,Berdorf
+LUX_BTF,Bettendorf
+LUX_BIW,Biwer
+LUX_BOA,Boevange-sur-Attert
+LUX_BAU,Boulaide
+LUX_BUU,Bourscheid
+LUX_BUS,Bous
+LUX_CNS,Consdorf
+LUX_DLM,Dalheim
+LUX_DIP,Dippach
+LUX_LEL,Ell
+LUX_ESS,Esch-sur-Sûre
+LUX_FEE,Feulen
+LUX_FSB,Fischbach
+LUX_FLW,Flaxweiler
+LUX_FRS,Frisange
+LUX_GAR,Garnich
+LUX_GSD,Goesdorf
+LUX_GRB,Grosbous
+LUX_HFN,Heffingen
+LUX_KRJ,Käerjeng
+LUX_KII,Kiischpelt
+LUX_KOP,Kopstal
+LUX_FLS,Larochette
+LUX_MTN,Manternach
+LUX_MRZ,Mertzig
+LUX_MOM,Mompach
+LUX_NOU,Nommern
+LUX_PRH,Parc Hosingen
+LUX_PTT,Putscheid
+LUX_RKM,Reckange-sur-Mess
+LUX_REI,Reisdorf
+LUX_ROE,Roeser
+LUX_RSP,Rosport
+LUX_SEL,Saeul
+LUX_SCR,Schieren
+LUX_SPT,Septfontaines
+LUX_SBD,Stadtbredimus
+LUX_TDL,Tandel
+LUX_TTE,Tuntange
+LUX_VIC,Vichten
+LUX_WAL,Wahl
+LUX_WLB,Waldbillig
+LUX_WBD,Waldbredimus
+LUX_WLF,Walferdange
+LUX_WET,Weiler-la-Tour
+LUX_WNG,Wincrange
+LUX_WNS,Winseler
+NLD_AAH,Aa en Hunze
+NLD_ALB,Aalburg
+NLD_AAM,Aalsmeer
+NLD_LTE,Aalten
+NLD_ACK,Achtkarspelen
+NLD_ABL,Alblasserdam
+NLD_AWD,Albrandswaard
+NLD_AAC,Alphen-Chaam
+NLD_AML,Ameland
+NLD_AMV,Amstelveen
+NLD_APP,Appingedam
+NLD_AST,Asten
+NLD_BNS,Baarle-Nassau
+NLD_BAA,Baarn
+NLD_BRR,Barendrecht
+NLD_BAR,Barneveld
+NLD_BED,Bedum
+NLD_BEQ,Beek
+NLD_BSR,Beemster
+NLD_BSL,Beesel
+NLD_BWR,Bellingwedde
+NLD_BEY,Bergeijk
+NLD_KLL,Berkelland
+NLD_EEZ,Bernheze
+NLD_BST,Best
+NLD_BNN,Beuningen
+NLD_BEV,Beverwijk
+NLD_BNM,Binnenmaas
+NLD_BLL,Bladel
+NLD_BLA,Blaricum
+NLD_BMD,Bloemendaal
+NLD_BRW,Bodegraven-Reeuwijk
+NLD_BEL,Boekel
+NLD_BOO,Borger-Odoorn
+NLD_BRE,Borne
+NLD_BOR,Borsele
+NLD_BXT,Boxtel
+NLD_BCK,Bronckhorst
+NLD_BRM,Brummen
+NLD_BRN,Brunssum
+NLD_BUK,Bunnik
+NLD_BNK,Bunschoten
+NLD_BUR,Buren
+NLD_BSS,Bussum
+NLD_CPI,Capelle aan den Ijssel
+NLD_CAS,Castricum
+NLD_COE,Coevorden
+NLD_CRK,Cranendonck
+NLD_CIJ,Cromstrijen
+NLD_CUY,Cuijk
+NLD_CUB,Culemborg
+NLD_DAL,Dalfsen
+NLD_DTU,Dantumadeel
+NLD_DFM,De Friese Meren
+NLD_DMA,De Marne
+NLD_RVE,De Ronde Venen
+NLD_WOD,De Wolden
+NLD_DZL,Delfzijl
+NLD_DEU,Deurne
+NLD_DIM,Diemen
+NLD_IKL,Dinkelland
+NLD_DOE,Doesburg
+NLD_DOI,Doetinchem
+NLD_DON,Dongen
+NLD_DDE,Dongeradeel
+NLD_DRT,Drechterland
+NLD_DRM,Drimmelen
+NLD_DRO,Dronten
+NLD_DRU,Druten
+NLD_DUI,Duiven
+NLD_ESU,Echt-Susteren
+NLD_EVO,Edam-Volendam
+NLD_EDE,Ede
+NLD_EES,Eemnes
+NLD_EMO,Eemsmond
+NLD_QCT,Eersel
+NLD_EIJ,Eijsden-Margraten
+NLD_ELB,Elburg
+NLD_ENK,Enkhuizen
+NLD_EPE,Epe
+NLD_ERM,Ermelo
+NLD_ETT,Etten-Leur
+NLD_FWD,Ferwerderadeel
+NLD_FKD,Franekeradeel
+NLD_GTB,Geertruidenberg
+NLD_GDM,Geldermalsen
+NLD_GOM,Geldrop-Mierlo
+NLD_GBA,Gemert-Bakel
+NLD_GEN,Gennep
+NLD_GIE,Giessenlanden
+NLD_GIZ,Gilze en Rijen
+NLD_GOF,Goeree-Overflakkee
+NLD_GOE,Goes
+NLD_GOI,Goirle
+NLD_GAV,Grave
+NLD_ZAT,Groesbeek
+NLD_GTG,Grootegast
+NLD_GUW,Gulpen-Wittem
+NLD_HKH,Haaksbergen
+NLD_HRA,Haaren
+NLD_HDB,Halderberge
+NLD_HBG,Hardenberg
+NLD_HXG,Hardinxveld-Giessendam
+NLD_HRE,Haren
+NLD_HAR,Harlingen
+NLD_HTM,Hattem
+NLD_HKE,Heemskerk
+NLD_HMS,Heemstede
+NLD_HRR,Heerde
+NLD_HHW,Heerhugowaard
+NLD_HEZ,Heeze-Leende
+NLD_HLO,Heiloo
+NLD_HLD,Hellendoorn
+NLD_HSL,Hellevoetsluis
+NLD_HIA,Hendrik-Ido-Ambacht
+NLD_HGL,Hengelo
+NLD_HBT,Het Bildt
+NLD_HUM,Heumen
+NLD_HES,Heusden
+NLD_HIL,Hillegom
+NLD_HVK,Hilvarenbeek
+NLD_HTW,Hof van Twente
+NLD_HKN,Hollands Kroon
+NLD_HOV,Hoogeveen
+NLD_HGZ,Hoogezand-Sappemeer
+NLD_HSA,Horst aan de Maas
+NLD_HOU,Houten
+NLD_HUI,Huizen
+NLD_HUL,Hulst
+NLD_IJI,IJsselstein
+NLD_KAA,Kaag en Braassem
+NLD_KAM,Kampen
+NLD_KPL,Kapelle
+NLD_KWK,Katwijk
+NLD_KER,Kerkrade
+NLD_KOL,Koggenland
+NLD_KUN,Kollumerland en Nieuwkruisland
+NLD_KOI,Korendijk
+NLD_KAI,Krimpen aan den Ijssel
+NLD_KIN,Krimpenerwaard
+NLD_LAA,Laarbeek
+NLD_LAD,Landerd
+NLD_LAF,Landgraaf
+NLD_LAM,Landsmeer
+NLD_LIK,Langedijk
+NLD_LSG,Lansingerland
+NLD_LAR,Laren
+NLD_LEE,Leek
+NLD_LRD,Leerdam
+NLD_LUW,Leeuwarderadeel
+NLD_LDD,Leiderdorp
+NLD_LSV,Leidschendam-Voorburg
+NLD_LED,Leudal
+NLD_LEU,Leusden
+NLD_LIW,Lingewaal
+NLD_LIR,Lingewaard
+NLD_QDG,Lisse
+NLD_LIL,Littenseradeel
+NLD_LCH,Lochem
+NLD_LOZ,Loon op Zand
+NLD_LPK,Lopik
+NLD_LPM,Loppersum
+NLD_LOS,Losser
+NLD_MDR,Maasdriel
+NLD_MGW,Maasgouw
+NLD_MSL,Maassluis
+NLD_MRR,Marum
+NLD_MDM,Medemblik
+NLD_MLD,Menaldumadeel
+NLD_MTW,Menterwolde
+NLD_MDF,Midden-Delfland
+NLD_MDD,Midden-Drenthe
+NLD_MSH,Mill en Sint Hubert
+NLD_MOE,Moerdijk
+NLD_MLW,Molenwaard
+NLD_MTL,Montferland
+NLD_MNT,Montfoort
+NLD_MOM,Mook en Middelaar
+NLD_MUD,Muiden
+NLD_NAA,Naarden
+NLD_NBW,Neder-Betuwe
+NLD_NRW,Nederweert
+NLD_NEJ,Neerijnen
+NLD_NWG,Nieuwegein
+NLD_NWK,Nieuwkoop
+NLD_NKK,Nijkerk
+NLD_NIW,Nissewaard
+NLD_NBN,Noord-Beveland
+NLD_NOV,Noordenveld
+NLD_NOP,Noordoostpolder
+NLD_NDW,Noordwijk
+NLD_NOJ,Noordwijkerhout
+NLD_NGN,"Nuenen, Gerwen en Nederwetten"
+NLD_NUN,Nunspeet
+NLD_NTH,Nuth
+NLD_OGE,Oegstgeest
+NLD_OIH,Oirschot
+NLD_OIW,Oisterwijk
+NLD_OBT,Oldambt
+NLD_OLB,Oldebroek
+NLD_OLZ,Oldenzaal
+NLD_OWI,Olst-Wijhe
+NLD_OMM,Ommen
+NLD_OBK,Onderbanken
+NLD_OOL,Oost Gelre
+NLD_OOS,Oosterhout
+NLD_OOW,Ooststellingwerf
+NLD_OSZ,Oostzaan
+NLD_ZBQ,Opmeer
+NLD_OPT,Opsterland
+NLD_OSS,Oss
+NLD_OUT,Oude IJsselstreek
+NLD_OAT,Ouder-Amstel
+NLD_ODW,Oudewater
+NLD_OVB,Overbetuwe
+NLD_PAP,Papendrecht
+NLD_PEE,Peel en Maas
+NLD_PEK,Pekela
+NLD_PIN,Pijnacker-Nootdorp
+NLD_PUM,Purmerend
+NLD_PTN,Putten
+NLD_QDS,Raalte
+NLD_REW,Reimerswaal
+NLD_RNK,Renkum
+NLD_RWD,Renswoude
+NLD_RDM,Reusel-De Mierden
+NLD_RHD,Rheden
+NLD_RHE,Rhenen
+NLD_RID,Ridderkerk
+NLD_RIW,Rijnwaarden
+NLD_RIH,Rijssen-Holten
+NLD_RYS,Rijswijk
+NLD_ROE,Roerdalen
+NLD_ROO,Roosendaal
+NLD_RZD,Rozendaal
+NLD_RCP,Rucphen
+NLD_SCH,Schagen
+NLD_SRP,Scherpenzeel
+NLD_SMO,Schiermonnikoog
+NLD_SND,Schijndel
+NLD_SCN,Schinnen
+NLD_SWD,Schouwen-Duiveland
+NLD_SIM,Simpelveld
+NLD_SIN,Sint Anthonis
+NLD_SMG,Sint-Michielsgestel
+NLD_OED,Sint-Oedenrode
+NLD_SIG,Sittard-Geleen
+NLD_SLD,Sliedrecht
+NLD_SLO,Slochteren
+NLD_SLS,Sluis
+NLD_SML,Smallingerland
+NLD_SOE,Soest
+NLD_SOM,Someren
+NLD_SBR,Son en Breugel
+NLD_STK,Stadskanaal
+NLD_STH,Staphorst
+NLD_SBC,Stede Broec
+NLD_STE,Steenbergen
+NLD_SEW,Steenwijkerland
+NLD_STI,Stein
+NLD_SVT,Stichtse Vecht
+NLD_TRJ,Strijen
+NLD_NTO,Ten Boer
+NLD_TSL,Terschelling
+NLD_TEX,Texel
+NLD_TEY,Teylingen
+NLD_THO,Tholen
+NLD_TYT,Tytsjerksteradiel
+NLD_TBB,Tubbergen
+NLD_TWT,Twenterand
+NLD_TNO,Tynaarlo
+NLD_UDE,Uden
+NLD_UTG,Uitgeest
+NLD_UIT,Uithoorn
+NLD_URK,Urk
+NLD_UTH,Utrechtse Heuvelrug
+NLD_VLS,Vaals
+NLD_VLK,Valkenburg aan de Geul
+NLD_VAL,Valkenswaard
+NLD_VEE,Veenendaal
+NLD_VER,Veere
+NLD_VEG,Veghel
+NLD_VDH,Veldhoven
+NLD_VEL,Velsen
+NLD_VNR,Venray
+NLD_VAN,Vianen
+NLD_VLA,Vlaardingen
+NLD_VWD,Vlagtwedde
+NLD_VLL,Vlieland
+NLD_VDL,Voerendaal
+NLD_VOS,Voorschoten
+NLD_VRS,Voorst
+NLD_VGT,Vught
+NLD_WAA,Waalre
+NLD_WLK,Waalwijk
+NLD_WAD,Waddinxveen
+NLD_WSS,Wassenaar
+NLD_WTL,Waterland
+NLD_WRT,Weert
+NLD_WSP,Weesp
+NLD_WKD,Werkendam
+NLD_WMW,West Maas en Waal
+NLD_WTV,Westerveld
+NLD_WEV,Westervoort
+NLD_WET,Westland
+NLD_WSW,Weststellingwerf
+NLD_WVO,Westvoorne
+NLD_WID,Wierden
+NLD_WCH,Wijchen
+NLD_WIM,Wijdemeren
+NLD_WBD,Wijk bij Duurstede
+NLD_WNS,Winsum
+NLD_WTW,Winterswijk
+NLD_WOE,Woensdrecht
+NLD_WOR,Woerden
+NLD_WOM,Wormerland
+NLD_WDB,Woudenberg
+NLD_WCM,Woudrichem
+NLD_ZLB,Zaltbommel
+NLD_ZDV,Zandvoort
+NLD_ZDK,Zederik
+NLD_ZEE,Zeevang
+NLD_ZEW,Zeewolde
+NLD_ZIT,Zeist
+NLD_ZEV,Zevenaar
+NLD_ZTM,Zoetermeer
+NLD_ZOU,Zoeterwoude
+NLD_ZUI,Zuidhorn
+NLD_ZDP,Zuidplas
+NLD_SWF,Súdwest-Fryslân
+NLD_ZUD,Zundert
+NLD_ZWT,Zwartewaterland
+NLD_ZWI,Zwijndrecht
+POL_GLB,Głubczyce
+POL_NAK,Nakło nad Notecią
+POL_OLU,Opole Lubelskie
+POL_SEJ,Sejny
+POL_TRI,Trzebnica
+POL_WLD,Włodawa
+POL_ZUM,Żuromin
+SVN_BLO,Bloke
+SVN_BRD,Brda
+SVN_CIK,Cirkulane
+SVN_DOJ,Dobje
+SVN_DBJ,Dobrepolje
+SVN_DBR,Dobrna
+SVN_DBP,Dobrova-Polhov Gradec
+SVN_GVJ,Gorenja vas-Poljane
+SVN_GOR,Gorišnica
+SVN_COJ,Gorje
+SVN_GIP,Gornji Petrovci
+SVN_GRA,Grad
+SVN_HAJ,Hajdina
+SVN_HOS,Hoče-Slivnica
+SVN_HOD,Hodoš
+SVN_DHP,Horjul
+SVN_HRK,Hrpelje-Kozina
+SVN_JEZ,Jezersko
+SVN_JUR,Juršinci
+SVN_KOS,Kostel
+SVN_KRZ,Križevci
+SVN_KUN,Kungota
+SVN_LJB,Ljubno
+SVN_LOD,Log-Dragomer
+SVN_LSK,Loška dolina
+SVN_LSP,Loški potok
+SVN_MAJ,Majšperk
+SVN_MIS,Mislinja
+SVN_MOT,Mokronog-Trebelno
+SVN_MVT,Moravske Toplice
+SVN_NAZ,Nazarje
+SVN_OSI,Osilnica
+SVN_RAF,Rače-Fram
+SVN_RAZ,Razkrižje
+SVN_ROS,Rečica ob Savinji
+SVN_SPV,Šempeter-Vrtojba
+SVN_SET,Šentilj
+SVN_SEP,Šentrupert
+SVN_SJT,Šmarješke Toplice
+SVN_SVA,Sveta Ana
+SVN_STS,Sveta Trojica v Slovenskih goricah
+SVN_SNS,Sveti Andraž v Slovenskih goricah
+SVN_SJS,Sveti Jurij ob Ščavnici
+SVN_SJU,Sveti Jurij v Slovenskih goricah
+SVN_SVT,Sveti Tomaž
+MTL_FLY,Fleur-de-Lys
+MLT_ISR,Is-Swatar
+MLT_GWA,Gwardamanġa
+MLT_PAC,Paceville
+MLT_KAP,Il-Kappara
+MLT_XLE,Ix-Xlendi
+MLT_MSF,Marsalforn
+MLT_FAR,Ħal Farruġ
+MLT_BUB,Bubaqra
+MLT_SPE,St Peter's
+MLT_BIC,Baħar iċ-Ċagħaq
+MLT_BAH,Baħrija
+MLT_TVU,Tal-Virtù
+MLT_BUR,Burmarrad
+MLT_MDL,Il-Madliena
+CZE_BRQ,Brno
+SVK_MAC,Malacky
+SVK_PZK,Pezinok
+SVK_SNE,Senec
+SVK_DJA,Dunajská Streda
+SVK_GLT,Galanta
+SVK_HLO,Hlohovec
+SVK_PZY,Piešťany
+SVK_SEA,Senica
+SVK_SKA,Skalica
+SVK_TNA,Trnava
+SVK_BNB,Bánovce nad Bebravou
+SVK_ILV,Ilava
+SVK_MYJ,Myjava
+SVK_NMV,Nové Mesto nad Váhom
+SVK_PAR,Partizánske
+SVK_PBY,Považská Bystrica
+SVK_PZA,Prievidza
+SVK_PCV,Púchov
+SVK_TRE,Trenčín
+SVK_KNA,Komárno
+SVK_LVE,Levice
+SVK_NRA,Nitra
+SVK_NOV,Nové Zámky
+SVK_SLA,Šaľa
+SVK_TCY,Topoľčany
+SVK_ZLM,Zlaté Moravce
+SVK_BCA,Bytča
+SVK_CAD,Čadca
+SVK_DOK,Dolný Kubín
+SVK_KNM,Kysucké Nové Mesto
+SVK_LIM,Liptovský Mikuláš
+SVK_MRT,Martin
+SVK_NSO,Námestovo
+SVK_RZK,Ružomberok
+SVK_TUT,Turčianske Teplice
+SVK_TVR,Tvrdošín
+SVK_ILZ,Žilina
+SVK_BBY,Banská Bystrica
+SVK_SZN,Banská Štiavnica
+SVK_BZO,Brezno
+SVK_DTA,Detva
+SVK_KRU,Krupina
+SVK_LUE,Lučenec
+SVK_PLT,Poltár
+SVK_REV,Revúca
+SVK_RST,Rimavská Sobota
+SVK_VKS,Veľký Krtíš
+SVK_ZVN,Zvolen
+SVK_ZAR,Žarnovica
+SVK_ZIA,Žiar nad Hronom
+SVK_GLA,Gelnica
+SVK_MHC,Michalovce
+SVK_ROZ,Rožňava
+SVK_SOB,Sobrance
+SVK_SNV,Spišská Nová Ves
+SVK_TEB,Trebišov
+SVK_BDV,Bardejov
+SVK_HNE,Humenné
+SVK_KZK,Kežmarok
+SVK_VOA,Levoča
+SVK_MEZ,Medzilaborce
+SVK_POP,Poprad
+SVK_POV,Prešov
+SVK_SAB,Sabinov
+SVK_SNA,Snina
+SVK_SLB,Stará Ľubovňa
+SVK_SPV,Stropkov
+SVK_SVK,Svidník
+SVK_VRA,Vranov nad Topľou
+BGR_ARD,Ardino
+BGR_AND,Asenovgrad
+BGR_AIO,Aitos
+BGR_BAL,Balchik
+BGR_BDK,Belogradchik
+BGR_BRK,Berkovitsa
+BGR_BRF,Botevgrad
+BGR_BRZ,Breznik
+BGR_BYL,Byala
+BGR_BSL,Byala Slatina
+BGR_CPA,Chepelare
+BGR_CHV,Cherven Bryag
+BGR_CPW,Chirpan
+BGR_DEV,Devin
+BGR_DNJ,Devnya
+BGR_DTG,Dimitrovgrad
+BGR_DNV,Dryanovo
+BGR_DLV,Dulovo
+BGR_DUP,Dupnitsa
+BGR_ELE,Elena
+BGR_EHO,Elhovo
+BGR_EPE,Elin Pelin
+BGR_ETS,Etropole
+BGR_GAL,Galabovo
+BGR_TOS,General Toshevo
+BGR_GOZ,Gorna Oryahovitsa
+BGR_GDU,Gotse Delchev
+BGR_HRM,Harmanli
+BGR_IHT,Ihtiman
+BGR_ISP,Isperih
+BGR_IVL,Ivailovgrad
+BGR_KVO,Karlovo
+BGR_KBT,Karnobat
+BGR_KVN,Kavarna
+BGR_KZK,Kazanlak
+BGR_KNE,Knezha
+BGR_KBR,Kostinbrod
+BGR_KOT,Kotel
+BGR_KOZ,Kozloduy
+BGR_KRU,Krumovgrad
+BGR_KUB,Kubrat
+BGR_KUL,Kula
+BGR_LSD,Levski
+BGR_LOM,Lom
+BGR_LUK,Lukovit
+BGR_MAD,Madan
+BGR_MTI,Malko Tarnovo
+BGR_MEZ,Mezdra
+BGR_MOT,Momchilgrad
+BGR_NES,Nesebar
+BGR_NPO,Nikopol
+BGR_NZG,Nova Zagora
+BGR_NPZ,Novi Pazar
+BGR_OMU,Omurtag
+BGR_OKH,Oryahovo
+BGR_PPE,Panagyurishte
+BGR_PVM,Parvomay
+BGR_PIV,Pavlikeni
+BGR_PEC,Peshtera
+BGR_PEG,Petrich
+BGR_PIR,Pirdop
+BGR_POR,Pomorie
+BGR_POK,Popovo
+BGR_PDA,Provadia
+BGR_RDV,Radnevo
+BGR_RDI,Radomir
+BGR_RAZ,Razlog
+BGR_SAM,Samokov
+BGR_SDM,Sandanski
+BGR_SLU,Sevlievo
+BGR_SLN,Slivnitsa
+BGR_SDE,Sredets
+BGR_SWG,Svilengrad
+BGR_SVZ,Svishtov
+BGR_SVG,Svoge
+BGR_TER,Tervel
+BGR_TTV,Teteven
+BGR_TGA,Topolovgrad
+BGR_TRN,Tran
+BGR_TRY,Troyan
+BGR_TRA,Tryavna
+BGR_TRV,Tsarevo
+BGR_TRP,Tutrakan
+BGR_VEP,Veliki Preslav
+BGR_VLE,Velingrad
+BGR_ZLH,Zlatograd
+DNK_AAB,Aabenraa
+DNK_AAL,Aalborg
+DNK_ASN,Assens
+DNK_BHL,Bornholm
+DNK_BSU,Brædstrup
+DNK_BRY,Brøndby
+DNK_BRO,Brønderslev
+DNK_EBJ,Esbjerg
+DNK_FAA,Faaborg
+DNK_FJV,Fjerittslev
+DNK_FRC,Fredericia
+DNK_FBG,Frederiksberg
+DNK_FDH,Frederikshavn
+DNK_FDS,Frederikssund
+DNK_GFE,Gentofte
+DNK_GLX,Gladsaxe
+DNK_GLS,Glostrup
+DNK_GRA,Gråsten
+DNK_GRE,Grenaa
+DNK_GRN,Grindsted
+DNK_HAD,Haderslev
+DNK_HEL,Helsinge
+DNK_HER,Herning
+DNK_HIL,Hillerød
+DNK_HJG,Hjørring
+DNK_HBO,Hobro
+DNK_HBK,Holbæk
+DNK_HSB,Holstebro
+DNK_HST,Holsted
+DNK_HOR,Horsens
+DNK_HHM,Hørsholm
+DNK_HVV,Hvidovre
+DNK_KAL,Kalundborg
+DNK_KTP,Kastrup
+DNK_KJE,Kjellerup
+DNK_BLP,Ballerup
+DNK_KOG,Køge
+DNK_KOL,Kolding
+DNK_KRR,Korsør
+DNK_LVG,Lemvig
+DNK_LYN,Lyngby
+DNK_MRR,Mariager
+DNK_MRV,Maribo
+DNK_MID,Middelfart
+DNK_NVD,Næstved
+DNK_NAK,Nakskov
+DNK_NIB,Nibe
+DNK_NBG,Nyborg
+DNK_NYF,Nykøbing F.
+DNK_NYM,Nykøbing Mors
+DNK_N3S,Nykøbing Sjælland
+DNK_ODE,Odense
+DNK_RAN,Randers
+DNK_RIB,Ribe
+DNK_RKG,Ringkøbing
+DNK_RNG,Ringsted
+DNK_RDG,Rødding
+DNK_RDV,Rødovre
+DNK_RNN,Rønne
+DNK_RKE,Roskilde
+DNK_RKB,Rudkøbing
+DNK_SAE,Sæby
+DNK_SLB,Silkeborg
+DNK_SKG,Skanderborg
+DNK_SKV,Skive
+DNK_SKJ,Skjern
+DNK_SLG,Slagelse
+DNK_SGD,Sønderborg
+DNK_SRO,Sorø
+DNK_SH6,Store Heddinge
+DNK_STR,Struer
+DNK_SVE,Svendborg
+DNK_TAA,Taastrup
+DNK_TER,Terndrup
+DNK_TED,Thisted
+DNK_TON,Tønder
+DNK_VDE,Varde
+DNK_VEJ,Vejle
+DNK_VIB,Viborg
+DNK_VOR,Vordingborg
+GRL_JJU,Julianehåb
+GRL_JHS,Holsteinsborg
+GRL_JAV,Jakobshavn
+DEU_EGG,Eggenfelden
+IRL_GWY,Galway
+NLD_BRX,Bergen
+POL_KOS,Kościerzyna
+USA_NUQ,Mountain View
+USA_BOS,Boston
+HUN_AJK,Ajka
+HUN_BAA,Baja
+HUN_BAL,Balassagyarmat
+HUN_HAN,Barcs
+HUN_BON,Bonyhád
+HUN_BUA,Budaörs
+HUN_CEG,Cegléd
+HUN_HAC,Dabas
+HUN_DOB,Dombóvár
+HUN_DKZ,Dunakeszi
+HUN_ENC,Encs
+HUN_EST,Esztergom
+HUN_FGA,Fehérgyarmat
+HUN_FUY,Füzesabony
+HUN_GDL,Gödöllő
+HUN_GGY,Gyöngyös
+HUN_GYU,Gyula
+HUN_HAJ,Hajdúböszörmény
+HUN_HAT,Hatvan
+HUN_JAS,Jászberény
+HUN_KCO,Kalocsa
+HUN_KAR,Karcag
+HUN_KAZ,Kazincbarcika
+HUN_KEZ,Keszthely
+HUN_KKS,Kiskőrös
+HUN_KIS,Kiskunfélegyháza
+HUN_KSK,Kiskunhalas
+HUN_KIA,Kisvárda
+HUN_KOM,Komárom
+HUN_KOR,Körmend
+HUN_KOS,Kőszeg
+HUN_KZT,Kunszentmárton
+HUN_KZM,Kunszentmiklós
+HUN_LEN,Lenti
+HUN_MKO,Makó
+HUN_MAR,Marcali
+HUN_MAT,Mátészalka
+HUN_MEZ,Mezőkövesd
+HUN_MZO,Mezőtúr
+HUN_MOH,Mohács
+HUN_MON,Monor
+HUN_MNM,Mosonmagyaróvár
+HUN_NGT,Nagyatád
+HUN_NAA,Nagykáta
+HUN_NKS,Nagykőrös
+HUN_NBR,Nyírbátor
+HUN_ORS,Orosháza
+HUN_OZD,Ózd
+HUN_PAK,Paks
+HUN_PAP,Pápa
+HUN_PAS,Pásztó
+HUN_RAA,Ráckeve
+HUN_SVR,Sárvár
+HUN_SAT,Sátoraljaújhely
+HUN_SIK,Siklós
+HUN_SIO,Siófok
+HUN_SVS,Szarvas
+HUN_SHA,Szeghalom
+HUN_SZS,Szentes
+HUN_SZC,Szerencs
+HUN_SZI,Szigetvár
+HUN_SZ2,Szikszó
+HUN_TMS,Tamási
+HUN_TAP,Tapolca
+HUN_TAT,Tata
+HUN_TFD,Tiszafüred
+HUN_TZS,Tiszaújváros
+HUN_VAC,Vác
+HUN_VSY,Vásárosnamény
+HUN_ZRC,Zirc
+HUN_BAT,Battonya
+HUN_FON,Fonyód
+HUN_HSZ,Hajdúszoboszló
+HUN_KLO,Komló
+HUN_PPL,Püspökladány
+IRL_LOG,Loughlinstown
+LBY_JAZ,Janzur
+SWE_SOL,Solna
+AUS_YRL,Yarralumla
+HKG_CL4,Hong Kong Central
+NGA_GRK,Garki
+ITA_OTA,Prato
+ROU_TSR,Timisoara
+GRC_FLS,Elefsina
+SRB_NVS,Novi Sad
+FRA_CXP,Carhaix-Plouguer
+VAT_VAT,Cidade do Vaticano
+NLD_BUU,Burum
+BDI_GID,Guitega
+AUS_ADL,Adelaide
+MAR_AGA,Agadir
+IND_AMD,Ahmedabad
+EGY_ALY,Alexandria
+AUS_ASP,Alice Springs
+CHE_ASW,Allschwil
+DZA_AAE,Annaba
+TUR_AYT,Antália
+CHL_ANF,Antofagasta
+CHL_ARI,Arica
+NZL_AKL,Auckland
+USA_AUS,Austin
+ARG_BHI,Bahía Blanca
+MDA_BEL,Bălți
+BIH_BNX,Banja Luka
+GNQ_BSG,Bata
+MOZ_BEW,Beira
+BRA_BEL,Belém
+BLZ_BZE,Belize City
+BRA_BHZ,Belo Horizonte
+IND_BLR,Bangalore
+MKD_BTL,Bitola
+BLR_BQT,Brest
+AUS_BNE,Brisbane
+MDA_CAH,Cahul
+AUS_CNS,Cairns
+CAN_CAL,Calgary
+MEX_CUN,Cancún
+COL_CTG,Cartagena
+MAR_CAS,Casablanca
+IND_IXC,Chandigarh
+CHN_CDU,Chengdu
+IND_MAA,Chennai
+UKR_CWC,Chernivtsi
+CHN_CQI,Chongqing
+USA_CLE,Cleveland
+CHL_CNP,Concepción
+ARG_COR,Córdoba
+BRA_CWB,Curitiba
+AUS_DRW,Darwin
+USA_DEN,Denver
+UKR_DOK,Donetsk
+CMR_DLA,Douala
+ARE_DXB,Dubai
+ZAF_DUR,Durban
+CAN_EDM,Edmonton
+IRQ_EBL,Erbil
+MAR_FEZ,Fez
+BRA_FOR,Fortaleza
+BLR_GDO,Grodno
+MEX_GDL,Guadalajara
+CHN_GGZ,Guangzhou
+ECU_GYE,Guayaquil
+ISR_HFA,Haifa
+CAN_HAL,Halifax
+VNM_SGN,Ho Chi Minh City
+AUS_HBA,Hobart
+IND_HYD,Hyderabad
+CHL_IQQ,Iquique
+RUS_IKT,Irkutsk
+TUR_IZM,Izmir
+SAU_JED,Jeddah
+ZAF_JNB,Johannesburg
+RUS_KGD,Kaliningrad
+PAK_KHI,Karachi
+UKR_KIV,Kharkiv
+IND_CCU,Kolkata
+MNE_KOT,Kotor
+CHL_LSC,La Serena
+BIH_LVO,Livno
+COD_FBM,Lubumbashi
+UKR_UCK,Lutsk
+UKR_LVV,Lviv
+AUS_MKY,Mackay
+ARG_MDQ,Mar del Plata
+IDN_MES,Medan
+AUS_MEL,Melbourne
+ARG_MDZ,Mendoza
+CAN_MIS,Mississauga
+CAN_MNT,Moncton
+MEX_MTY,Monterrey
+BIH_OMO,Mostar
+IND_BOM,Mumbai
+RUS_MMK,Murmansk
+USA_NBD,New Bedford
+USA_EWR,Newark
+RUS_OVB,Novosibirsk
+UKR_ODS,Odesa
+USA_PAO,Palo Alto
+IND_PNJ,Panaji
+AUS_PER,Perth
+RUS_PES,Petrozavodsk
+COG_PNR,Pointe Noire
+IND_PNY,Pondicherry
+ZAF_PLZ,Port Elizabeth
+BRA_POA,Porto Alegre
+USA_PVD,Providence
+RUS_PKV,Pskov
+CHL_PMC,Puerto Montt
+CHL_PUQ,Punta Arenas
+CAN_QUE,Quebec City
+BRA_REC,Recife
+CAN_REG,Regina
+ARG_ROS,Rosario
+RUS_RND,Rostov-on-Don
+BRA_SSA,Salvador
+USA_SJC,San Jose
+BOL_SRZ,Santa Cruz de la Sierra
+BRA_SAO,São Paulo
+CHN_SHY,Shenyang
+RUS_LNX,Smolensk
+RUS_SSK,Sovetsk
+SRB_SUB,Subotica
+AUS_SYD,Sydney
+ISR_TLV,Tel Aviv
+CHL_ZCO,Temuco
+AUS_TSV,Townsville
+BIH_TZL,Tuzla
+MDA_UNG,Ungheni
+UKR_UHH,Uzhhorod
+CHL_ZAL,Valdivia
+CHL_VAP,Valparaiso
+CAN_VAN,Vancouver
+UKR_VIN,Vinnytsia
+BLR_VTB,Vitebsk
+BIH_VIT,Vitez
+SRB_VRS,Vršac
+CAN_WNP,Winnipeg
+CHN_NHN,Wuhan
+RUS_YEK,Yekaterinburg
+SRB_ZAJ,Zaječar
+IDN_SUB,Surabaya
