@@ -122,17 +122,15 @@ server = app.server
 app.layout = html.Div([
 
     html.H1("Metadata JSON Generator"),
-    html.Div("Preencha todos os campos com a informação relativa ao ficheiro para o qual quer gerar um ficheiro de metadados e, quando terminar, dê um nome ao ficheiro e submeta a informação."),
-    html.Div("Escreva o nome do ficheiro de metadados"),
+    html.Div("Fill out all the fields with information related with the file that you want to generate a metadata file for. When you are done, name the metada file and download the information."),
+    html.Div("Write the name of the metadata file"),
     dcc.Input(
         id="filename",
-        placeholder="Nome do ficheiro",
+        placeholder="File name",
         type="text",
         value=""
     ),
-    #html.Button("Submit Final",id="button_submit"),
-    #html.Div(id="div_final"),
-    html.Button("Download ficheiro", id="button_download"),
+    html.Button("Download file", id="button_download"),
     dcc.Download(id="download"),
     dcc.Tabs(
         id="tabs",
@@ -142,10 +140,10 @@ app.layout = html.Div([
                 label="Agent",
                 value="agent",
                 children=[
-                    html.Div("Indique o nome da entidade responsável por disponibilizar o dataset"),
+                    html.Div("Write the name of the entitiy responsible for making the dataset available"),
                     dcc.Input(
                         id="agent",
-                        placeholder="Agente",
+                        placeholder="Agent",
                         type="text",
                         value=""
                     ),
@@ -157,10 +155,10 @@ app.layout = html.Div([
                 label="Contact Point",
                 value="contact_point",
                 children=[
-                    html.Div("Indique um e-mail a contactar caso haja comentários ou dúvidas quanto ao dataset"),
+                    html.Div("Write a contact e-mail in case there are comments or doubts regarding the dataset"),
                     dcc.Input(
                         id="contact_point",
-                        placeholder="Ponto de contacto",
+                        placeholder="Contact point",
                         type="email",
                         value=""
                     ),
@@ -172,55 +170,55 @@ app.layout = html.Div([
                 label="Dataset",
                 value="dataset",
                 children=[
-                    html.Div("Título do dataset"),
+                    html.Div("Dataset title"),
                     dcc.Input(
                         id="title_dataset",
-                        placeholder="Título",
+                        placeholder="Title",
                         type="text",
                         value=""
                     ),
-                    html.Div("Descrição do dataset"),
+                    html.Div("Dataset description"),
                     dcc.Textarea(
                         id="description_dataset",
-                        placeholder="Descrição",
+                        placeholder="Description",
                         value=""
                     ),
-                    html.Div("Indique palavras-chave relacionadas com o dataset (separadas por vírgulas)"),
+                    html.Div("Write keywords related to the dataset (separated by commas)"),
                     dcc.Textarea(
                         id="keywords",
-                        placeholder="Palavras-chave",
+                        placeholder="Keywords",
                         value=""
                     ),
-                    html.Div("Selecione o tema do dataset"),
+                    html.Div("Select the dataset's theme"),
                     dcc.Dropdown(
                         id="theme",
                         options=theme_options,
-                        placeholder="Tema"
+                        placeholder="Theme"
                     ),
-                    html.Div("Selecione o tipo de acesso do dataset"),
+                    html.Div("Select the dataset's access rights"),
                     dcc.Dropdown(
                         id="access_right",
                         options=access_right_options,
-                        placeholder="Acesso"
+                        placeholder="Acess"
                     ),
-                    html.Div("Selecione a periodicidade com que o dataset é atualizado"),
+                    html.Div("Select the dataset's update frequency"),
                     dcc.Dropdown(
                         id="frequency",
                         options=frequencies_options,
-                        placeholder="Periodicidade"
+                        placeholder="Frequency"
                     ),
-                    html.Div("Selecione a língua do dataset"),
+                    html.Div("Select the dataset's language"),
                     dcc.Dropdown(
                         id="language_dataset",
                         options=languages_options,
-                        placeholder="Língua"
+                        placeholder="Langugage"
                     ),
-                    html.Div("Data de publicação do dataset"),
+                    html.Div("Date when the dataset was issued"),
                     dcc.DatePickerSingle(
                         id="issued_dataset",
                         date=datetime.today(),
                     ),
-                    html.Div("Data da última atualização do dataset"),
+                    html.Div("Date when the dataset was most recently modified"),
                     dcc.DatePickerSingle(
                         id="modified_dataset",
                         date=datetime.today(),
@@ -233,58 +231,58 @@ app.layout = html.Div([
                 label="Distribution",
                 value="distribution",
                 children=[
-                    html.Div("Título da distribuição"),
+                    html.Div("Distribution title"),
                     dcc.Input(
                         id="title_distribution",
-                        placeholder="Título",
+                        placeholder="Title",
                         type="text",
                         value=""
                     ),
-                    html.Div("Descrição da distribuição"),
+                    html.Div("Distribution description"),
                     dcc.Textarea(
                         id="description_distribution",
-                        placeholder="Descrição",
+                        placeholder="Description",
                         value=""
                     ),
-                    html.Div("Link de acesso à distribuição"),
+                    html.Div("URL to access the distribution"),
                     dcc.Input(
                         id="accessURL",
-                        placeholder="URL de acesso",
+                        placeholder="Access URL",
                         type="url",
                         value=""
                     ),
-                    html.Div("Link para download da distribuição"),
+                    html.Div("URL to download the distribution"),
                     dcc.Input(
                         id="downloadURL",
-                        placeholder="URL de download",
+                        placeholder="Download URL",
                         type="url",
                         value=""
                     ),
-                    html.Div("Selecione o formato da distribuição"),
+                    html.Div("Select the distribution's format"),
                     dcc.Dropdown(
                         id="format",
                         options=filetypes_options,
-                        placeholder="Formato"
+                        placeholder="Format"
                     ),
-                    html.Div("Tamanho da distribuição em bytes"),
+                    html.Div("Distribution size in bytes"),
                     dcc.Input(
                         id="byteSize",
-                        placeholder="Tamanho em bytes",
+                        placeholder="Byte size",
                         type="number",
                         value=""
                     ),
-                    html.Div("Selecione a língua da distribuição"),
+                    html.Div("Select the dataset's language"),
                     dcc.Dropdown(
                         id="language_distribution",
                         options=languages_options,
-                        placeholder="Língua"
+                        placeholder="Language"
                     ),
-                    html.Div("Data de publicação da distribuição"),
+                    html.Div("Date when the distribution was issued"),
                     dcc.DatePickerSingle(
                         id="issued_distribution",
                         date=datetime.today(),
                     ),
-                    html.Div("Data da última atualização da distribuição"),
+                    html.Div("Date when the distribution was most recently modified"),
                     dcc.DatePickerSingle(
                         id="modified_distribution",
                         date=datetime.today(),
@@ -297,11 +295,11 @@ app.layout = html.Div([
                 label="License Document",
                 value="license_document",
                 children=[
-                    html.Div("Selecione o tipo de licensa do dataset"),
+                    html.Div("Select the dataset's license type"),
                     dcc.Dropdown(
                         id="license",
                         options=licenses_options,
-                        placeholder="Licensa"
+                        placeholder="License"
                     ),
                     html.Button("Submit",id="button_license",n_clicks=0),
                     html.Div(id="div_license")
@@ -311,25 +309,25 @@ app.layout = html.Div([
                 label="Location",
                 value="location",
                 children=[
-                    html.Div("Selecione o tipo localização do dataset"),
+                    html.Div("Select the dataset's location type"),
                     dcc.Tabs(
                         id="location_tabs",
                         value="coordinates",
                         children=[
                             dcc.Tab(
-                                label="Coordenadas",
+                                label="Coordinates",
                                 value="coordinates",
                                 children=[
-                                    html.Div("Indique as coordenadas da fronteira do local descrito pelo dataset"),
+                                    html.Div("Write the coordinates of the bounding box of the location described by the dataset"),
                                     dcc.Textarea(
                                         id="bbox",
-                                        placeholder="Coordenadas da fronteira",
+                                        placeholder="Bounding box coordinates",
                                         value=""
                                     ),
-                                    html.Div("Indique as coordenadas do centróide do local descrito pelo dataset"),
+                                    html.Div("Write the coordinates of the centroid of the location described by the dataset"),
                                     dcc.Input(
                                         id="centroid",
-                                        placeholder="Coordenadas do centróide",
+                                        placeholder="Centroid coordinates",
                                         value="",
                                         type="text"
                                     ),
@@ -337,40 +335,40 @@ app.layout = html.Div([
                                 ]
                             ),
                             dcc.Tab(
-                                label="Continente",
+                                label="Continent",
                                 value="continents",
                                 children=[
-                                    html.Div("Selecione o continente a que o dataset se refere"),
+                                    html.Div("Select the continent that the dataset refers to"),
                                     dcc.Dropdown(
                                         id="continent",
                                         options=continents_options,
-                                        placeholder="Continente"
+                                        placeholder="Continent"
                                     ),
                                     html.Div(id="div_location_continents")
                                 ]
                             ),
                             dcc.Tab(
-                                label="País",
+                                label="Country",
                                 value="countries",
                                 children=[
-                                    html.Div("Selecione o país a que o dataset se refere"),
+                                    html.Div("Select the country that the dataset refers to"),
                                     dcc.Dropdown(
                                         id="country",
                                         options=countries_options,
-                                        placeholder="País"
+                                        placeholder="Country"
                                     ),
                                     html.Div(id="div_location_countries")
                                 ]
                             ),
                             dcc.Tab(
-                                label="Sítio",
+                                label="Place",
                                 value="places",
                                 children=[
-                                    html.Div("Selecione o sítio a que o dataset se refere"),
+                                    html.Div("Select the place that the dataset refers to"),
                                     dcc.Dropdown(
                                         id="place",
                                         options=places_options,
-                                        placeholder="Sítio"
+                                        placeholder="Place"
                                     ),
                                     html.Div(id="div_location_places")
                                 ]
@@ -384,12 +382,12 @@ app.layout = html.Div([
                 label="Period of Time",
                 value="period_of_time",
                 children=[
-                    html.Div("Início do período descrito pelo dataset"),
+                    html.Div("Start of the period of time described by the dataset"),
                     dcc.DatePickerSingle(
                         id="startDate",
                         date=datetime.today(),
                     ),
-                    html.Div("Fim do período descrito pelo dataset"),
+                    html.Div("End of the period of time described by the dataset"),
                     dcc.DatePickerSingle(
                         id="endDate",
                         date=datetime.today(),
@@ -424,7 +422,7 @@ def agent_json(agent,n_clicks):
         with open("agent.json", "w") as outfile:
             json.dump(agent_meta, outfile)
 
-        return "Submetido"
+        return "Submitted"
         #return str(agent_meta)
 
 @app.callback(
@@ -446,7 +444,7 @@ def contact_point_json(contact_point,n_clicks):
         with open("contact_point.json", "w") as outfile:
             json.dump(contact_point_meta, outfile)
 
-        return "Submetido"
+        return "Submitted"
         #return str(contact_point_meta)
 
 @app.callback(
@@ -485,7 +483,7 @@ def dataset_json(title,description,keywords,theme,access_right,frequency,languag
             with open("dataset.json", "w") as outfile:
                 json.dump(dataset_meta, outfile)
         
-            return "Submetido"
+            return "Submitted"
             #return str(dataset_meta)
 
 @app.callback(
@@ -525,7 +523,7 @@ def distribution_json(title,description,accessURL,downloadURL,format,byteSize,la
             with open("distribution.json", "w") as outfile:
                 json.dump(distribution_meta, outfile)
         
-            return "Submetido"
+            return "Submitted"
             #return str(distribution_meta)
 
 @app.callback(
@@ -548,7 +546,7 @@ def license_json(license,n_clicks):
             with open("license.json", "w") as outfile:
                 json.dump(license_meta, outfile)
 
-            return "Submetido"
+            return "Submitted"
             #return str(license_meta)
 
 @app.callback(
@@ -572,7 +570,7 @@ def period_of_time_json(startDate,endDate,n_clicks):
         with open("period_of_time.json", "w") as outfile:
             json.dump(period_of_time_meta, outfile)
 
-        return "Submetido"
+        return "Submitted"
         #return str(period_of_time_meta)
 
 @app.callback(
@@ -596,7 +594,7 @@ def location_coordinates_json(bbox,centroid,n_clicks):
         with open("location.json", "w") as outfile:
             json.dump(location_meta, outfile)
 
-        return "Submetido"
+        return "Submitted"
         #return str(location_meta)
 
 @app.callback(
@@ -619,7 +617,7 @@ def location_coordinates_json(continent,n_clicks):
             with open("location.json", "w") as outfile:
                 json.dump(location_meta, outfile)
 
-            return "Submetido"
+            return "Submitted"
             #return str(location_meta)
 
 @app.callback(
@@ -642,7 +640,7 @@ def location_countries_json(country,n_clicks):
             with open("location.json", "w") as outfile:
                 json.dump(location_meta, outfile)
 
-            return "Submetido"
+            return "Submitted"
             #return str(location_meta)
 
 @app.callback(
@@ -665,7 +663,7 @@ def location_places_json(place,n_clicks):
             with open("location.json", "w") as outfile:
                 json.dump(location_meta, outfile)
 
-            return "Submetido"
+            return "Submitted"
             #return str(location_meta)
 
 @app.callback(
