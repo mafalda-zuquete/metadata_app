@@ -10,7 +10,7 @@ import json
 from datetime import datetime
 
 #data theme
-with open('Vocabularies\data-theme.xml','r') as f:
+with open('Vocabularies/data-theme.xml','r') as f:
     data_theme = f.read()
 
 data_theme_bs = BeautifulSoup(data_theme, 'xml')
@@ -113,7 +113,7 @@ for frequency in frequencies_zip:
     frequencies_options.append(frequencies_dict)
 
 #languages
-with open("Vocabularies\languages.xml",'r') as f:
+with open("Vocabularies/languages.xml",'r') as f:
     languages = f.read()
 
 languages_bs = BeautifulSoup(languages, 'xml')
@@ -184,7 +184,7 @@ for filetype in filetypes_zip_2:
     file_mediatypes[filetype[0]] = filetype[1]
 
 #licenses
-with open("Vocabularies\licences.xml",'r') as f:
+with open("Vocabularies/licences.xml",'r') as f:
     licenses = f.read()
 
 licenses_bs = BeautifulSoup(licenses, 'xml')
@@ -220,7 +220,7 @@ for license in licenses_zip:
     licenses_options.append(licenses_dict)
 
 #countries
-with open('Vocabularies\countries.xml','r') as f:
+with open('Vocabularies/countries.xml','r') as f:
     countries = f.read()
 
 countries_bs = BeautifulSoup(countries, 'xml')
@@ -240,7 +240,7 @@ for country in countries_zip:
     countries_options.append(countries_dict)
 
 #continents
-with open('Vocabularies\continents.xml','r') as f:
+with open('Vocabularies/continents.xml','r') as f:
     continents = f.read()
 
 continents_bs = BeautifulSoup(continents, 'xml')
@@ -260,7 +260,7 @@ for continent in continents_zip:
     continents_options.append(continents_dict)
 
 #places
-with open('Vocabularies\places.xml','r') as f:
+with open('Vocabularies/places.xml','r') as f:
     places = f.read()
 
 places_bs = BeautifulSoup(places, 'xml')
