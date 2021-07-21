@@ -10,61 +10,61 @@ import json
 from datetime import datetime
 
 #data theme
-data_theme_df = pd.read_csv('data-theme.csv')
+data_theme_df = pd.read_csv("data-theme.csv")
 
-theme_zip = zip(data_theme_df['code'],data_theme_df['label'])
+theme_zip = zip(data_theme_df["code"],data_theme_df["label"])
 
 theme_options = []
 
 for theme in theme_zip:
-    theme_dict = {'label':theme[1],'value':theme[0]}
+    theme_dict = {"label":theme[1],"value":theme[0]}
     theme_options.append(theme_dict)
 
 #access right
-access_right_df = pd.read_csv('access-right.csv')
+access_right_df = pd.read_csv("access-right.csv")
 
-access_right_zip = zip(access_right_df['code'],access_right_df['name'])
+access_right_zip = zip(access_right_df["code"],access_right_df["name"])
 
 access_right_options = []
 
 for access in access_right_zip:
-    access_right_dict = {'label':access[1],'value':access[0]}
+    access_right_dict = {"label":access[1],"value":access[0]}
     access_right_options.append(access_right_dict)
 
 #frequencies
-frequencies_df = pd.read_csv('frequencies.csv')
+frequencies_df = pd.read_csv("frequencies.csv")
 
-frequencies_zip = zip(frequencies_df['code'],frequencies_df['name'])
+frequencies_zip = zip(frequencies_df["code"],frequencies_df["name"])
 
 frequencies_options = []
 
 for frequency in frequencies_zip:
-    frequencies_dict = {'label':frequency[1],'value':frequency[0]}
+    frequencies_dict = {"label":frequency[1],"value":frequency[0]}
     frequencies_options.append(frequencies_dict)
 
 #languages
-languages_df = pd.read_csv('languages.csv')
+languages_df = pd.read_csv("languages.csv")
 
-languages_zip = zip(languages_df['code'],languages_df['name'])
+languages_zip = zip(languages_df["code"],languages_df["name"])
 
 languages_options = []
 
 for language in languages_zip:
-    languages_dict = {'label':language[1],'value':language[0]}
+    languages_dict = {"label":language[1],"value":language[0]}
     languages_options.append(languages_dict)
 
 #filetypes
-filetypes_df = pd.read_csv('filetypes.csv')
+filetypes_df = pd.read_csv("filetypes.csv")
 
-filetypes_zip = zip(filetypes_df['code'],filetypes_df['name'])
+filetypes_zip = zip(filetypes_df["code"],filetypes_df["name"])
 
 filetypes_options = []
 
 for filetype in filetypes_zip:
-    filetypes_dict = {'label':filetype[1],'value':filetype[0]}
+    filetypes_dict = {"label":filetype[1],"value":filetype[0]}
     filetypes_options.append(filetypes_dict)
 
-filetypes_zip_2 = zip(filetypes_df['code'],filetypes_df['mediaType'])
+filetypes_zip_2 = zip(filetypes_df["code"],filetypes_df["mediaType"])
 
 file_mediatypes = {}
 
@@ -72,47 +72,47 @@ for filetype in filetypes_zip_2:
     file_mediatypes[filetype[0]] = filetype[1]
 
 #licenses
-licenses_df = pd.read_csv('licenses.csv')
+licenses_df = pd.read_csv("licenses.csv")
 
-licenses_zip = zip(licenses_df['code'],licenses_df['name'])
+licenses_zip = zip(licenses_df["code"],licenses_df["name"])
 
 licenses_options = []
 
 for license in licenses_zip:
-    licenses_dict = {'label':license[1],'value':license[0]}
+    licenses_dict = {"label":license[1],"value":license[0]}
     licenses_options.append(licenses_dict)
 
 #countries
-countries_df = pd.read_csv('countries.csv')
+countries_df = pd.read_csv("countries.csv")
 
-countries_zip = zip(countries_df['code'],countries_df['name'])
+countries_zip = zip(countries_df["code"],countries_df["name"])
 
 countries_options = []
 
 for country in countries_zip:
-    countries_dict = {'label':country[1],'value':country[0]}
+    countries_dict = {"label":country[1],"value":country[0]}
     countries_options.append(countries_dict)
 
 #continents
-continents_df = pd.read_csv('continents.csv')
+continents_df = pd.read_csv("continents.csv")
 
-continents_zip = zip(continents_df['code'],continents_df['name'])
+continents_zip = zip(continents_df["code"],continents_df["name"])
 
 continents_options = []
 
 for continent in continents_zip:
-    continents_dict = {'label':continent[1],'value':continent[0]}
+    continents_dict = {"label":continent[1],"value":continent[0]}
     continents_options.append(continents_dict)
 
 #places
-places_df = pd.read_csv('places.csv')
+places_df = pd.read_csv("places.csv")
 
-places_zip = zip(places_df['code'],places_df['name'])
+places_zip = zip(places_df["code"],places_df["name"])
 
 places_options = []
 
 for place in places_zip:
-    places_dict = {'label':place[1],'value':place[0]}
+    places_dict = {"label":place[1],"value":place[0]}
     places_options.append(places_dict)
 
 app = dash.Dash(__name__)
@@ -121,281 +121,281 @@ server = app.server
 
 app.layout = html.Div([
 
-    html.H1('Metadata JSON Generator'),
-    html.Div('Preencha todos os campos com a informação relativa ao ficheiro para o qual quer gerar um ficheiro de metadados e, quando terminar, dê um nome ao ficheiro e submeta a informação.'),
-    html.Div('Escreva o nome do ficheiro de metadados'),
+    html.H1("Metadata JSON Generator"),
+    html.Div("Preencha todos os campos com a informação relativa ao ficheiro para o qual quer gerar um ficheiro de metadados e, quando terminar, dê um nome ao ficheiro e submeta a informação."),
+    html.Div("Escreva o nome do ficheiro de metadados"),
     dcc.Input(
-        id='filename',
-        placeholder='Nome do ficheiro',
-        type='text',
-        value=''
+        id="filename",
+        placeholder="Nome do ficheiro",
+        type="text",
+        value=""
     ),
-    #html.Button('Submit Final',id='button_submit'),
-    #html.Div(id='div_final'),
-    html.Button('Download ficheiro', id='button_download'),
-    dcc.Download(id='download'),
+    #html.Button("Submit Final",id="button_submit"),
+    #html.Div(id="div_final"),
+    html.Button("Download ficheiro", id="button_download"),
+    dcc.Download(id="download"),
     dcc.Tabs(
-        id='tabs',
-        value='agent',
+        id="tabs",
+        value="agent",
         children=[
             dcc.Tab(
-                label='Agent',
-                value='agent',
+                label="Agent",
+                value="agent",
                 children=[
-                    html.Div('Indique o nome da entidade responsável por disponibilizar o dataset'),
+                    html.Div("Indique o nome da entidade responsável por disponibilizar o dataset"),
                     dcc.Input(
-                        id='agent',
-                        placeholder='Agente',
-                        type='text',
-                        value=''
+                        id="agent",
+                        placeholder="Agente",
+                        type="text",
+                        value=""
                     ),
-                    html.Button('Submit',id='button_agent',n_clicks=0),
-                    html.Div(id='div_agent')
+                    html.Button("Submit",id="button_agent",n_clicks=0),
+                    html.Div(id="div_agent")
                 ]
             ),
             dcc.Tab(
-                label='Contact Point',
-                value='contact_point',
+                label="Contact Point",
+                value="contact_point",
                 children=[
-                    html.Div('Indique um e-mail a contactar caso haja comentários ou dúvidas quanto ao dataset'),
+                    html.Div("Indique um e-mail a contactar caso haja comentários ou dúvidas quanto ao dataset"),
                     dcc.Input(
-                        id='contact_point',
-                        placeholder='Ponto de contacto',
-                        type='email',
-                        value=''
+                        id="contact_point",
+                        placeholder="Ponto de contacto",
+                        type="email",
+                        value=""
                     ),
-                    html.Button('Submit',id='button_contact_point',n_clicks=0),
-                    html.Div(id='div_contact_point')
+                    html.Button("Submit",id="button_contact_point",n_clicks=0),
+                    html.Div(id="div_contact_point")
                 ]
             ),
             dcc.Tab(
-                label='Dataset',
-                value='dataset',
+                label="Dataset",
+                value="dataset",
                 children=[
-                    html.Div('Título do dataset'),
+                    html.Div("Título do dataset"),
                     dcc.Input(
-                        id='title_dataset',
-                        placeholder='Título',
-                        type='text',
-                        value=''
+                        id="title_dataset",
+                        placeholder="Título",
+                        type="text",
+                        value=""
                     ),
-                    html.Div('Descrição do dataset'),
+                    html.Div("Descrição do dataset"),
                     dcc.Textarea(
-                        id='description_dataset',
-                        placeholder='Descrição',
-                        value=''
+                        id="description_dataset",
+                        placeholder="Descrição",
+                        value=""
                     ),
-                    html.Div('Indique palavras-chave relacionadas com o dataset (separadas por vírgulas)'),
+                    html.Div("Indique palavras-chave relacionadas com o dataset (separadas por vírgulas)"),
                     dcc.Textarea(
-                        id='keywords',
-                        placeholder='Palavras-chave',
-                        value=''
+                        id="keywords",
+                        placeholder="Palavras-chave",
+                        value=""
                     ),
-                    html.Div('Selecione o tema do dataset'),
+                    html.Div("Selecione o tema do dataset"),
                     dcc.Dropdown(
-                        id='theme',
+                        id="theme",
                         options=theme_options,
-                        placeholder='Tema'
+                        placeholder="Tema"
                     ),
-                    html.Div('Selecione o tipo de acesso do dataset'),
+                    html.Div("Selecione o tipo de acesso do dataset"),
                     dcc.Dropdown(
-                        id='access_right',
+                        id="access_right",
                         options=access_right_options,
-                        placeholder='Acesso'
+                        placeholder="Acesso"
                     ),
-                    html.Div('Selecione a periodicidade com que o dataset é atualizado'),
+                    html.Div("Selecione a periodicidade com que o dataset é atualizado"),
                     dcc.Dropdown(
-                        id='frequency',
+                        id="frequency",
                         options=frequencies_options,
-                        placeholder='Periodicidade'
+                        placeholder="Periodicidade"
                     ),
-                    html.Div('Selecione a língua do dataset'),
+                    html.Div("Selecione a língua do dataset"),
                     dcc.Dropdown(
-                        id='language_dataset',
+                        id="language_dataset",
                         options=languages_options,
-                        placeholder='Língua'
+                        placeholder="Língua"
                     ),
-                    html.Div('Data de publicação do dataset'),
+                    html.Div("Data de publicação do dataset"),
                     dcc.DatePickerSingle(
-                        id='issued_dataset',
+                        id="issued_dataset",
                         date=datetime.today(),
                     ),
-                    html.Div('Data da última atualização do dataset'),
+                    html.Div("Data da última atualização do dataset"),
                     dcc.DatePickerSingle(
-                        id='modified_dataset',
+                        id="modified_dataset",
                         date=datetime.today(),
                     ),
-                    html.Button('Submit',id='button_dataset',n_clicks=0),
-                    html.Div(id='div_dataset')
+                    html.Button("Submit",id="button_dataset",n_clicks=0),
+                    html.Div(id="div_dataset")
                 ]
             ),
             dcc.Tab(
-                label='Distribution',
-                value='distribution',
+                label="Distribution",
+                value="distribution",
                 children=[
-                    html.Div('Título da distribuição'),
+                    html.Div("Título da distribuição"),
                     dcc.Input(
-                        id='title_distribution',
-                        placeholder='Título',
-                        type='text',
-                        value=''
+                        id="title_distribution",
+                        placeholder="Título",
+                        type="text",
+                        value=""
                     ),
-                    html.Div('Descrição da distribuição'),
+                    html.Div("Descrição da distribuição"),
                     dcc.Textarea(
-                        id='description_distribution',
-                        placeholder='Descrição',
-                        value=''
+                        id="description_distribution",
+                        placeholder="Descrição",
+                        value=""
                     ),
-                    html.Div('Link de acesso à distribuição'),
+                    html.Div("Link de acesso à distribuição"),
                     dcc.Input(
-                        id='accessURL',
-                        placeholder='URL de acesso',
-                        type='url',
-                        value=''
+                        id="accessURL",
+                        placeholder="URL de acesso",
+                        type="url",
+                        value=""
                     ),
-                    html.Div('Link para download da distribuição'),
+                    html.Div("Link para download da distribuição"),
                     dcc.Input(
-                        id='downloadURL',
-                        placeholder='URL de download',
-                        type='url',
-                        value=''
+                        id="downloadURL",
+                        placeholder="URL de download",
+                        type="url",
+                        value=""
                     ),
-                    html.Div('Selecione o formato da distribuição'),
+                    html.Div("Selecione o formato da distribuição"),
                     dcc.Dropdown(
-                        id='format',
+                        id="format",
                         options=filetypes_options,
-                        placeholder='Formato'
+                        placeholder="Formato"
                     ),
-                    html.Div('Tamanho da distribuição em bytes'),
+                    html.Div("Tamanho da distribuição em bytes"),
                     dcc.Input(
-                        id='byteSize',
-                        placeholder='Tamanho em bytes',
-                        type='number',
-                        value=''
+                        id="byteSize",
+                        placeholder="Tamanho em bytes",
+                        type="number",
+                        value=""
                     ),
-                    html.Div('Selecione a língua da distribuição'),
+                    html.Div("Selecione a língua da distribuição"),
                     dcc.Dropdown(
-                        id='language_distribution',
+                        id="language_distribution",
                         options=languages_options,
-                        placeholder='Língua'
+                        placeholder="Língua"
                     ),
-                    html.Div('Data de publicação da distribuição'),
+                    html.Div("Data de publicação da distribuição"),
                     dcc.DatePickerSingle(
-                        id='issued_distribution',
+                        id="issued_distribution",
                         date=datetime.today(),
                     ),
-                    html.Div('Data da última atualização da distribuição'),
+                    html.Div("Data da última atualização da distribuição"),
                     dcc.DatePickerSingle(
-                        id='modified_distribution',
+                        id="modified_distribution",
                         date=datetime.today(),
                     ),
-                    html.Button('Submit',id='button_distribution',n_clicks=0),
-                    html.Div(id='div_distribution')
+                    html.Button("Submit",id="button_distribution",n_clicks=0),
+                    html.Div(id="div_distribution")
                 ]
             ),
             dcc.Tab(
-                label='License Document',
-                value='license_document',
+                label="License Document",
+                value="license_document",
                 children=[
-                    html.Div('Selecione o tipo de licensa do dataset'),
+                    html.Div("Selecione o tipo de licensa do dataset"),
                     dcc.Dropdown(
-                        id='license',
+                        id="license",
                         options=licenses_options,
-                        placeholder='Licensa'
+                        placeholder="Licensa"
                     ),
-                    html.Button('Submit',id='button_license',n_clicks=0),
-                    html.Div(id='div_license')
+                    html.Button("Submit",id="button_license",n_clicks=0),
+                    html.Div(id="div_license")
                 ]
             ),
             dcc.Tab(
-                label='Location',
-                value='location',
+                label="Location",
+                value="location",
                 children=[
-                    html.Div('Selecione o tipo localização do dataset'),
+                    html.Div("Selecione o tipo localização do dataset"),
                     dcc.Tabs(
-                        id='location_tabs',
-                        value='coordinates',
+                        id="location_tabs",
+                        value="coordinates",
                         children=[
                             dcc.Tab(
-                                label='Coordenadas',
-                                value='coordinates',
+                                label="Coordenadas",
+                                value="coordinates",
                                 children=[
-                                    html.Div('Indique as coordenadas da fronteira do local descrito pelo dataset'),
+                                    html.Div("Indique as coordenadas da fronteira do local descrito pelo dataset"),
                                     dcc.Textarea(
-                                        id='bbox',
-                                        placeholder='Coordenadas da fronteira',
-                                        value=''
+                                        id="bbox",
+                                        placeholder="Coordenadas da fronteira",
+                                        value=""
                                     ),
-                                    html.Div('Indique as coordenadas do centróide do local descrito pelo dataset'),
+                                    html.Div("Indique as coordenadas do centróide do local descrito pelo dataset"),
                                     dcc.Input(
-                                        id='centroid',
-                                        placeholder='Coordenadas do centróide',
-                                        value='',
-                                        type='text'
+                                        id="centroid",
+                                        placeholder="Coordenadas do centróide",
+                                        value="",
+                                        type="text"
                                     ),
-                                    html.Div(id='div_location_coordinates')
+                                    html.Div(id="div_location_coordinates")
                                 ]
                             ),
                             dcc.Tab(
-                                label='Continente',
-                                value='continents',
+                                label="Continente",
+                                value="continents",
                                 children=[
-                                    html.Div('Selecione o continente a que o dataset se refere'),
+                                    html.Div("Selecione o continente a que o dataset se refere"),
                                     dcc.Dropdown(
-                                        id='continent',
+                                        id="continent",
                                         options=continents_options,
-                                        placeholder='Continente'
+                                        placeholder="Continente"
                                     ),
-                                    html.Div(id='div_location_continents')
+                                    html.Div(id="div_location_continents")
                                 ]
                             ),
                             dcc.Tab(
-                                label='País',
-                                value='countries',
+                                label="País",
+                                value="countries",
                                 children=[
-                                    html.Div('Selecione o país a que o dataset se refere'),
+                                    html.Div("Selecione o país a que o dataset se refere"),
                                     dcc.Dropdown(
-                                        id='country',
+                                        id="country",
                                         options=countries_options,
-                                        placeholder='País'
+                                        placeholder="País"
                                     ),
-                                    html.Div(id='div_location_countries')
+                                    html.Div(id="div_location_countries")
                                 ]
                             ),
                             dcc.Tab(
-                                label='Sítio',
-                                value='places',
+                                label="Sítio",
+                                value="places",
                                 children=[
-                                    html.Div('Selecione o sítio a que o dataset se refere'),
+                                    html.Div("Selecione o sítio a que o dataset se refere"),
                                     dcc.Dropdown(
-                                        id='place',
+                                        id="place",
                                         options=places_options,
-                                        placeholder='Sítio'
+                                        placeholder="Sítio"
                                     ),
-                                    html.Div(id='div_location_places')
+                                    html.Div(id="div_location_places")
                                 ]
                             ),
                         ],
                     ),
-                    html.Button('Submit',id='button_location',n_clicks=0),
+                    html.Button("Submit",id="button_location",n_clicks=0),
                 ]
             ),
             dcc.Tab(
-                label='Period of Time',
-                value='period_of_time',
+                label="Period of Time",
+                value="period_of_time",
                 children=[
-                    html.Div('Início do período descrito pelo dataset'),
+                    html.Div("Início do período descrito pelo dataset"),
                     dcc.DatePickerSingle(
-                        id='startDate',
+                        id="startDate",
                         date=datetime.today(),
                     ),
-                    html.Div('Fim do período descrito pelo dataset'),
+                    html.Div("Fim do período descrito pelo dataset"),
                     dcc.DatePickerSingle(
-                        id='endDate',
+                        id="endDate",
                         date=datetime.today(),
                     ),
-                    html.Button('Submit',id='button_period_of_time',n_clicks=0),
-                    html.Div(id='div_period_of_time')
+                    html.Button("Submit",id="button_period_of_time",n_clicks=0),
+                    html.Div(id="div_period_of_time")
                 ]
             )
         ]
@@ -403,15 +403,15 @@ app.layout = html.Div([
 ])
 
 @app.callback(
-    Output('div_agent','children'),
+    Output("div_agent","children"),
     [
-        Input('agent','value'),
-        Input('button_agent','n_clicks')
+        Input("agent","value"),
+        Input("button_agent","n_clicks")
     ]
 )
 def agent_json(agent,n_clicks):
-    changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'button_agent' in changed_id:
+    changed_id = [p["prop_id"] for p in dash.callback_context.triggered][0]
+    if "button_agent" in changed_id:
         agent_meta = {
             "@id":"_:b0",
             "@type":"foaf:Agent",
@@ -421,59 +421,59 @@ def agent_json(agent,n_clicks):
             }
         }
 
-        with open('agent.json', 'w') as outfile:
+        with open("agent.json", "w") as outfile:
             json.dump(agent_meta, outfile)
 
-        return 'Submetido'
+        return "Submetido"
         #return str(agent_meta)
 
 @app.callback(
-    Output('div_contact_point','children'),
+    Output("div_contact_point","children"),
     [
-        Input('contact_point','value'),
-        Input('button_contact_point','n_clicks')
+        Input("contact_point","value"),
+        Input("button_contact_point","n_clicks")
     ]
 )
 def contact_point_json(contact_point,n_clicks):
-    changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'button_contact_point' in changed_id:
+    changed_id = [p["prop_id"] for p in dash.callback_context.triggered][0]
+    if "button_contact_point" in changed_id:
         contact_point_meta = {
             "@id":"_:b1",
             "@type":"http://www.w3.org/2006/vcard/ns#Kind",
             "hasEmail":contact_point
         }
 
-        with open('contact_point.json', 'w') as outfile:
+        with open("contact_point.json", "w") as outfile:
             json.dump(contact_point_meta, outfile)
 
-        return 'Submetido'
+        return "Submetido"
         #return str(contact_point_meta)
 
 @app.callback(
-    Output('div_dataset','children'),
+    Output("div_dataset","children"),
     [
-        Input('title_dataset','value'),
-        Input('description_dataset','value'),
-        Input('keywords','value'),
-        Input('theme','value'),
-        Input('access_right','value'),
-        Input('frequency','value'),
-        Input('language_dataset','value'),
-        Input('issued_dataset','date'),
-        Input('modified_dataset','date'),
-        Input('button_dataset','n_clicks')
+        Input("title_dataset","value"),
+        Input("description_dataset","value"),
+        Input("keywords","value"),
+        Input("theme","value"),
+        Input("access_right","value"),
+        Input("frequency","value"),
+        Input("language_dataset","value"),
+        Input("issued_dataset","date"),
+        Input("modified_dataset","date"),
+        Input("button_dataset","n_clicks")
     ]
 )
 def dataset_json(title,description,keywords,theme,access_right,frequency,language,issued,modified,n_clicks):
-    changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'button_dataset' in changed_id:
+    changed_id = [p["prop_id"] for p in dash.callback_context.triggered][0]
+    if "button_dataset" in changed_id:
         if (theme is not None) and (access_right is not None) and (frequency is not None) and (language is not None):
             dataset_meta = {
                 "@id":"dataset_id",
                 "@type":"dcat:Dataset",
                 "description":description,
                 "title":title,
-                "keyword":keywords.split(','),
+                "keyword":keywords.split(","),
                 "theme":"http://publications.europa.eu/resource/authority/data-theme/" + theme,
                 "accessRights":"http://publications.europa.eu/resource/authority/access-right/" + access_right,
                 "accuralPeriodicity":"http://publications.europa.eu/resource/authority/frequency/" + frequency,
@@ -482,30 +482,30 @@ def dataset_json(title,description,keywords,theme,access_right,frequency,languag
                 "modified":modified
             }
 
-            with open('dataset.json', 'w') as outfile:
+            with open("dataset.json", "w") as outfile:
                 json.dump(dataset_meta, outfile)
         
-            return 'Submetido'
+            return "Submetido"
             #return str(dataset_meta)
 
 @app.callback(
-    Output('div_distribution','children'),
+    Output("div_distribution","children"),
     [
-        Input('title_distribution','value'),
-        Input('description_distribution','value'),
-        Input('accessURL','value'),
-        Input('downloadURL','value'),
-        Input('format','value'),
-        Input('byteSize','value'),
-        Input('language_distribution','value'),
-        Input('issued_distribution','date'),
-        Input('modified_distribution','date'),
-        Input('button_distribution','n_clicks')
+        Input("title_distribution","value"),
+        Input("description_distribution","value"),
+        Input("accessURL","value"),
+        Input("downloadURL","value"),
+        Input("format","value"),
+        Input("byteSize","value"),
+        Input("language_distribution","value"),
+        Input("issued_distribution","date"),
+        Input("modified_distribution","date"),
+        Input("button_distribution","n_clicks")
     ]
 )
 def distribution_json(title,description,accessURL,downloadURL,format,byteSize,language,issued,modified,n_clicks):
-    changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'button_distribution' in changed_id:
+    changed_id = [p["prop_id"] for p in dash.callback_context.triggered][0]
+    if "button_distribution" in changed_id:
         if (format is not None) and (language is not None):
             distribution_meta = {
                 "@id":"distribution_id",
@@ -522,22 +522,22 @@ def distribution_json(title,description,accessURL,downloadURL,format,byteSize,la
                 "modified":modified
             }
 
-            with open('distribution.json', 'w') as outfile:
+            with open("distribution.json", "w") as outfile:
                 json.dump(distribution_meta, outfile)
         
-            return 'Submetido'
+            return "Submetido"
             #return str(distribution_meta)
 
 @app.callback(
-    Output('div_license','children'),
+    Output("div_license","children"),
     [
-        Input('license','value'),
-        Input('button_license','n_clicks')
+        Input("license","value"),
+        Input("button_license","n_clicks")
     ]
 )
 def license_json(license,n_clicks):
-    changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'button_license' in changed_id:
+    changed_id = [p["prop_id"] for p in dash.callback_context.triggered][0]
+    if "button_license" in changed_id:
         if (license is not None):
             license_meta = {
                 "@id":"_:b2",
@@ -545,23 +545,23 @@ def license_json(license,n_clicks):
                 "type":"http://publications.europa.eu/resource/authority/license/" + license
             }
 
-            with open('license.json', 'w') as outfile:
+            with open("license.json", "w") as outfile:
                 json.dump(license_meta, outfile)
 
-            return 'Submetido'
+            return "Submetido"
             #return str(license_meta)
 
 @app.callback(
-    Output('div_period_of_time','children'),
+    Output("div_period_of_time","children"),
     [
-        Input('startDate','date'),
-        Input('endDate','date'),
-        Input('button_period_of_time','n_clicks')
+        Input("startDate","date"),
+        Input("endDate","date"),
+        Input("button_period_of_time","n_clicks")
     ]
 )
 def period_of_time_json(startDate,endDate,n_clicks):
-    changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'button_period_of_time' in changed_id:
+    changed_id = [p["prop_id"] for p in dash.callback_context.triggered][0]
+    if "button_period_of_time" in changed_id:
         period_of_time_meta = {
             "@id":"_:b3",
             "@type":"dct:PeriodOfTime",
@@ -569,23 +569,23 @@ def period_of_time_json(startDate,endDate,n_clicks):
             "endDate":endDate
         }
 
-        with open('period_of_time.json', 'w') as outfile:
+        with open("period_of_time.json", "w") as outfile:
             json.dump(period_of_time_meta, outfile)
 
-        return 'Submetido'
+        return "Submetido"
         #return str(period_of_time_meta)
 
 @app.callback(
-    Output('div_location_coordinates','children'),
+    Output("div_location_coordinates","children"),
     [
-        Input('bbox','value'),
-        Input('centroid','value'),
-        Input('button_location','n_clicks')
+        Input("bbox","value"),
+        Input("centroid","value"),
+        Input("button_location","n_clicks")
     ]
 )
 def location_coordinates_json(bbox,centroid,n_clicks):
-    changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'button_location' in changed_id:
+    changed_id = [p["prop_id"] for p in dash.callback_context.triggered][0]
+    if "button_location" in changed_id:
         location_meta = {
             "@id":"_:b4",
             "@type":"dct:Location",
@@ -593,22 +593,22 @@ def location_coordinates_json(bbox,centroid,n_clicks):
             "centroid":centroid
         }
 
-        with open('location.json', 'w') as outfile:
+        with open("location.json", "w") as outfile:
             json.dump(location_meta, outfile)
 
-        return 'Submetido'
+        return "Submetido"
         #return str(location_meta)
 
 @app.callback(
-    Output('div_location_continents','children'),
+    Output("div_location_continents","children"),
     [
-        Input('continent','value'),
-        Input('button_location','n_clicks')
+        Input("continent","value"),
+        Input("button_location","n_clicks")
     ]
 )
 def location_coordinates_json(continent,n_clicks):
-    changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'button_location' in changed_id:
+    changed_id = [p["prop_id"] for p in dash.callback_context.triggered][0]
+    if "button_location" in changed_id:
         if (continent is not None):
             location_meta = {
                 "@id":"_:b4",
@@ -616,22 +616,22 @@ def location_coordinates_json(continent,n_clicks):
                 "geometry":"http://publications.europa.eu/resource/authority/continent/" + continent
             }
 
-            with open('location.json', 'w') as outfile:
+            with open("location.json", "w") as outfile:
                 json.dump(location_meta, outfile)
 
-            return 'Submetido'
+            return "Submetido"
             #return str(location_meta)
 
 @app.callback(
-    Output('div_location_countries','children'),
+    Output("div_location_countries","children"),
     [
-        Input('country','value'),
-        Input('button_location','n_clicks')
+        Input("country","value"),
+        Input("button_location","n_clicks")
     ]
 )
 def location_countries_json(country,n_clicks):
-    changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'button_location' in changed_id:
+    changed_id = [p["prop_id"] for p in dash.callback_context.triggered][0]
+    if "button_location" in changed_id:
         if (country is not None):
             location_meta = {
                 "@id":"_:b4",
@@ -639,22 +639,22 @@ def location_countries_json(country,n_clicks):
                 "geometry":"http://publications.europa.eu/resource/authority/country/" + country
             }
 
-            with open('location.json', 'w') as outfile:
+            with open("location.json", "w") as outfile:
                 json.dump(location_meta, outfile)
 
-            return 'Submetido'
+            return "Submetido"
             #return str(location_meta)
 
 @app.callback(
-    Output('div_location_places','children'),
+    Output("div_location_places","children"),
     [
-        Input('place','value'),
-        Input('button_location','n_clicks')
+        Input("place","value"),
+        Input("button_location","n_clicks")
     ]
 )
 def location_places_json(place,n_clicks):
-    changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'button_location' in changed_id:
+    changed_id = [p["prop_id"] for p in dash.callback_context.triggered][0]
+    if "button_location" in changed_id:
         if (place is not None):
             location_meta = {
                 "@id":"_:b4",
@@ -662,46 +662,46 @@ def location_places_json(place,n_clicks):
                 "geometry":"http://publications.europa.eu/resource/authority/place/" + place
             }
 
-            with open('location.json', 'w') as outfile:
+            with open("location.json", "w") as outfile:
                 json.dump(location_meta, outfile)
 
-            return 'Submetido'
+            return "Submetido"
             #return str(location_meta)
 
 @app.callback(
-    #Output('div_final','children'),
-    Output('download','data'),
+    #Output("div_final","children"),
+    Output("download","data"),
     [
-        Input('filename','value'),
-        Input('button_download','n_clicks')
-        #Input('button_submit','n_clicks')
+        Input("filename","value"),
+        Input("button_download","n_clicks")
+        #Input("button_submit","n_clicks")
     ]
 )
 def submit(file_name,n_clicks):
-    changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'button_download' in changed_id:
-        with open('agent.json') as agent_file:
+    changed_id = [p["prop_id"] for p in dash.callback_context.triggered][0]
+    if "button_download" in changed_id:
+        with open("agent.json") as agent_file:
             agent = json.load(agent_file)
-        with open('contact_point.json') as contact_point_file:
+        with open("contact_point.json") as contact_point_file:
             contact_point = json.load(contact_point_file)
-        with open('dataset.json') as dataset_file:
+        with open("dataset.json") as dataset_file:
             dataset = json.load(dataset_file)
-        with open('distribution.json') as distribution_file:
+        with open("distribution.json") as distribution_file:
             distribution = json.load(distribution_file)
-        with open('license.json') as license_file:
+        with open("license.json") as license_file:
             license = json.load(license_file)
-        with open('location.json') as location_file:
+        with open("location.json") as location_file:
             location = json.load(location_file)
-        with open('period_of_time.json') as period_of_time_file:
+        with open("period_of_time.json") as period_of_time_file:
             period_of_time = json.load(period_of_time_file)
 
-        dataset['contactPoint'] = contact_point['@id']
-        dataset['distribution'] = distribution['@id']
-        dataset['publisher'] = agent['@id']
-        dataset['spatial'] = location['@id']
-        dataset['temporal'] = period_of_time['@id']
+        dataset["contactPoint"] = contact_point["@id"]
+        dataset["distribution"] = distribution["@id"]
+        dataset["publisher"] = agent["@id"]
+        dataset["spatial"] = location["@id"]
+        dataset["temporal"] = period_of_time["@id"]
 
-        distribution['licenseDocument'] = license['@id']
+        distribution["licenseDocument"] = license["@id"]
 
         metadata = {
             "@context":{
@@ -1013,11 +1013,11 @@ def submit(file_name,n_clicks):
             ]
         }
 
-        #with open(filename + '.jsonld', 'w') as outfile:
+        #with open(filename + ".jsonld", "w") as outfile:
             #json.dump(metadata, outfile)
 
-        return dict(content=str(metadata),filename=file_name + '.jsonld')
+        return dict(content=str(metadata),filename=file_name + ".jsonld")
         #return str(metadata)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run_server(debug=True)
