@@ -130,8 +130,10 @@ app.layout = html.Div([
         type='text',
         value=''
     ),
-    html.Button('Submit Final',id='button_submit'),
-    html.Div(id='div_final'),
+    #html.Button('Submit Final',id='button_submit'),
+    #html.Div(id='div_final'),
+    html.Button('Download ficheiro', id='button_download'),
+    dcc.Download(id='download'),
     dcc.Tabs(
         id='tabs',
         value='agent',
@@ -667,12 +669,17 @@ def location_places_json(place,n_clicks):
             #return str(location_meta)
 
 @app.callback(
-    Output('div_final','children'),
-    Input('button_submit','n_clicks')
+    #Output('div_final','children'),
+    Output('download','data'),
+    [
+        Input('filename','value'),
+        Input('button_download','n_clicks')
+        #Input('button_submit','n_clicks')
+    ]
 )
-def submit(n_clicks):
+def submit(file_name,n_clicks):
     changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'button_submit' in changed_id:
+    if 'button_download' in changed_id:
         with open('agent.json') as agent_file:
             agent = json.load(agent_file)
         with open('contact_point.json') as contact_point_file:
@@ -1006,11 +1013,11 @@ def submit(n_clicks):
             ]
         }
 
-        with open('metadata.jsonld', 'w') as outfile:
-            json.dump(metadata, outfile)
+        #with open(filename + '.jsonld', 'w') as outfile:
+            #json.dump(metadata, outfile)
 
-        #return 'Submetido'
-        return str(metadata)
+        return dict(content=str(metadata),filename=file_name + '.jsonld')
+        #return str(metadata)
 
 if __name__ == '__main__':
     app.run_server(debug=True)
