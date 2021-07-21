@@ -288,7 +288,16 @@ app = dash.Dash(__name__)
 app.layout = html.Div([
 
     html.H1('Metadata JSON Generator'),
+    html.Div('Preencha todos os campos com a informação relativa ao ficheiro para o qual quer gerar um ficheiro de metadados e, quando terminar, dê um nome ao ficheiro e submeta a informação.'),
+    html.Div('Escreva o nome do ficheiro de metadados'),
+    dcc.Input(
+        id='filename',
+        placeholder='Nome do ficheiro',
+        type='text',
+        value=''
+    ),
     html.Button('Submit Final',id='button_submit'),
+    html.Div(id='div_final'),
     dcc.Tabs(
         id='tabs',
         value='agent',
@@ -553,9 +562,8 @@ app.layout = html.Div([
                     html.Div(id='div_period_of_time')
                 ]
             )
-        ]),
-    html.Div(id='div_final')
-
+        ]
+    )
 ])
 
 @app.callback(
@@ -581,6 +589,7 @@ def agent_json(agent,n_clicks):
             json.dump(agent_meta, outfile)
 
         return 'Submetido'
+        #return str(agent_meta)
 
 @app.callback(
     Output('div_contact_point','children'),
@@ -602,6 +611,7 @@ def contact_point_json(contact_point,n_clicks):
             json.dump(contact_point_meta, outfile)
 
         return 'Submetido'
+        #return str(contact_point_meta)
 
 @app.callback(
     Output('div_dataset','children'),
@@ -640,6 +650,7 @@ def dataset_json(title,description,keywords,theme,access_right,frequency,languag
                 json.dump(dataset_meta, outfile)
         
             return 'Submetido'
+            #return str(dataset_meta)
 
 @app.callback(
     Output('div_distribution','children'),
@@ -679,6 +690,7 @@ def distribution_json(title,description,accessURL,downloadURL,format,byteSize,la
                 json.dump(distribution_meta, outfile)
         
             return 'Submetido'
+            #return str(distribution_meta)
 
 @app.callback(
     Output('div_license','children'),
@@ -701,6 +713,7 @@ def license_json(license,n_clicks):
                 json.dump(license_meta, outfile)
 
             return 'Submetido'
+            #return str(license_meta)
 
 @app.callback(
     Output('div_period_of_time','children'),
@@ -724,6 +737,7 @@ def period_of_time_json(startDate,endDate,n_clicks):
             json.dump(period_of_time_meta, outfile)
 
         return 'Submetido'
+        #return str(period_of_time_meta)
 
 @app.callback(
     Output('div_location_coordinates','children'),
@@ -747,6 +761,7 @@ def location_coordinates_json(bbox,centroid,n_clicks):
             json.dump(location_meta, outfile)
 
         return 'Submetido'
+        #return str(location_meta)
 
 @app.callback(
     Output('div_location_continents','children'),
@@ -769,6 +784,7 @@ def location_coordinates_json(continent,n_clicks):
                 json.dump(location_meta, outfile)
 
             return 'Submetido'
+            #return str(location_meta)
 
 @app.callback(
     Output('div_location_countries','children'),
@@ -791,6 +807,7 @@ def location_countries_json(country,n_clicks):
                 json.dump(location_meta, outfile)
 
             return 'Submetido'
+            #return str(location_meta)
 
 @app.callback(
     Output('div_location_places','children'),
@@ -813,6 +830,7 @@ def location_places_json(place,n_clicks):
                 json.dump(location_meta, outfile)
 
             return 'Submetido'
+            #return str(location_meta)
 
 @app.callback(
     Output('div_final','children'),
