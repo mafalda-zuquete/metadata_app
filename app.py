@@ -663,8 +663,8 @@ def location_places_json(place,n_clicks):
             with open('location.json', 'w') as outfile:
                 json.dump(location_meta, outfile)
 
-            #return 'Submetido'
-            return str(location_meta)
+            return 'Submetido'
+            #return str(location_meta)
 
 @app.callback(
     Output('div_final','children'),
@@ -1009,7 +1009,8 @@ def submit(n_clicks):
         with open('metadata.jsonld', 'w') as outfile:
             json.dump(metadata, outfile)
 
-        return 'Submetido'
+        #return 'Submetido'
+        return str(metadata)
 
 if __name__ == '__main__':
     app.run_server(debug=True)
