@@ -1,25 +1,25 @@
 code,name
-AND_ALV,Andorra-a-Velha
+AND_ALV,Andorra la Vella
 ALB_TIA,Tirana
 AGO_LAD,Luanda
 AUT_BRZ,Bregenz
 AUT_EIT,Eisenstadt
 AUT_GRZ,Graz
-AUT_INN,Insbruque
+AUT_INN,Innsbruck
 AUT_KLU,Klagenfurt am Wörthersee
 AUT_LNZ,Linz
-AUT_SZG,Salzburgo
+AUT_SZG,Salzburg
 AUT_PLT,Sankt Pölten
-AUT_VIE,Viena
+AUT_VIE,Vienna
 AZE_BAK,Baku
 BEL_AAB,Aalst
-BEL_ANR,Antuérpia
+BEL_ANR,Antwerp
 BEL_ARL,Arlon
 BEL_ATH,Ath
 BEL_BSG,Bastogne
 NOR_BGN,Bergen
 BEL_BGS,Bruges
-BEL_BRU,Bruxelas
+BEL_BRU,Brussels
 BEL_CRL,Charleroi
 BEL_DDR,Dendermonde
 BEL_DIK,Diksmuide
@@ -27,27 +27,27 @@ BEL_DIA,Dinant
 BEL_TRN,Tournai
 BEL_ESE,Ixelles
 BEL_EGI,Enghien
-DEU_ESS,Essenj
+DEU_ESS,Essen
 BEL_VOS,Forest
 BEL_GEL,Geel
-BEL_GNE,Gante
+BEL_GNE,Ghent
 BEL_GEA,Geraardsbergen
 BEL_HSS,Hasselt
 BEL_HUY,Huy
-BEL_IPR,Ipres
+BEL_IPR,Ypres
 BEL_KJK,Courtrai
 BEL_LPG,Leopoldsburg
-BEL_LEU,Lovaina
+BEL_LEU,Louvain
 BEL_LGG,Liège
 BEL_MSK,Maaseik
 BEL_MEF,Marche-en-Famenne
-BEL_ECH,Malines
+BEL_ECH,Mechelen
 BEL_MOS,Mouscron
 BEL_MQS,Mons
 BEL_NAM,Namur
 BEL_NCA,Neufchâteau
 BEL_NIV,Nivelles
-BEL_OST,Ostende
+BEL_OST,Ostend
 BEL_OUD,Oudenaarde
 BEL_PHI,Philippeville
 BEL_ROE,Roeselare
@@ -58,7 +58,7 @@ BEL_SPO,Woluwe-Saint-Pierre
 BEL_SOI,Soignies
 BEL_SNK,Sint-Niklaas
 BEL_STR,Sint-Truiden
-BEL_SVH,Sankt Vith
+BEL_SVH,St. Vith
 BEL_THU,Thuin
 BEL_TLT,Tielt
 BEL_TON,Tongeren
@@ -66,15 +66,15 @@ BEL_TUR,Turnhout
 BEL_UKE,Uccle
 BEL_VIR,Virton
 BEL_WRE,Waremme
-BEL_WBV,Watermael-Boisfort
+BEL_WBV,Watermael-Boitsfort
 BEL_ZEE,Zeebrugge
-BFA_OUA,Uagadugu
+BFA_OUA,Ouagadougou
 BGR_BLN,Blagoevgrad
 BGR_BOJ,Burgas
 BGR_DOD,Dobrich
 BGR_GAV,Gabrovo
 BGR_HKV,Haskovo
-BGR_KRM,Kurdzhali
+BGR_KRM,Kardzhali
 BGR_KYS,Kyustendil
 BGR_LVP,Lovech
 BGR_OZA,Montana
@@ -88,140 +88,140 @@ BGR_SMN,Shumen
 BGR_SLS,Silistra
 BGR_SLP,Sliven
 BGR_SML,Smolyan
-BGR_SOF,Sófia
+BGR_SOF,Sofia
 BGR_SZR,Stara Zagora
 BGR_TGV,Targovishte
 BGR_VAR,Varna
 BGR_VTT,Veliko Tarnovo
 BGR_VID,Vidin
 BGR_VRA,Vratsa
-BGR_YAM,Yambol
+BGR_YAM,Yàmbol
 BDI_BJM,Bujumbura
 BHS_FPO,Freeport
 GBR_BRS,Bristol
 CAN_MTR,Montreal
 CAN_NOL,Niagara-on-the-Lake
-CAN_OTT,Otava
+CAN_OTT,Ottawa
 CAN_TOR,Toronto
 FRA_DUN,Verdun
-CHE_BSL,Basileia
-CHE_BRN,Berna
+CHE_BSL,Basel
+CHE_BRN,Berne
 CHE_CHR,Chur
-CHE_GVA,Genebra
+CHE_GVA,Geneva
 CHE_INT,Interlaken
-CHE_LAU,Lausana
+CHE_LAU,Lausanne
 CHE_LUG,Lugano
-CHE_LZN,Lucerna
-CHE_QGL,São Galo
-CHE_THU,Thoune
-CHE_ZRH,Zurique
-CIV_ABJ,Abidjã
+CHE_LZN,Lucerne
+CHE_QGL,St Gall
+CHE_THU,Thun
+CHE_ZRH,Zurich
+CIV_ABJ,Abidjan
 CHL_CGN,Cartagena
 CHL_SCL,Santiago
-CMR_YAO,Iaundé
+CMR_YAO,Yaoundé
 CRI_BAI,Buenos Aires
-CYP_NFA,Nicósia
-CZE_PRG,Praga
+CYP_NFA,Nicosia
+CZE_PRG,Prague
 DEU_AAH,Aachen
-DEU_AGB,Augsburgo
-DEU_BAM,Bamberga
-DEU_BER,Berlim
-DEU_BON,Bona
-DEU_BBG,Brandeburgo
-DEU_BWE,Braunschweig
-DEU_BRE,Brema
-DEU_COB,Coburgo
-DEU_DRS,Dresda
-DEU_DUI,Duisburgo
-DEU_DUS,Dusseldorf
+DEU_AGB,Augsburg
+DEU_BAM,Bamberg
+DEU_BER,Berlin
+DEU_BON,Bonn
+DEU_BBG,Brandenburg
+DEU_BWE,Brunswick
+DEU_BRE,Bremen
+DEU_COB,Coburg
+DEU_DRS,Dresden
+DEU_DUI,Duisburg
+DEU_DUS,Düsseldorf
 DEU_ERF,Erfurt
-DEU_FRA,Francoforte do Meno
-DEU_FFO,Francoforte do Óder
-DEU_FBG,Friburgo em Brisgóvia
+DEU_FRA,Frankfurt am Main
+DEU_FFO,Frankfurt (Oder)
+DEU_FBG,Freiburg im Breisgau
 DEU_GOE,Göttingen
-DEU_HAM,Hamburgo
-DEU_HAJ,Hanôver
-DEU_HEI,Heidelberga
+DEU_HAM,Hamburg
+DEU_HAJ,Hanover
+DEU_HEI,Heidelberg
 DEU_JEN,Jena
 DEU_KLT,Kaiserslautern
 DEU_KAE,Karlsruhe
-DEU_KLE,Kleve
-DEU_KOB,Coblença
-DEU_CGN,Colónia
-DEU_KON,Constança
+DEU_KLE,Cleves
+DEU_KOB,Coblenz
+DEU_CGN,Cologne
+DEU_KON,Konstanz
 DEU_LEJ,Leipzig
 DEU_LEV,Leverkusen
-DEU_LIM,Limburgo
-DEU_LBC,Lubeque
-DEU_ZAX,Vitemberga
-DEU_MAG,Magdeburgo
+DEU_LIM,Limburg
+DEU_LBC,Lübeck
+DEU_ZAX,Wittenberg
+DEU_MAG,Magdeburg
 DEU_MAI,Mainz
 DEU_MHG,Mannheim
-DEU_MAR,Marburgo
-DEU_MUC,Munique
-DEU_NEB,Neubrandenburgo
-DEU_NUE,Nuremberga
+DEU_MAR,Marburg
+DEU_MUC,Munich
+DEU_NEB,Neubrandenburg
+DEU_NUE,Nuremberg
 DEU_POT,Potsdam
-DEU_REG,Ratisbona
+DEU_REG,Regensburg
 DEU_SCN,Saarbrücken
 DEU_SPE,Speyer
-DEU_STR,Estugarda
+DEU_STR,Stuttgart
 DEU_TRI,Trier
 DEU_TUE,Tübingen
 DEU_WMR,Weimar
-DEU_WUE,Wurzburgo
-DJI_JIB,Jibuti
+DEU_WUE,Würzburg
+DJI_JIB,Djibouti
 DNK_AAR,Aarhus
-DNK_HLS,Helsenor
-DNK_CPH,Copenhaga
-DZA_ALG,Argel
-DZA_ORN,Orão
-EST_TLL,Taline
+DNK_HLS,Helsingør
+DNK_CPH,Copenhagen
+DZA_ALG,Algiers
+DZA_ORN,Oran
+EST_TLL,Tallinn
 EGY_CAI,Cairo
 ESP_ALC,Alicante
-ESP_LEI,Almeria
+ESP_LEI,Almería
 ESP_BCN,Barcelona
-ESP_BIO,Bilbau
+ESP_BIO,Bilbao
 ESP_CCS,Cáceres
-ESP_CAD,Cádis
+ESP_CAD,Cádiz
 ESP_CAR,Cartagena
-ESP_ODB,Córdova
+ESP_ODB,Córdoba
 ESP_GRO,Gerona
 ESP_GRX,Granada
-ESP_LCG,Corunha
-ESP_LEN,Leão
-ESP_LGR,Logronho
+ESP_LCG,Corunna
+ESP_LEN,León
+ESP_LGR,Logroño
 ESP_MAD,Madrid
-ESP_AGP,Málaga
+ESP_AGP,Malaga
 ESP_MEA,Mérida
-ESP_MJV,Múrcia
-ESP_PMI,Palma de Maiorca
+ESP_MJV,Murcia
+ESP_PMI,Palma de Mallorca
 ESP_PNA,Pamplona
 ESP_SLM,Salamanca
-ESP_EAS,São Sebastião
+ESP_EAS,San Sebastián
 ESP_SCQ,Santiago de Compostela
-ESP_SEG,Segóvia
-ESP_SVQ,Sevilha
+ESP_SEG,Segovia
+ESP_SVQ,Seville
 ESP_TAR,Tarragona
 ESP_TOL,Toledo
 ESP_TRJ,Torrejón de Ardoz
-ESP_VLC,Valência
+ESP_VLC,Valencia
 ESP_VGO,Vigo
-ESP_ZAZ,Saragoça
-ETH_ADD,Adis Abeba
+ESP_ZAZ,Saragossa
+ETH_ADD,Addis Ababa
 FIN_TKU,Turku
 FIN_POR,Pori
 FIN_PRV,Porvoo
 FIN_ESP,Espoo
 FIN_HMN,Hamina
 FIN_HMY,Hämeenlinna
-FIN_HEL,Helsínquia
+FIN_HEL,Helsinki
 FIN_HYV,Hyvinkää
 FIN_KAA,Kaarina
 FIN_KAJ,Kajaani
 FIN_KKI,Kirkkonummi
-FIN_KOK,Koivulahti
-FIN_KHO,Mustasaari
+FIN_KOK,Kvevlax
+FIN_KHO,Korsholm
 FIN_LHI,Lahti
 FIN_LPP,Lappeenranta
 FIN_LHJ,Lohja
@@ -231,46 +231,46 @@ FIN_SVL,Sipoo
 FIN_UKI,Uusikaupunki
 FIN_SIP,Savonlinna
 FIN_TMP,Tampere
-FIN_TAI,Tammisaari
+FIN_TAI,Ekenäs
 FIN_TUU,Tuusula
 FIN_VAA,Vaasa
 FIN_VAT,Vantaa
 FJI_SUV,Suva
 FSM_PNI,Pohnpei
-FRO_TOR,Torshavn
-FRA_AJA,Ajácio
+FRO_TOR,Tórshavn
+FRA_AJA,Ajaccio
 FRA_ANE,Angers
-FRA_ANG,Angolema
+FRA_ANG,Angoulême
 FRA_ARR,Arras
-FRA_AVN,Avinhão
-FRA_BAY,Baiona
+FRA_AVN,Avignon
+FRA_BAY,Bayonne
 FRA_BSN,Besançon
-FRA_BOD,Bordéus
-FRA_BOU,Burges
+FRA_BOD,Bordeaux
+FRA_BOU,Bourges
 FRA_CEQ,Cannes
-FRA_CCF,Carcassona
+FRA_CCF,Carcassonne
 FRA_CMF,Chambéry
-FRA_CER,Cherburgo
+FRA_CER,Cherbourg
 FRA_CNG,Cognac
 FRA_QCR,Corte
 FRA_DIJ,Dijon
-FRA_DKK,Dunquerque
+FRA_DKK,Dunkirk
 FRA_LEH,Le Havre
 FRA_LLE,Lille
-FRA_LIO,Lião
-FRA_MRS,Marselha
+FRA_LIO,Lyon
+FRA_MRS,Marseille
 FRA_MZM,Metz
 FRA_MLH,Mulhouse
-FRA_NAR,Narbona
+FRA_NAR,Narbonne
 FRA_NCE,Nice
 FRA_FNI,Nîmes
-FRA_ORR,Orleães
+FRA_ORR,Orléans
 FRA_PAR,Paris
-FRA_PGF,Perpinhão
+FRA_PGF,Perpignan
 FRA_RHE,Reims
-FRA_URO,Ruão
-FRA_ZJZ,São João da Luz
-FRA_SXB,Estrasburgo
+FRA_URO,Rouen
+FRA_ZJZ,Saint-Jean-de-Luz
+FRA_SXB,Strasbourg
 FRA_TLN,Toulon
 FRA_TLS,Toulouse
 FRA_VAL,Valenciennes
@@ -280,52 +280,52 @@ GBR_ABD,Aberdeen
 GBR_BEL,Belfast
 GBR_BHM,Birmingham
 GBR_BLK,Blackpool
-GBR_CMG,Cambrígia
-GBR_CNB,Cantuária
-GBR_CDF,Cardife
+GBR_CMG,Cambridge
+GBR_CNB,Canterbury
+GBR_CDF,Cardiff
 GBR_DVR,Dover
-GBR_EDI,Edimburgo
+GBR_EDI,Edinburgh
 GBR_GLW,Glasgow
 GBR_HFX,Halifax
 GBR_LIV,Liverpool
-GBR_LON,Londres
+GBR_LON,London
 GBR_MNC,Manchester
 GBR_NTG,Nottingham
 GBR_OXF,Oxford
 GBR_SLS,Salisbury
 GBR_SOU,Southampton
 GBR_WHG,Washington
-GBR_YRK,Iorque
-GEO_TBS,Tiblíssi
-GUF_CAY,Caiena
-GHA_ACC,Acra
+GBR_YRK,York
+GEO_TBS,Tbilisi
+GUF_CAY,Cayenne
+GHA_ACC,Accra
 GIB_GIB,Gibraltar
-GIN_CKY,Conacri
+GIN_CKY,Conakry
 GNQ_SSG,Malabo
 GRC_GAH,Aigaleo
 GRC_ANI,Agios Nikolaos
 GRC_AGQ,Agrinio
-GRC_AXD,Alexandrópolis
+GRC_AXD,Alexandroupoli
 GRC_ASI,Marousi
 GRC_ABO,Ampelokipoi
 GRC_ARG,Argos
 GRC_ARM,Argostoli
 GRC_ART,Arta
-GRC_ATH,Atenas
+GRC_ATH,Athens
 GRC_CHQ,Chania
-GRC_JKH,Quios
+GRC_JKH,Chios
 GRC_DRM,Drama
 GRC_EDE,Edessa
 GRC_FIA,Florina
-GRC_HER,Eraklion
+GRC_HER,Heraklion
 GRC_IOA,Ioannina
-GRC_KLX,Calamata
+GRC_KLX,Kalamata
 GRC_KLA,Kallithea
 GRC_KRD,Karditsa
 GRC_KSS,Karpenisi
-GRC_KSO,Castória
+GRC_KSO,Kastoria
 GRC_KEI,Katerini
-GRC_KVA,Cavala
+GRC_KVA,Kavala
 GRC_KTS,Keratsini
 GRC_CFU,Corfu
 GRC_KFS,Kifisia
@@ -333,31 +333,31 @@ GRC_KKZ,Kilkis
 GRC_KOM,Komotini
 GRC_KYD,Korydallos
 GRC_KZI,Kozani
-GRC_LAM,Lâmia
+GRC_LAM,Lamia
 GRC_LRA,Larissa
 GRC_LEA,Livadia
 GRC_LOU,Loutraki
-GRC_MEL,Mesolongi
-GRC_JMK,Míconos
-GRC_MJT,Mitilene
-GRC_NAF,Náuplia
+GRC_MEL,Mesolonghi
+GRC_JMK,Mykonos
+GRC_MJT,Mytilene
+GRC_NAF,Nafplio
 GRC_NAR,Nea Artaki
-GRC_NIK,Nikaia
+GRC_NIK,Nicaea
 GRC_PPG,Pallini
 GRC_GPA,Patras
 GRC_PRI,Peristeri
-GRC_PIR,Pireu
-GRC_PYR,Pirgos
+GRC_PIR,Piraeus
+GRC_PYR,Pyrgos
 GRC_RET,Rethymno
-GRC_RHO,Rodes
+GRC_RHO,Rhodes
 GRC_SMI,Samos
 GRC_SMT,Schimatari
-GRC_SPA,Esparta
-GRC_JSY,Siros
+GRC_SPA,Sparti
+GRC_JSY,Syros
 GRC_TIN,Tinos
 GRC_TRI,Trikala
-GRC_TRP,Trípoli
-GRC_VER,Vérria
+GRC_TRP,Tripoli
+GRC_VER,Veroia
 GRC_VOL,Volos
 GRC_XAN,Xanthi
 GRC_XYL,Xylokastro
@@ -365,200 +365,200 @@ GRC_ZTH,Zakynthos
 HRV_DBV,Dubrovnik
 HRV_RJK,Rijeka
 HRV_ZAD,Zadar
-HRV_ZAG,Zagrebe
-HUN_BUD,Budapeste
+HRV_ZAG,Zagreb
+HUN_BUD,Budapest
 HUN_PEC,Pécs
 IDN_DPS,Denpasar
-IDN_JKT,Jacarta
-IRL_DFT,Dublim Ferryport terminals
-IRL_DUB,Dublim
+IDN_JKT,Jakarta
+IRL_DFT,Dublin Ferryport terminals
+IRL_DUB,Dublin
 BHS_NAS,Nassau
-IND_ICD,Nova Déli
-ISL_REY,Reiquiavique
+IND_ICD,New Delhi
+ISL_REY,Reykjavik
 ITA_AGR,Agrigento
 ITA_AOI,Ancona
 ITA_AOT,Aosta
 ITA_BRI,Bari
 ITA_BEN,Benevento
-ITA_BGO,Bérgamo
-ITA_BLQ,Bolonha
+ITA_BGO,Bergamo
+ITA_BLQ,Bologna
 ITA_BZO,Bolzano
 ITA_BEK,Bruneck
 ITA_CPU,Capua
 ITA_CRA,Carrara
 ITA_CST,Caserta
-ITA_CTA,Catânia
+ITA_CTA,Catania
 ITA_OMO,Como
 ITA_CUN,Cuneo
 ITA_FRR,Ferrara
-ITA_FLR,Florença
-ITA_GOA,Génova
+ITA_FLR,Florence
+ITA_GOA,Genoa
 ITA_GZA,Gorizia
 ITA_ISR,Ispra
 ITA_LVE,Laives
-ITA_LIV,Livorno
-ITA_MAN,Mântua
+ITA_LIV,Leghorn
+ITA_MAN,Mantova
 ITA_MEN,Merano
 ITA_MSN,Messina
-ITA_MIL,Milão
+ITA_MIL,Milan
 ITA_MOD,Modena
 ITA_MGF,Monguelfo-Tesido
-ITA_NAP,Nápoles
+ITA_NAP,Naples
 ITA_NVR,Novara
 ITA_ORA,Ora
 ITA_SIT,Ostia
-ITA_PDA,Pádua
+ITA_PDA,Padua
 ITA_PMO,Palermo
 ITA_PMF,Parma
 ITA_PAV,Pavia
 ITA_PSR,Pescara
-ITA_PMP,Pompeia
+ITA_PMP,Pompeii
 ITA_RGA,Ragusa
-ITA_RAN,Ravena
+ITA_RAN,Ravenna
 ITA_REG,Reggio Calabria
 ITA_RNE,Reggio Emilia
 ITA_RMI,Rimini
 ITA_RVL,Rivoli
-ITA_ROM,Roma
+ITA_ROM,Rome
 ITA_SAL,Salerno
-ITA_SRE,São Remo
+ITA_SRE,San Remo
 ITA_SVN,Savona
-ITA_SNA,Sena
-ITA_SIR,Siracusa
-ITA_TAR,Tarento
+ITA_SNA,Sienna
+ITA_SIR,Syracuse
+ITA_TAR,Taranto
 ITA_TIV,Tivoli
 ITA_TRT,Trento
-ITA_TRN,Turim
+ITA_TRN,Turin
 ITA_TRV,Treviso
 ITA_TRS,Trieste
 ITA_VAR,Varese
-ITA_VCE,Veneza
+ITA_VCE,Venice
 ITA_VEN,Ventimiglia
 ITA_VRN,Verona
 JAM_KIN,Kingston
 JAM_MBJ,Montego Bay
-JOR_AMM,Amã
-KHM_PNH,Pnom Pene
-LBN_BEY,Beirute
+JOR_AMM,Amman
+KHM_PNH,Phnom Penh
+LBN_BEY,Beirut
 LKA_CMB,Colombo
-LKA_SRJ,Seri Jaiavardenapura-Cota
-LBR_MLW,Monróvia
-LTU_VNO,Vílnius
+LKA_SRJ,Sri Jayawardenapura Kotte
+LBR_MLW,Monrovia
+LTU_VNO,Vilnius
 LUX_DIE,Diekirch
 LUX_EZT,Esch-sur-Alzette
-LUX_LUX,Luxemburgo
+LUX_LUX,Luxembourg
 LVA_RIX,Riga
-LBY_TIP,Trípoli
-MAR_RAK,Marraquexe
+LBY_TIP,Tripoli
+MAR_RAK,Marrakesh
 MAR_RBA,Rabat
-MAR_TNG,Tânger
+MAR_TNG,Tangier
 MDG_TNR,Antananarivo
-MKD_SKP,Escópia
-MLI_BKO,Bamaco
-MLI_TOM,Timbuctu
-MNG_ULN,Ulã Bator
-MRT_NKC,Nuaquechote
-MLT_MLA,Valeta
+MKD_SKP,Skopje
+MLI_BKO,Bamako
+MLI_TOM,Timbuktu
+MNG_ULN,Ulaanbaatar
+MRT_NKC,Nouakchott
+MLT_MLA,Valletta
 MUS_PLU,Port Louis
 MOZ_MPM,Maputo
-NAM_WDH,Vinduque
+NAM_WDH,Windhoek
 NGA_ABV,Abuja
-NGA_KAN,Cano
+NGA_KAN,Kano
 NGA_LOS,Lagos
-NLD_AMS,Amesterdão
+NLD_AMS,Amsterdam
 NLD_ARN,Arnhem
 NLD_EIN,Eindhoven
 NLD_GRQ,Groningen
 NLD_LID,Leiden
 NLD_MST,Maastricht
-NLD_NIJ,Nimega
+NLD_NIJ,Nijmegen
 NLD_PET,Petten
-NLD_RTM,Roterdão
-NLD_HAG,Haia
+NLD_RTM,Rotterdam
+NLD_HAG,The Hague
 NLD_HTB,'s-Hertogenbosch
-NLD_UTC,Utreque
+NLD_UTC,Utrecht
 NLD_VLI,Vlissingen
 NOR_LLH,Lillehammer
 NOR_OSL,Oslo
 NOR_SVG,Stavanger
-NPL_KTM,Catmandu
-PAN_PAC,Cidade do Panamá
-PAK_ISB,Islamabade
+NPL_KTM,Kathmandu
+PAN_PAC,Panama City
+PAK_ISB,Islamabad
 POL_GDN,Gdansk
-POL_KRK,Cracóvia
+POL_KRK,Krakow
 POL_SZZ,Szczecin
-POL_WAW,Varsóvia
-POL_WRO,Wroclaw
-PRT_BGC,Bragança
+POL_WAW,Warsaw
+POL_WRO,Wrocław
+PRT_BGC,Braganza
 PRT_EVR,Évora
 PRT_FNC,Funchal
 PRT_LOS,Lagos
-PRT_LIS,Lisboa
+PRT_LIS,Lisbon
 PRT_OPO,Porto
-ROU_BUH,Bucareste
+ROU_BUH,Bucharest
 ROU_SBZ,Sibiu
 ROU_TCE,Tulcea
-SRB_BEG,Belgrado
-RUS_MOW,Moscovo
-RUS_LED,Sampetersburgo
-RUS_SOC,Sotchi
-RWA_KGL,Quigali
-SWE_GOT,Gotemburgo
+SRB_BEG,Belgrade
+RUS_MOW,Moscow
+RUS_LED,St Petersburg
+RUS_SOC,Sochi
+RWA_KGL,Kigali
+SWE_GOT,Gothenburg
 SWE_LLA,Luleå
-SWE_MMA,Malmo
-SWE_OVE,Övertornea
+SWE_MMA,Malmö
+SWE_OVE,Oevertonea
 SWE_PIT,Piteå
-SWE_STO,Estocolmo
-SWE_TBY,Täby
+SWE_STO,Stockholm
+SWE_TBY,Taeby
 SWE_UME,Umeå
-SWE_UPP,Upsália
-SGP_SIN,Singapura
+SWE_UPP,Uppsala
+SGP_SIN,Singapore
 SVN_BLE,Bled
-SVN_LJU,Liubliana
+SVN_LJU,Ljubljana
 SVK_BTS,Bratislava
-SMR_SAI,São Marinho
-SEN_DKR,Dacar
-SOM_MGQ,Mogadixo
-SLV_SAL,São Salvador
-SYR_DAM,Damasco
-TCD_NDJ,Jamena
+SMR_SAI,San Marino
+SEN_DKR,Dakar
+SOM_MGQ,Mogadishu
+SLV_SAL,San Salvador
+SYR_DAM,Damascus
+TCD_NDJ,N’Djamena
 TGO_LFW,Lomé
-THA_BKK,Banguecoque
+THA_BKK,Bangkok
 THA_PYX,Pattaya
-TUN_TUN,Tunes
-TUR_ANK,Ancara
+TUN_TUN,Tunis
+TUR_ANK,Ankara
 TUR_IST,Istanbul
 TUR_MRM,Marmaris
 TUR_SFQ,Urfa
-UKR_IEV,Kiev
-UKR_YAL,Ialta
-URY_MVD,Montevideu
-UZB_TAS,Tasquente
-ZAF_CPT,Cidade do Cabo
+UKR_IEV,Kyiv
+UKR_YAL,Yalta
+URY_MVD,Montevideo
+UZB_TAS,Tashkent
+ZAF_CPT,Cape Town
 ZAF_PAA,Paarl
-ZAF_PRY,Pretória
-ZMB_LUN,Lusaca
+ZAF_PRY,Pretoria
+ZMB_LUN,Lusaka
 ZWE_HRE,Harare
 ARG_BUE,Buenos Aires
-AUS_CBR,Camberra
-BGD_DAC,Daca
-BRA_BSB,Brasília
+AUS_CBR,Canberra
+BGD_DAC,Dhaka
+BRA_BSB,Brasilia
 BRA_RIO,Rio de Janeiro
-COD_FIH,Quinxassa
+COD_FIH,Kinshasa
 CAF_BGF,Bangui
-CHN_BJS,Pequim
+CHN_BJS,Beijing
 HKG_NKG,Hong Kong
 IRL_ORK,Cork
-JPN_OSA,Osaca
+JPN_OSA,Osaka
 JPN_SPK,Sapporo
-JPN_TYO,Tóquio
-JPN_UKY,Quioto
-JPN_YOK,Iocoama
-KEN_MBA,Mombaça
-KEN_NBO,Nairóbi
-KOR_SEL,Seul
-MAC_MFM,Macau
-MYS_KUL,Cuala Lumpur
+JPN_TYO,Tokyo
+JPN_UKY,Kyoto
+JPN_YOK,Yokohama
+KEN_MBA,Mombasa
+KEN_NBO,Nairobi
+KOR_SEL,Seoul
+MAC_MFM,Macao
+MYS_KUL,Kuala Lumpur
 NZL_WLG,Wellington
 USA_ATL,Atlanta
 USA_AXR,Alexandria
@@ -567,26 +567,26 @@ USA_CHI,Chicago
 USA_DET,Detroit
 USA_HNL,Honolulu
 USA_HSO,Houston
-USA_IND,Indianápolis
+USA_IND,Indianapolis
 USA_LAX,Los Angeles
-USA_MES,Mineápolis
+USA_MES,Minneapolis
 USA_MIA,Miami
-USA_MSY,Nova Orleães
-USA_NYC,Nova Iorque
-USA_PHL,Filadélfia
-USA_SFO,São Francisco
+USA_MSY,New Orleans
+USA_NYC,New York
+USA_PHL,Philadelphia
+USA_SFO,San Francisco
 USA_SYT,St Louis
-USA_WAS,Washington
-AFG_KBL,Cabul
+USA_WAS,Washington DC
+AFG_KBL,Kabul
 GBR_BZX,Bramshill
 LUX_SCH,Schengen
-ISR_JER,Jerusalém
+ISR_JER,Jerusalem
 PSE_GZA,Gaza
 SVN_BPK,Brdo pri Kranju
 BEN_COO,Cotonou
 CZE_SNR,Senohraby
-ARM_EVN,Erevã
-BIH_SJJ,Saraievo
+ARM_EVN,Yerevan
+BIH_SJJ,Sarajevo
 BRB_BGI,Bridgetown
 BOL_LPB,La Paz
 BWA_GBE,Gaborone
@@ -594,66 +594,66 @@ BLR_MSQ,Minsk
 COG_BZV,Brazzaville
 COL_BOG,Bogotá
 ECU_UIO,Quito
-CRI_SJO,São José
+CRI_SJO,San José
 SRB_NBD,Novi Beograd
-MNE_TGD,Podgoritza
+MNE_TGD,Podgorica
 CPV_RAI,Praia
-DOM_SDQ,São Domingos
+DOM_SDQ,Santo Domingo
 CUB_HAV,Havana
 ERI_ASM,Asmara
-GTM_GUA,Cidade da Guatemala
+GTM_GUA,Guatemala City
 GUY_GEO,Georgetown
 SUR_PBM,Paramaribo
-TTO_POS,Porto de Espanha
-HTI_PAP,Porto do Príncipe
-TLS_DIL,Díli
+TTO_POS,Port of Spain
+HTI_PAP,Port-au-Prince
+TLS_DIL,Dili
 ISR_RMG,Ramat Gan
-PRK_FNJ,Pionguiangue
+PRK_FNJ,Pyongyang
 KAZ_ALA,Almati
-KAZ_ASA,Nur-Sultã
-KGZ_FRU,Bisqueque
-TJK_DYU,Duxambé
-LAO_VTE,Vienciana
-MDA_KIV,Quixinau
-MWI_LLW,Lilongué
-MEX_CIU,Cidade do México
-NER_NIM,Niamei
-NIC_MGA,Manágua
+KAZ_ASA,Nur-Sultan
+KGZ_FRU,Bishkek
+TJK_DYU,Dushanbe
+LAO_VTE,Vientiane
+MDA_KIV,Chisinau
+MWI_LLW,Lilongwe
+MEX_CIU,Mexico City
+NER_NIM,Niamey
+NIC_MGA,Managua
 PER_LIM,Lima
 PHL_MTI,Makati City
-SAU_RUH,Riade
+SAU_RUH,Riyadh
 SLE_FNA,Freetown
 MMR_RGN,Yangon
 TZA_DAR,Dar es Salaam
-UGA_KLA,Campala
-PRY_ASU,Assunção
+UGA_KLA,Kampala
+PRY_ASU,Asunción
 VEN_CCS,Caracas
-VNM_HAN,Hanói
-VUT_VLI,Porto Vila
+VNM_HAN,Hanoi
+VUT_VLI,Port Vila
 1A0_PRN,Pristina
-TWN_TPE,Taipé
+TWN_TPE,Taipei
 GMB_BJL,Banjul
 GNB_PXB,Bissau
-PNG_POM,Porto Moresby
+PNG_POM,Port Moresby
 SLB_HIR,Honiara
-SDN_KRT,Cartum
-YEM_SAH,Saná
-SWZ_QMN,Mebabane
+SDN_KRT,Khartoum
+YEM_SAH,Sana’a
+SWZ_QMN,Mbabane
 LSO_MSU,Maseru
 JPN_NGO,Nagoya
 CAN_CHX,Chalk River
-PSE_JER,Jerusalém
-CIV_ASK,Iamussucro
+PSE_JER,Jerusalem
+CIV_ASK,Yamoussoukro
 SVK_KSC,Košice
 BEL_EEK,Eeklo
 BEL_EUP,Eupen
 BEL_VER,Verviers
 BEL_VEU,Veurne
 CYP_FMG,Famagusta
-CYP_KYR,Cirénia
-CYP_LCA,Lárnaca
+CYP_KYR,Kyrenia
+CYP_LCA,Larnaca
 CYP_LMS,Limassol
-CYP_PFO,Pafos
+CYP_PFO,Paphos
 FIN_JOE,Joensuu
 FIN_JVP,Järvenpää
 FIN_JYV,Jyväskylä
@@ -664,33 +664,33 @@ FIN_OUL,Oulu
 FIN_RAA,Raahe
 FIN_RVN,Rovaniemi
 FIN_SJY,Seinäjoki
-GRC_CLK,Cálcis
+GRC_CLK,Chalkida
 BEL_HFB,Halle
-GRC_KRT,Corinto
-GRC_KFL,Cefalónia
-GRC_SKG,Tessalonica
+GRC_KRT,Corinth
+GRC_KFL,Kefalonia
+GRC_SKG,Thessaloniki
 GRC_SRS,Serres
 BEL_AEJ,Arendonk
 BEL_AES,Asse
 BEL_BEA,Beaumont
 GRC_AND,Andros
-GRC_AOK,Cárpatos
+GRC_AOK,Karpathos
 NLD_ZST,Zaanstad
 GRC_ATN,Santorini
 GRC_GVA,Grevena
-GRC_JIK,Icária
+GRC_JIK,Icaria
 BEL_AAS,Aarschot
-GRC_JNX,Náxos
+GRC_JNX,Naxos
 BEL_BEV,Beveren
 GRC_KGS,Kos
-GRC_KMI,Calímnos
-GRC_LEV,Levkas
+GRC_KMI,Kalymnos
+GRC_LEV,Lefkada
 GRC_LXS,Lemnos
 GRC_MLO,Milos
 GRC_PAS,Paros
-GRC_PPL,Pela
+GRC_PPL,Pella
 LUX_MME,Mamer
-GRC_VTA,Beócia
+GRC_VTA,Boeotia
 HRV_KAR,Karlovac
 HRV_SPU,Split
 HRV_VUK,Vukovar
@@ -793,7 +793,7 @@ FRA_CMT,Chaumont
 FRA_CET,Cholet
 FRA_CCY,Clamecy
 FRA_CFE,Clermont-Ferrand
-CZE_SVB,Austerlitz
+CZE_SVB,Slavkov u Brna
 FRA_CMR,Colmar
 FRA_CLB,Colombes
 FRA_CMP,Compiègne
@@ -820,7 +820,7 @@ FRA_FOI,Foix
 FRA_FBU,Fontainebleau
 FRA_FOC,Fontenay-le-Comte
 FRA_FOR,Forbach
-MTQ_FDF,Forte de França
+MTQ_FDF,Fort-de-France
 FRA_FOU,Fougères
 FRA_FRJ,Fréjus
 FRA_GAT,Gap
@@ -860,7 +860,7 @@ FRA_LVS,Louviers
 FRA_LVL,Lunéville
 FRA_LRE,Lure
 FRA_MAC,Mâcon
-MYT_MAM,Mamudzu
+MYT_MAM,Mamoudzou
 FRA_MAQ,Manosque
 FRA_MAR,Marmande
 FRA_MAU,Maubeuge
@@ -895,7 +895,7 @@ FRA_ABB,Abbeville
 FRA_NVS,Nevers
 FRA_NIT,Niort
 FRA_NME,Nogent-sur-Marne
-NCL_NOU,Numeá
+NCL_NOU,Nouméa
 FRA_ORA,Orange
 FRA_OYO,Oyonnax
 FRA_PAL,Palaiseau
@@ -961,7 +961,7 @@ FRA_SBK,Saint-Brieuc
 FRA_STC,Saint-Claude
 FRA_NCC,Saint-Contest
 FRA_YSD,Saint-Denis
-REU_RUN,São Dinis
+REU_RUN,Saint-Denis
 FRA_SZR,Saint-Dizier
 REU_CLO,Sainte-Clotilde
 FRA_SIN,Saintes
@@ -975,7 +975,7 @@ FRA_SNR,Saint-Nazaire
 FRA_STO,Saint-Omer
 REU_ZSE,Saint-Pierre
 SPM_MQC,Miquelon
-SPM_FSP,São Pedro
+SPM_FSP,Saint-Pierre
 FRA_STQ,Saint-Quentin
 FRA_SDP,Salon-de-Provence
 FRA_SNW,Sannois
@@ -1023,10 +1023,10 @@ HUN_BIC,Bicske
 ESP_OVO,Oviedo
 ESP_SDR,Santander
 ESP_VIT,Vitoria-Gasteiz
-ESP_LPA,Las Palmas de Gran Canaria
+ESP_LPA,Las Palmas
 ESP_SCT,Santa Cruz de Tenerife
 ESP_CEU,Ceuta
-ESP_MLN,Melilha
+ESP_MLN,Melilla
 AUT_RUS,Rust
 AUT_NAS,Neusiedl am See
 AUT_MAT,Mattersburg
@@ -1039,7 +1039,7 @@ AUT_OWT,Oberwart
 AUT_SBB,Scheibbs
 AUT_MEL,Melk
 AUT_LLF,Lilienfeld
-AUT_TLN,Tulln an der Donau
+AUT_TLN,Tulln
 BEL_AND,Andenne
 AUT_KAN,Krems an der Donau
 AUT_BDN,Baden
@@ -1065,7 +1065,7 @@ AUT_WOF,Wolfsberg
 AUT_LZN,Liezen
 AUT_BRU,Bruck an der Mur
 AUT_MZZ,Mürzzuschlag
-AUT_LBN,Leobene
+AUT_LBN,Leoben
 AUT_HTA,Hartberg
 AUT_FUF,Fürstenfeld
 AUT_FED,Feldbach
@@ -1130,7 +1130,7 @@ NLD_VDM,Veendam
 NLD_VEN,Venlo
 NLD_WGW,Wageningen
 NLD_WSC,Winschoten
-GLP_BBR,Basse-Terre
+GLP_BBR,Basse Terre
 FRA_CFR,Caen
 FRA_CME,Cagnes-sur-Mer
 FRA_AGF,Agen
@@ -1166,8 +1166,8 @@ FRA_BES,Brest
 FRA_RIY,Briey
 SLV_CUS,Antiguo Cuscatlán
 HND_TGU,Tegucigalpa
-IRQ_BGW,Bagdade
-ARE_AUH,Abu Dabi
+IRQ_BGW,Baghdad
+ARE_AUH,Abu Dhabi
 FRA_ZAO,Cahors
 FRA_CQF,Calais
 FRA_CMB,Cambrai
@@ -1281,32 +1281,32 @@ MLT_ZUR,Żurrieq
 MLT_TAR,Tarxien
 MLT_5GA,Vittoriosa
 PCN_ADM,Adamstown
-GUM_AGA,Aganha
-ESH_EAI,Laiune
+GUM_AGA,Agaña
+ESH_EAI,Laayoune
 NIU_ALO,Alofi
 WSM_APW,Apia
-TKM_ASB,Asgabade
+TKM_ASB,Ashgabat
 COK_AVA,Avarua
-BRN_BWN,Bandar Seri Begauã
+BRN_BWN,Bandar Seri Begawan
 KNA_BAS,Basseterre
-BLZ_BMP,Belmopã
+BLZ_BMP,Belmopan
 LCA_CAS,Castries
 VIR_CHA,Charlotte Amalie
 TCA_COT,Cockburn Town
 TZA_DOD,Dodoma
-QAT_DOH,Doa
+QAT_DOH,Doha
 IMN_DGS,Douglas
 CXR_FFC,Flying Fish Cove
 TUV_FUN,Funafuti
 CYM_GEC,George Town
-BLM_SBH,Gustávia
+BLM_SBH,Gustavia
 BMU_BDA,Hamilton
 SHN_SHN,Jamestown
 SSD_JUB,Juba
 SGS_GRV,King Edward Point
 NFK_NLK,Kingston
 VCT_KTN,Kingstown
-KWT_KWI,Cidade do Koweit
+KWT_KWI,Kuwait City
 SJM_LYR,Longyearbyen
 SJM_OLO,Olonkinbyen
 MHL_MAJ,Majuro
@@ -1314,40 +1314,40 @@ MDV_MLE,Malé
 BHR_AMH,Manama
 PHL_MNL,Manila
 MAF_MAR,Marigot
-WLF_MAU,Mata Utu
-PLW_MKK,Melequeoque
-MCO_MON,Mónaco
+WLF_MAU,Mata-Utu
+PLW_MKK,Melekeok
+MCO_MON,Monaco
 COM_YVA,Moroni
-OMN_MCT,Mascate
-MMR_NPD,Nepiedó
-TON_TBU,Nucualofa
+OMN_MCT,Muscat
+MMR_NPD,Naypyidaw
+TON_TBU,Nuku’alofa
 GRL_GOH,Nuuk
 ABW_ORJ,Oranjestad
 ASM_PPG,Pago Pago
-FSM_PLK,Paliquir
+FSM_PLK,Palikir
 SXM_PHI,Philipsburg
 MSR_PLY,Plymouth
 MSR_BRD,Brades
 VGB_RAD,Road Town
 DMA_RSU,Roseau
-MNP_SPN,Saipã
-PRI_SJU,São João
+MNP_SPN,Saipan
+PRI_SJU,San Juan
 STP_STM,São Tomé
-GRD_STG,São Jorge
-JEY_STH,Santo Helério
-ATG_SJO,São João
-GGY_SPT,Porto de São Pedro
+GRD_STG,St George’s
+JEY_STH,St Helier
+ATG_SJO,St John’s
+GGY_SPT,St Peter Port
 FLK_PSY,Stanley
 BOL_SRE,Sucre
-KIR_TRW,Taraua
-IRN_THR,Teerão
+KIR_TRW,Tarawa
+IRN_THR,Tehran
 AIA_VAL,The Valley
-BTN_THI,Timbu
+BTN_THI,Thimphu
 LIE_VDZ,Vaduz
-SYC_POV,Vitória
-CCK_WIL,Ilha Ocidental
+SYC_POV,Victoria
+CCK_WIL,West Island
 CUW_WIL,Willemstad
-NRU_YRN,Iarém
+NRU_YRN,Yaren
 CAN_DAR,Dartmouth
 BEN_PTN,Porto Novo
 LTU_AYS,Alytus
@@ -2155,7 +2155,7 @@ AUT_LXE,Laxenburg
 LUX_HES,Hesperange
 LUX_NAN,Niederanven
 IRL_GRG,Grange
-CHN_SGH,Xangai
+CHN_SGH,Shanghai
 LUX_BEE,Beaufort
 LUX_BCH,Bech
 LUX_BDF,Berdorf
@@ -2937,9 +2937,9 @@ ROU_TSR,Timisoara
 GRC_FLS,Elefsina
 SRB_NVS,Novi Sad
 FRA_CXP,Carhaix-Plouguer
-VAT_VAT,Cidade do Vaticano
+VAT_VAT,Vatican City
 NLD_BUU,Burum
-BDI_GID,Guitega
+BDI_GID,Gitega
 AUS_ADL,Adelaide
 MAR_AGA,Agadir
 IND_AMD,Ahmedabad
@@ -2947,7 +2947,7 @@ EGY_ALY,Alexandria
 AUS_ASP,Alice Springs
 CHE_ASW,Allschwil
 DZA_AAE,Annaba
-TUR_AYT,Antália
+TUR_AYT,Antalya
 CHL_ANF,Antofagasta
 CHL_ARI,Arica
 NZL_AKL,Auckland
