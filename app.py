@@ -285,6 +285,8 @@ for place in places_zip:
 
 app = dash.Dash(__name__)
 
+server = app.server
+
 app.layout = html.Div([
 
     html.H1('Metadata JSON Generator'),
