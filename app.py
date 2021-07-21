@@ -1016,7 +1016,9 @@ def submit(file_name,n_clicks):
         #with open(filename + ".jsonld", "w") as outfile:
             #json.dump(metadata, outfile)
 
-        return dict(content=str(metadata),filename=file_name + ".jsonld")
+        metadata_str = str(metadata).replace("'",'"')
+
+        return dict(content=metadata_str,filename=file_name + ".jsonld")
         #return str(metadata)
 
 if __name__ == "__main__":
