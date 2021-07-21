@@ -1,5 +1,5 @@
 code,name
-ENG,inglês
+ENG,English
 AAA,Ghotuo
 AAB,Alumu-Tesu
 AAC,Ari
@@ -86,7 +86,7 @@ ADO,Abu
 ADP,Adap
 ADQ,Adangbe
 ADR,Adonara
-ADS,língua gestual de Adamorobe
+ADS,Adamorobe Sign Language
 ADT,Adnyamathanha
 ADU,Aduge
 ADW,Amundava
@@ -96,12 +96,12 @@ ADZ,Adzera
 AEA,Areba
 AEB,Tunisian Arabic
 AEC,Saidi Arabic
-AED,língua gestual argentina
+AED,Argentine Sign Language
 AEE,Northeast Pashayi
 AEK,Haeke
 AEL,Ambele
 AEM,Arem
-AEN,língua gestual armeniana
+AEN,Armenian Sign Language
 AEQ,Aer
 AER,Eastern Arrernte
 AES,Alsea
@@ -119,7 +119,7 @@ AFK,Nanubae
 AFN,Defaka
 AFO,Eloyi
 AFP,Tapei
-AFR,africanse
+AFR,Afrikaans
 AFS,Afro-Seminole Creole
 AFT,Afitti
 AFU,Awutu
@@ -249,7 +249,7 @@ AMC,Amahuaca
 AME,Yanesha'
 AMF,Hamer-Banna
 AMG,Amarag
-AMH,amárico
+AMH,Amharic
 AMI,Amis
 AMJ,Amdang
 AMK,Ambai
@@ -343,7 +343,7 @@ AQM,Atohwaim
 AQN,Northern Alta
 AQP,Atakapa
 AQR,Arhâ
-ARA,árabe
+ARA,Arabic
 ARB,Standard Arabic
 ARC,Official Aramaic (700-300 BCE)
 ARD,Arabana
@@ -355,7 +355,7 @@ ARJ,Arapaso
 ARK,Arikapú
 ARL,Arabela
 ARN,Mapudungun
-ARO,araona
+ARO,Araona
 ARP,Arapaho
 ARQ,Algerian Arabic
 ARR,Karo (Brazil)
@@ -370,8 +370,8 @@ ASA,Asu (Tanzania)
 ASB,Assiniboine
 ASC,Casuarina Coast Asmat
 ASD,Asas
-ASE,língua gestual americana
-ASF,língua gestual australiana
+ASE,American Sign Language
+ASF,Australian Sign Language
 ASG,Cishingini
 ASH,Abishira
 ASI,Buruwai
@@ -381,14 +381,14 @@ ASL,Asilulu
 ASM,Assamese
 ASN,Xingú Asuriní
 ASO,Dano
-ASP,língua gestual argelina
-ASQ,língua gestual austríaca
+ASP,Algerian Sign Language
+ASQ,Austrian Sign Language
 ASR,Asuri
 ASS,Ipulo
 AST,Asturian
 ASU,Tocantins Asurini
 ASV,Asoa
-ASW,língua gestual aborígene da Austrália
+ASW,Australian Aborigines Sign Language
 ASX,Muratayak
 ASY,Yaosakor Asmat
 ASZ,As
@@ -485,9 +485,9 @@ AYH,Hadrami Arabic
 AYI,Leyigha
 AYK,Akuku
 AYL,Libyan Arabic
-AYM,aimará
+AYM,Aymara
 AYN,Sanaani Arabic
-AYO,ajoréu
+AYO,Ayoreo
 AYP,North Mesopotamian Arabic
 AYQ,Ayi (Papua New Guinea)
 AYR,Central Aymara
@@ -499,7 +499,7 @@ AYY,Tayabas Ayta
 AYZ,Mai Brat
 AZA,Azha
 AZB,South Azerbaijani
-AZE,azeri
+AZE,Azerbaijani
 AZG,San Pedro Amuzgos Amuzgo
 AZJ,North Azerbaijani
 AZM,Ipalapa Amuzgo
@@ -615,9 +615,9 @@ BEH,Biali
 BEI,Bekati'
 BEJ,Beja
 BEK,Bebeli
-BEL,bielorrusso
+BEL,Belarusian
 BEM,Bemba (Zambia)
-BEN,bengali
+BEN,Bengali
 BEO,Beami
 BEP,Besoa
 BEQ,Beembe
@@ -637,9 +637,9 @@ BFE,Betaf
 BFF,Bofi
 BFG,Busang Kayan
 BFH,Blafe
-BFI,língua gestual britânica
+BFI,British Sign Language
 BFJ,Bafanji
-BFK,língua gestual de Ban Khor
+BFK,Ban Khor Sign Language
 BFL,Banda-Ndélé
 BFM,Mmen
 BFN,Bunak
@@ -720,7 +720,7 @@ BIO,Nai
 BIP,Bila
 BIQ,Bipi
 BIR,Bisorio
-BIS,bislamá
+BIS,Bislama
 BIT,Berinomo
 BIU,Biete
 BIV,Southern Birifor
@@ -855,10 +855,10 @@ BNY,Bintulu
 BNZ,Beezen
 BOA,Bora
 BOB,Aweer
-BOD,tibetano
+BOD,Tibetan
 BOE,Mundabli
 BOF,Bolon
-BOG,língua gestual malinesa
+BOG,Bamako Sign Language
 BOH,Boma
 BOI,Barbareño
 BOJ,Anjam
@@ -870,7 +870,7 @@ BOO,Tiemacèwè Bozo
 BOP,Bonkiman
 BOQ,Bogaya
 BOR,Borôro
-BOS,bósnio
+BOS,Bosnian
 BOT,Bongo
 BOU,Bondei
 BOV,Tuwuli
@@ -913,7 +913,7 @@ BQJ,Bandial
 BQK,Banda-Mbrès
 BQL,Bilakura
 BQM,Wumboko
-BQN,língua gestual búlgara
+BQN,Bulgarian Sign Language
 BQO,Balo
 BQP,Busa
 BQQ,Biritai
@@ -924,15 +924,15 @@ BQU,Boguru
 BQV,Begbere-Ejar
 BQW,Buru (Nigeria)
 BQX,Baangi
-BQY,língua gestual de Báli
+BQY,Bengkala Sign Language
 BQZ,Bakaka
 BRA,Braj
 BRB,Lave
 BRC,Berbice Creole Dutch
 BRD,Baraamu
-BRE,bretão
+BRE,Breton
 BRF,Bera
-BRG,baure
+BRG,Baure
 BRH,Brahui
 BRI,Mokpwe
 BRJ,Bieria
@@ -1012,7 +1012,7 @@ BUH,Younuo Bunu
 BUI,Bongili
 BUJ,Basa-Gurmana
 BUK,Bugawac
-BUL,búlgaro
+BUL,Bulgarian
 BUM,Bulu (Cameroon)
 BUN,Sherbro
 BUO,Terei
@@ -1037,7 +1037,7 @@ BVH,Bure
 BVI,Belanda Viri
 BVJ,Baan
 BVK,Bukat
-BVL,língua gestual boliviana
+BVL,Bolivian Sign Language
 BVM,Bamunka
 BVN,Buna
 BVO,Bolgo
@@ -1140,7 +1140,7 @@ BZO,Bozaba
 BZP,Kemberano
 BZQ,Buli (Indonesia)
 BZR,Biri
-BZS,língua gestual brasileira
+BZS,Brazilian Sign Language
 BZT,Brithenig
 BZU,Burmeso
 BZV,Bebe
@@ -1158,20 +1158,20 @@ CAG,Nivaclé
 CAH,Cahuarano
 CAJ,Chané
 CAK,Kaqchikel
-CAL,caroliniano
+CAL,Carolinian
 CAM,Cemuhî
 CAN,Chambri
-CAO,chácobo
+CAO,Chacobo
 CAP,Chipaya
 CAQ,Car Nicobarese
 CAR,Galibi Carib
-CAS,chimane
-CAT,catalão
-CAV,cavinenha
-CAW,calauaia
-CAX,chiquitano
+CAS,Chimane
+CAT,Catalan
+CAV,Cavineña
+CAW,Kallawaya
+CAX,Chiquitano
 CAY,Cayuga
-CAZ,canichana
+CAZ,Canichana
 CBB,Cabiyarí
 CBC,Carapana
 CBD,Carijona
@@ -1214,14 +1214,14 @@ CDM,Chepang
 CDN,Chaudangsi
 CDO,Min Dong Chinese
 CDR,Cinda-Regi-Tiyal
-CDS,língua gestual chadiana
+CDS,Chadian Sign Language
 CDY,Chadong
 CDZ,Koda
 CEA,Lower Chehalis
 CEB,Cebuano
 CEG,Chamacoco
 CEN,Cen
-CES,checo
+CES,Czech
 CET,Centúúm
 CFA,Dijim-Bwilim
 CFD,Cara
@@ -1231,7 +1231,7 @@ CGA,Changriwa
 CGC,Kagayanen
 CGG,Chiga
 CGK,Chocangacakha
-CHA,chamorro
+CHA,Chamorro
 CHB,Chibcha
 CHC,Catawba
 CHD,Highland Oaxaca Chontal
@@ -1282,7 +1282,7 @@ CJS,Shor
 CJV,Chuave
 CJY,Jinyu Chinese
 CKA,Khumi Awa Chin
-CKB,curdo central
+CKB,Central Kurdish
 CKH,Chak
 CKL,Cibak
 CKO,Anufo
@@ -1315,7 +1315,7 @@ CMI,Emberá-Chamí
 CMK,Chimakum
 CML,Campalagian
 CMM,Michigamea
-CMN,mandarim
+CMN,Mandarin Chinese
 CMO,Central Mnong
 CMR,Mro Chin
 CMS,Messapic
@@ -1350,8 +1350,8 @@ CON,Cofán
 COO,Comox
 COP,Coptic
 COQ,Coquille
-COR,córnico
-COS,corso
+COR,Cornish
+COS,Corsican
 COT,Caquinte
 COU,Wamey
 COV,Cao Miao
@@ -1396,20 +1396,20 @@ CRX,Carrier
 CRY,Cori
 CRZ,Cruzeño
 CSA,Chiltepec Chinantec
-CSB,cassúbio
-CSC,língua gestual catalã
-CSD,língua gestual de Chiang Mai
-CSE,língua gestual checa
-CSF,língua gestual cubana
-CSG,língua gestual chilena
+CSB,Kashubian
+CSC,Catalan Sign Language
+CSD,Chiangmai Sign Language
+CSE,Czech Sign Language
+CSF,Cuban Sign Language
+CSG,Chilean Sign Language
 CSH,Asho Chin
 CSI,Coast Miwok
 CSK,Jola-Kasa
-CSL,língua gestual chinesa
+CSL,Chinese Sign Language
 CSM,Central Sierra Miwok
-CSN,língua gestual colombiana
+CSN,Colombian Sign Language
 CSO,Sochiapam Chinantec
-CSQ,língua gestual croata
+CSQ,Croatian Sign Language
 CSR,Costa Rican Sign Language
 CSS,Southern Ohlone
 CST,Northern Ohlone
@@ -1458,8 +1458,8 @@ CWE,Kwere
 CWG,Chewong
 CWT,Kuwaataay
 CYA,Nopala Chatino
-CYB,caiubaba
-CYM,galês
+CYB,Cayubaba
+CYM,Welsh
 CYO,Cuyonon
 CZH,Huizhou Chinese
 CZK,Knaanic
@@ -1478,7 +1478,7 @@ DAJ,Dar Fur Daju
 DAK,Dakota
 DAL,Dahalo
 DAM,Damakawa
-DAN,dinamarquês
+DAN,Danish
 DAO,Daai Chin
 DAP,Nisi (India)
 DAQ,Dandami Maria
@@ -1533,7 +1533,7 @@ DEP,Pidgin Delaware
 DEQ,Dendi (Central African Republic)
 DER,Deori
 DES,Desano
-DEU,alemão
+DEU,German
 DEV,Domung
 DEZ,Dengese
 DGA,Southern Dagaare
@@ -1585,7 +1585,7 @@ DIR,Dirim
 DIS,Dimasa
 DIT,Dirari
 DIU,Diriku
-DIV,divehi
+DIV,Dhivehi
 DIW,Northwestern Dinka
 DIX,Dixon Reef
 DIY,Diuwe
@@ -1679,10 +1679,10 @@ DRU,Rukai
 DRW,Darwazi
 DRY,Darai
 DSB,Lower Sorbian
-DSE,língua gestual neerlandesa
+DSE,Dutch Sign Language
 DSH,Daasanach
 DSI,Disa
-DSL,língua gestual dinamarquesa
+DSL,Danish Sign Language
 DSN,Dusner
 DSO,Desiya
 DSQ,Tadaksahak
@@ -1742,13 +1742,13 @@ DZD,Daza
 DZG,Dazaga
 DZL,Dzalakha
 DZN,Dzando
-DZO,butanês
+DZO,Dzongkha
 EBG,Ebughu
 EBO,Teke-Ebo
 EBR,Ebrié
 EBU,Embu
 ECR,Eteocretan
-ECS,língua gestual do Equador
+ECS,Ecuadorian Sign Language
 ECY,Eteocypriot
 EEE,E
 EFA,Efai
@@ -1778,7 +1778,7 @@ ELE,Elepi
 ELH,El Hugeirat
 ELI,Nding
 ELK,Elkei
-ELL,grego
+ELL,Greek
 ELM,Eleme
 ELO,El Molo
 ELP,Elpaputih
@@ -1814,7 +1814,7 @@ ENV,Enwan (Edu State)
 ENW,Enwan (Akwa Ibom State)
 EOT,Beti (Côte d'Ivoire)
 EPI,Epie
-EPO,esperanto
+EPO,Esperanto
 ERA,Eravallan
 ERG,Sie
 ERH,Eruwa
@@ -1825,17 +1825,17 @@ ERR,Erre
 ERS,Ersu
 ERT,Eritai
 ERW,Erokwanas
-ESE,esse eja
+ESE,Ese Ejja
 ESH,Eshtehardi
 ESI,North Alaskan Inupiatun
 ESK,Northwest Alaska Inupiatun
-ESL,língua gestual egípcia
+ESL,Egyptian Sign Language
 ESM,Esuma
 ESN,Salvadoran Sign Language
-ESO,língua gestual estoniana
+ESO,Estonian Sign Language
 ESQ,Esselen
 ESS,Central Siberian Yupik
-EST,estónio
+EST,Estonian
 ESU,Central Yupik
 ETB,Etebi
 ETC,Etchemin
@@ -1848,11 +1848,11 @@ ETT,Etruscan
 ETU,Ejagham
 ETX,Eten
 ETZ,Semimi
-EUS,basco
+EUS,Basque
 EVE,Even
 EVH,Uvbie
 EVN,Evenki
-EWE,ewe
+EWE,Ewe
 EWO,Ewondo
 EXT,Extremaduran
 EYA,Eyak
@@ -1870,25 +1870,25 @@ FAK,Fang (Cameroon)
 FAL,South Fali
 FAM,Fam
 FAN,Fang (Equatorial Guinea)
-FAO,feroês
+FAO,Faroese
 FAP,Palor
 FAR,Fataleka
-FAS,perso
+FAS,Persian
 FAT,Fanti
 FAU,Fayu
 FAX,Fala
 FAY,Southwestern Fars
 FAZ,Northwestern Fars
-FCS,língua gestual quebequiana
+FCS,Quebec Sign Language
 FER,Feroge
 FFI,Foia Foia
 FFM,Maasina Fulfulde
 FGR,Fongoro
 FIA,Nobiin
 FIE,Fyer
-FIJ,fijiano
-FIL,filipino
-FIN,finlandês
+FIJ,Fijian
+FIL,Filipino
+FIN,Finnish
 FIP,Fipa
 FIR,Firan
 FIT,Tornedalen Finnish
@@ -1913,7 +1913,7 @@ FOR,Fore
 FOS,Siraya
 FPE,Fernando Po Creole English
 FQS,Fas
-FRA,francês
+FRA,French
 FRC,Cajun French
 FRD,Fordata
 FRK,Frankish
@@ -1924,10 +1924,10 @@ FRQ,Forak
 FRR,Northern Frisian
 FRS,Eastern Frisian
 FRT,Fortsenal
-FRY,frísio
-FSE,língua gestual finlandesa
-FSL,língua gestual francesa
-FSS,língua gestual sueca da Finlândia
+FRY,Frisian
+FSE,Finnish Sign Language
+FSL,French Sign Language
+FSS,Finland-Swedish Sign Language
 FUB,Adamawa Fulfulde
 FUC,Pulaar
 FUD,East Futuna
@@ -2092,11 +2092,11 @@ GKA,Guya
 GKE,Ndai
 GKN,Gokana
 GKP,Guinea Kpelle
-GLA,gaélico escocês
+GLA,Scottish Gaelic
 GLC,Bon Gula
 GLD,Nanai
-GLE,irlandês
-GLG,galego
+GLE,Irish
+GLG,Galician
 GLH,Northwest Pashayi
 GLI,Guliguli
 GLJ,Gula Iro
@@ -2104,7 +2104,7 @@ GLK,Gilaki
 GLO,Galambu
 GLR,Glaro-Twabo
 GLU,Gula (Chad)
-GLV,manês
+GLV,Manx
 GLW,Glavda
 GLY,Gule
 GMA,Gambera
@@ -2177,7 +2177,7 @@ GRH,Gbiri-Niragu
 GRI,Ghari
 GRJ,Southern Grebo
 GRM,Kota Marudu Talantang
-GRN,guarani
+GRN,Guarani
 GRO,Groma
 GRQ,Gorovu
 GRR,Taznatit
@@ -2192,11 +2192,11 @@ GRZ,Guramalum
 GSE,Ghanaian Sign Language
 GSG,German Sign Language
 GSL,Gusilay
-GSM,língua gestual da Guatemala
+GSM,Guatemalan Sign Language
 GSN,Gusan
 GSO,Southwest Gbaya
 GSP,Wasembo
-GSS,língua gestual grega
+GSS,Greek Sign Language
 GSW,Swiss German
 GTA,Guató
 GTI,Gbati-ri
@@ -2206,7 +2206,7 @@ GUC,Wayuu
 GUD,Yocoboué Dida
 GUE,Gurinji
 GUF,Gupapuyngu
-GUG,guarani do Paraguai
+GUG,Paraguayan Guaraní
 GUH,Guahibo
 GUI,Eastern Bolivian Guaraní
 GUJ,Gujarati
@@ -2264,7 +2264,7 @@ GYI,Gyele
 GYL,Gayil
 GYM,Ngäbere
 GYN,Guyanese Creole English
-GYR,guaraiú
+GYR,Guarayu
 GYY,Gunya
 GZA,Ganza
 GZI,Gazi
@@ -2300,13 +2300,13 @@ HBB,Huba
 HBN,Heiban
 HBO,Ancient Hebrew
 HBU,Habu
-HCA,crioulo hindi das ilhas Andamão
+HCA,Andaman Creole Hindi
 HCH,Huichol
 HDN,Northern Haida
-HDS,língua gestual das Honduras
+HDS,Honduran Sign Language
 HDY,Hadiyya
 HEA,Northern Qiandong Miao
-HEB,hebreu
+HEB,Hebrew
 HED,Herdé
 HEG,Helong
 HEH,Hehe
@@ -2321,14 +2321,14 @@ HHY,Hoyahoya
 HIA,Lamang
 HIB,Hibito
 HID,Hidatsa
-HIF,híndi de Fiji
+HIF,Fiji Hindi
 HIG,Kamwe
 HIH,Pamosu
 HII,Hinduri
 HIJ,Hijuk
 HIK,Seit-Kaitetu
 HIL,Hiligaynon
-HIN,hindi
+HIN,Hindi
 HIO,Tsoa
 HIR,Himarimã
 HIT,Hittite
@@ -2338,7 +2338,7 @@ HJI,Haji
 HKA,Kahe
 HKE,Hunde
 HKK,Hunjara-Kaina Ke
-HKS,língua gestual de Hong Kong
+HKS,Hong Kong Sign Language
 HLA,Halia
 HLB,Halbi
 HLD,Halang Doan
@@ -2359,7 +2359,7 @@ HMK,Maek
 HML,Luopohe Hmong
 HMM,Central Mashan Hmong
 HMN,Hmong
-HMO,hiri motu
+HMO,Hiri Motu
 HMP,Northern Mashan Hmong
 HMQ,Eastern Qiandong Miao
 HMR,Hmar
@@ -2400,7 +2400,7 @@ HOW,Honi
 HOY,Holiya
 HOZ,Hozo
 HPO,Hpon
-HPS,língua gestual pidgin do Havai
+HPS,Hawai'i Pidgin Sign Language
 HRA,Hrangkhol
 HRE,Hre
 HRK,Haruku
@@ -2409,12 +2409,12 @@ HRO,Haroi
 HRR,Horuru
 HRT,Hértevin
 HRU,Hruso
-HRV,croata
+HRV,Croatian
 HRX,Hunsrik
 HRZ,Harzani
-HSB,alto sorábio
+HSB,Upper Sorbian
 HSH,Hungarian Sign Language
-HSL,língua gestual de hausa
+HSL,Hausa Sign Language
 HSN,Xiang Chinese
 HSS,Harsusi
 HTI,Hoti
@@ -2434,7 +2434,7 @@ HUJ,Northern Guiyang Hmong
 HUK,Hulung
 HUL,Hula
 HUM,Hungana
-HUN,húngaro
+HUN,Hungarian
 HUO,Hu
 HUP,Hupa
 HUQ,Tsat
@@ -2456,7 +2456,7 @@ HWA,Wané
 HWC,Hawai'i Creole English
 HWO,Hwana
 HYA,Hya
-HYE,arménio
+HYE,Armenian
 IAI,Iaai
 IAN,Iatmul
 IAP,Iapama
@@ -2470,7 +2470,7 @@ IBI,Ibilo
 IBL,Ibaloi
 IBM,Agoi
 IBN,Ibino
-IBO,igbo
+IBO,Igbo
 IBR,Ibuoro
 IBU,Ibu
 IBY,Ibani
@@ -2502,7 +2502,7 @@ IGE,Igede
 IGG,Igana
 IGL,Igala
 IGM,Kanggape
-IGN,inaciano
+IGN,Ignaciano
 IGO,Isebe
 IGS,Interglossa
 IGW,Igwe
@@ -2548,18 +2548,18 @@ IMO,Imbongu
 IMR,Imroing
 IMS,Marsian
 IMY,Milyan
-INA,interlíngua
+INA,Interlingua
 INB,Inga
-IND,indonésia
+IND,Indonesian
 ING,Degexit'an
 INH,Ingush
 INJ,Jungle Inga
-INL,língua gestual indonésia
+INL,Indonesian Sign Language
 INM,Minaean
 INN,Isinai
 INO,Inoke-Yate
 INP,Iñapari
-INS,língua gestual indiana
+INS,Indian Sign Language
 INT,Intha
 INZ,Ineseño
 IOR,Inor
@@ -2585,21 +2585,21 @@ ISE,Italian Sign Language
 ISG,Irish Sign Language
 ISH,Esan
 ISI,Nkem-Nkum
-ISL,islandês
+ISL,Icelandic
 ISM,Masimasi
 ISN,Isanzu
 ISO,Isoko
 ISR,Israeli Sign Language
 IST,Istriot
 ISU,Isu (Menchum Division)
-ITA,italiano
+ITA,Italian
 ITB,Binongan Itneg
-ITE,itene
+ITE,Itene
 ITI,Inlaod Itneg
 ITK,Judeo-Italian
 ITL,Itelmen
 ITM,Itu Mbon Uzo
-ITO,itonama
+ITO,Itonama
 ITR,Iteri
 ITS,Isekiri
 ITT,Maeng Itneg
@@ -2671,7 +2671,7 @@ JGB,Ngbee
 JGE,Judeo-Georgian
 JGO,Ngomba
 JHI,Jehai
-JHS,língua gestual de Jancote
+JHS,Jhankot Sign Language
 JIA,Jina
 JIB,Jibu
 JIC,Tol
@@ -2714,7 +2714,7 @@ JOR,Jorá
 JOS,Jordanian Sign Language
 JOW,Jowulu
 JPA,Jewish Palestinian Aramaic
-JPN,japonês
+JPN,Japanese
 JPR,Judeo-Persian
 JQR,Jaqaru
 JRA,Jarai
@@ -2722,7 +2722,7 @@ JRB,Judeo-Arabic
 JRR,Jiru
 JRT,Jorto
 JRU,Japrería
-JSL,língua gestual japonesa
+JSL,Japanese Sign Language
 JUA,Júma
 JUB,Wannu
 JUC,Jurchen
@@ -2735,7 +2735,7 @@ JUN,Juang
 JUO,Jiba
 JUP,Hupdë
 JUR,Jurúna
-JUS,língua gestual de Júmela
+JUS,Jumla Sign Language
 JUT,Jutish
 JUU,Ju
 JUW,Wãpha
@@ -2757,20 +2757,20 @@ KAH,Kara (Central African Republic)
 KAI,Karekare
 KAJ,Jju
 KAK,Kayapa Kallahan
-KAL,groenlandês
+KAL,Greenlandic
 KAM,Kamba (Kenya)
 KAN,Kannada
 KAO,Xaasongaxango
 KAP,Bezhta
 KAQ,Capanahua
 KAS,Kashmiri
-KAT,georgiano
+KAT,Georgian
 KAU,Kanuri
 KAV,Katukína
 KAW,Kawi
 KAX,Kao
 KAY,Kamayurá
-KAZ,cazaque
+KAZ,Kazakh
 KBA,Kalarko
 KBB,Kaxuiâna
 KBC,Kadiwéu
@@ -2906,7 +2906,7 @@ KGE,Komering
 KGF,Kube
 KGG,Kusunda
 KGH,Upper Tanudan Kalinga
-KGI,língua gestual de Selângor
+KGI,Selangor Sign Language
 KGJ,Gamale Kham
 KGK,Kaiwá
 KGL,Kunggari
@@ -2934,7 +2934,7 @@ KHH,Kehu
 KHJ,Kuturmi
 KHK,Halh Mongolian
 KHL,Lusi
-KHM,khmer
+KHM,Khmer
 KHN,Khandesi
 KHO,Khotanese
 KHP,Kapori
@@ -2961,11 +2961,11 @@ KIJ,Kilivila
 KIK,Kikuyu
 KIL,Kariya
 KIM,Karagas
-KIN,ruanda
+KIN,Kinyarwanda
 KIO,Kiowa
 KIP,Sheshi Kham
 KIQ,Kosadle
-KIR,quirguiz
+KIR,Kyrgyz
 KIS,Kis
 KIT,Agob
 KIU,Kirmanjki (individual language)
@@ -3067,7 +3067,7 @@ KMN,Awtuw
 KMO,Kwoma
 KMP,Gimme
 KMQ,Kwama
-KMR,curdo setentrional
+KMR,Northern Kurdish
 KMS,Kamasau
 KMT,Kemtuik
 KMU,Kanite
@@ -3113,11 +3113,11 @@ KOJ,Sara Dunjo
 KOK,Konkani (macrolanguage)
 KOL,Kol (Papua New Guinea)
 KOM,Komi
-KON,kikongo
+KON,Kikongo
 KOO,Konzo
 KOP,Kwato
 KOQ,Kota (Gabon)
-KOR,coreano
+KOR,Korean
 KOS,Kosraean
 KOT,Lagwan
 KOU,Koke
@@ -3270,7 +3270,7 @@ KUN,Kunama
 KUO,Kumukio
 KUP,Kunimaipa
 KUQ,Karipuna
-KUR,curdo
+KUR,Kurdish
 KUS,Kusaal
 KUT,Kutenai
 KUU,Upper Kuskokwim
@@ -3289,7 +3289,7 @@ KVG,Kuni-Boazi
 KVH,Komodo
 KVI,Kwang
 KVJ,Psikye
-KVK,língua gestual coreana
+KVK,Korean Sign Language
 KVL,Brek Karen
 KVM,Kendem
 KVN,Border Kuna
@@ -3334,7 +3334,7 @@ KWZ,Kwadi
 KXA,Kairiru
 KXB,Krobu
 KXC,Konso
-KXD,malaio bruneano
+KXD,Brunei Malay
 KXE,Kakihum
 KXF,Manumanaw Karen
 KXH,Karo (Ethiopia)
@@ -3422,14 +3422,14 @@ LAK,Laka (Nigeria)
 LAL,Lalia
 LAM,Lamba
 LAN,Laru
-LAO,laociano
+LAO,Lao
 LAP,Laka (Chad)
 LAQ,Qabiao
 LAR,Larteh
 LAS,Lama (Togo)
-LAT,latim
+LAT,Latin
 LAU,Laba
-LAV,letão
+LAV,Latvian
 LAW,Lauje
 LAX,Tiwa
 LAY,Lama (Myanmar)
@@ -3480,7 +3480,7 @@ LDP,Tso
 LDQ,Lufu
 LEA,Lega-Shabunda
 LEB,Lala-Bisa
-LEC,leco
+LEC,Leco
 LED,Lendu
 LEE,Lyélé
 LEF,Lelemi
@@ -3543,13 +3543,13 @@ LIJ,Ligurian
 LIK,Lika
 LIL,Lillooet
 LIM,Limburgan
-LIN,lingala
+LIN,Lingala
 LIO,Liki
 LIP,Sekpele
 LIQ,Libido
 LIR,Liberian English
 LIS,Lisu
-LIT,lituano
+LIT,Lithuanian
 LIU,Logorik
 LIV,Liv
 LIW,Col
@@ -3591,7 +3591,7 @@ LLN,Lele (Chad)
 LLO,Khlor
 LLP,North Efate
 LLQ,Lolak
-LLS,língua gestual lituana
+LLS,Lithuanian Sign Language
 LLU,Lau
 LLX,Lauan
 LMA,East Limba
@@ -3695,7 +3695,7 @@ LTN,Latundê
 LTO,Tsotso
 LTS,Tachoni
 LTU,Latu
-LTZ,luxemburguês
+LTZ,Luxembourgish
 LUA,Luba-Lulua
 LUB,Luba-Katanga
 LUC,Aringa
@@ -3745,13 +3745,13 @@ MAD,Madurese
 MAE,Bo-Rukul
 MAF,Mafa
 MAG,Magahi
-MAH,marshallino
+MAH,Marshallese
 MAI,Maithili
 MAJ,Jalapa De Díaz Mazatec
 MAK,Makasar
 MAL,Malayalam
 MAM,Mam
-MAN,línguas mandingas
+MAN,Manding
 MAQ,Chiquihuitlán Mazatec
 MAR,Marathi
 MAS,Masai
@@ -3823,7 +3823,7 @@ MDH,Maguindanao
 MDI,Mamvu
 MDJ,Mangbetu
 MDK,Mangbutu
-MDL,língua gestual maltesa
+MDL,Maltese Sign Language
 MDM,Mayogo
 MDN,Mbati
 MDP,Mbala
@@ -3880,7 +3880,7 @@ MFO,Mbe
 MFP,Makassar Malay
 MFQ,Moba
 MFR,Marithiel
-MFS,língua gestual mexicana
+MFS,Mexican Sign Language
 MFT,Mokerang
 MFU,Mbwela
 MFV,Mandjak
@@ -3952,12 +3952,12 @@ MIJ,Abar
 MIK,Mikasuki
 MIL,Peñoles Mixtec
 MIM,Alacatlatzala Mixtec
-MIN,minangkabau
+MIN,Minangkabau
 MIO,Pinotepa Nacional Mixtec
 MIP,Apasco-Apoala Mixtec
 MIQ,Mískito
 MIR,Isthmus Mixe
-MIS,línguas sem código
+MIS,Uncoded languages
 MIT,Southern Puebla Mixtec
 MIU,Cacaloxtepec Mixtec
 MIW,Akoye
@@ -3991,7 +3991,7 @@ MJZ,Majhi
 MKA,Mbre
 MKB,Mal Paharia
 MKC,Siliput
-MKD,macedónio
+MKD,Macedonian
 MKE,Mawchi
 MKF,Miya
 MKG,Mak (China)
@@ -4019,7 +4019,7 @@ MLC,Cao Lan
 MLD,Malakhel
 MLE,Manambu
 MLF,Mal
-MLG,malgaxe
+MLG,Malagasy
 MLH,Mape
 MLI,Malimpung
 MLJ,Miltu
@@ -4032,7 +4032,7 @@ MLP,Bargam
 MLQ,Western Maninkakan
 MLR,Vame
 MLS,Masalit
-MLT,maltês
+MLT,Maltese
 MLU,To'abaita
 MLV,Motlav
 MLW,Moloko
@@ -4073,7 +4073,7 @@ MNG,Eastern Mnong
 MNH,Mono (Democratic Republic of Congo)
 MNI,Manipuri
 MNJ,Munji
-MNK,mandinga
+MNK,Mandinka
 MNL,Tiale
 MNM,Mapena
 MNN,Southern Mnong
@@ -4099,7 +4099,7 @@ MOI,Mboi
 MOJ,Monzombo
 MOK,Morori
 MOM,Monimbo
-MON,mongol
+MON,Mongolian
 MOO,Monom
 MOP,Mopán Maya
 MOQ,Mor (Bomberai Peninsula)
@@ -4115,7 +4115,7 @@ MOZ,Mukulu
 MPA,Mpoto
 MPB,Mullukmulluk
 MPC,Mangarayi
-MPD,machinere
+MPD,Machinere
 MPE,Majang
 MPG,Marba
 MPH,Maung
@@ -4166,11 +4166,11 @@ MRA,Mlabri
 MRB,Marino
 MRC,Maricopa
 MRD,Western Magar
-MRE,língua gestual de Martha’s Vineyard
+MRE,Martha's Vineyard Sign Language
 MRF,Elseng
 MRG,Miri
 MRH,Mara Chin
-MRI,maori
+MRI,Māori
 MRJ,Western Mari
 MRK,Hmwaveke
 MRL,Mortlockese
@@ -4204,7 +4204,7 @@ MSN,Vurës
 MSO,Mombum
 MSP,Maritsauá
 MSQ,Caac
-MSR,língua gestual da Mongólia
+MSR,Mongolian Sign Language
 MSS,West Masela
 MST,Cataelano Mandaya
 MSU,Musom
@@ -4228,7 +4228,7 @@ MTL,Montol
 MTM,Mator
 MTN,Matagalpa
 MTO,Totontepec Mixe
-MTP,mataco
+MTP,Wichí Lhamtés Nocten
 MTQ,Muong
 MTR,Mewari
 MTS,Yora
@@ -4248,7 +4248,7 @@ MUH,Mündü
 MUI,Musi
 MUJ,Mabire
 MUK,Mugom
-MUL,várias línguas
+MUL,Multiple languages
 MUM,Maiwala
 MUO,Nyong
 MUP,Malvi
@@ -4337,7 +4337,7 @@ MXW,Namo
 MXX,Mahou
 MXY,Southeastern Nochixtlán Mixtec
 MXZ,Central Masela
-MYA,birmanês
+MYA,Burmese
 MYB,Mbay
 MYC,Mayeka
 MYD,Maramba
@@ -4376,7 +4376,7 @@ MZL,Mazatlán Mixe
 MZM,Mumuye
 MZN,Mazanderani
 MZO,Matipuhy
-MZP,movima
+MZP,Movima
 MZQ,Mori Atas
 MZR,Marúbo
 MZS,Macanese
@@ -4385,7 +4385,7 @@ MZU,Inapang
 MZV,Manza
 MZW,Deg
 MZX,Mawayana
-MZY,língua gestual moçambicana
+MZY,Mozambican Sign Language
 MZZ,Maiadomu
 NAA,Namla
 NAB,Southern Nambikuára
@@ -4405,7 +4405,7 @@ NAQ,Nama (Namibia)
 NAR,Iguta
 NAS,Naasioi
 NAT,Hungworo
-NAU,nauruano
+NAU,Nauruan
 NAV,Navajo
 NAW,Nawuri
 NAX,Nakwi
@@ -4422,7 +4422,7 @@ NBH,Ngamo
 NBI,Mao Naga
 NBJ,Ngarinman
 NBK,Nake
-NBL,sindebele meridional
+NBL,Southern Ndebele
 NBM,Ngbaka Ma'bo
 NBN,Kuri
 NBO,Nkukoli
@@ -4453,7 +4453,7 @@ NCN,Nauna
 NCO,Sibe
 NCP,Ndaktup
 NCR,Ncane
-NCS,língua gestual nicaraguense
+NCS,Nicaraguan Sign Language
 NCT,Chothe Naga
 NCU,Chumburung
 NCX,Central Puebla Nahuatl
@@ -4498,7 +4498,7 @@ NEK,Neku
 NEM,Nemi
 NEN,Nengone
 NEO,Ná-Meo
-NEP,nepali
+NEP,Nepali
 NEQ,North Central Mixe
 NER,Yahadian
 NES,Bhoti Kinnauri
@@ -4579,7 +4579,7 @@ NIQ,Nandi
 NIR,Nimboran
 NIS,Nimi
 NIT,Southeastern Kolami
-NIU,niueiano
+NIU,Niuean
 NIV,Gilyak
 NIW,Nimo
 NIX,Hema
@@ -4626,7 +4626,7 @@ NKX,Nkoroo
 NKZ,Nkari
 NLA,Ngombale
 NLC,Nalca
-NLD,neerlandês
+NLD,Dutch
 NLE,East Nyala
 NLG,Gela
 NLI,Grangali
@@ -4681,7 +4681,7 @@ NNK,Nankina
 NNL,Northern Rengma Naga
 NNM,Namia
 NNN,Ngete
-NNO,neonorueguês
+NNO,Norwegian Nynorsk
 NNP,Wancho Naga
 NNQ,Ngindo
 NNR,Narungga
@@ -4694,7 +4694,7 @@ NNX,Ngong
 NNY,Nyangga
 NNZ,Nda'nda'
 NOA,Woun Meu
-NOB,dano-noruguês
+NOB,Norwegian Bokmål
 NOC,Nuk
 NOD,Northern Thai
 NOE,Nimadi
@@ -4708,7 +4708,7 @@ NON,Old Norse
 NOO,Nootka
 NOP,Numanggang
 NOQ,Ngongo
-NOR,norueguês
+NOR,Norwegian
 NOS,Eastern Nisu
 NOT,Nomatsiguenga
 NOU,Ewage-Notu
@@ -4749,15 +4749,15 @@ NSD,Southern Nisu
 NSE,Nsenga
 NSG,Ngasa
 NSH,Ngoshie
-NSI,língua gestual nigeriana
+NSI,Nigerian Sign Language
 NSK,Naskapi
 NSL,Norwegian Sign Language
 NSM,Sumi Naga
 NSN,Nehan
-NSO,soto setentrional
-NSP,língua gestual do Nepal
+NSO,Northern Sotho
+NSP,Nepalese Sign Language
 NSQ,Northern Sierra Miwok
-NSR,língua gestual das províncias marítimas
+NSR,Maritime Sign Language
 NSS,Nali
 NST,Tase Naga
 NSU,Sierra Negra Nahuatl
@@ -4825,7 +4825,7 @@ NXN,Ngawun
 NXR,Ninggerum
 NXU,Narau
 NXX,Nafri
-NYA,nianja
+NYA,Chewa
 NYB,Nyangbo
 NYC,Nyanga-li
 NYD,Nyore
@@ -4855,7 +4855,7 @@ NZB,Njebi
 NZI,Nzima
 NZK,Nzakara
 NZM,Zeme Naga
-NZS,língua gestual da Nova Zelândia
+NZS,New Zealand Sign Language
 NZU,Teke-Nzikou
 NZY,Nzakambay
 OAA,Orok
@@ -4871,7 +4871,7 @@ OBT,Old Breton
 OBU,Obulom
 OCA,Ocaina
 OCH,Old Chinese
-OCI,occitano
+OCI,Occitan
 OCO,Old Cornish
 OCU,Atzingo Matlatzinca
 ODA,Odut
@@ -4987,7 +4987,7 @@ OSC,Oscan
 OSI,Osing
 OSO,Ososo
 OSP,Old Spanish
-OSS,osseto
+OSS,Ossetic
 OST,Osatu
 OSU,Southern One
 OSX,Old Saxon
@@ -5033,14 +5033,14 @@ PAI,Pe
 PAK,Parakanã
 PAL,Pahlavi
 PAM,Pampanga
-PAN,panjabi
+PAN,Punjabi
 PAO,Northern Paiute
-PAP,papiamento
+PAP,Papiamento
 PAQ,Parya
 PAR,Panamint
 PAS,Papasena
 PAT,Papitalai
-PAU,palauano
+PAU,Palauan
 PAV,Pakaásnovos
 PAW,Pawnee
 PAX,Pankararé
@@ -5078,7 +5078,7 @@ PCK,Paite Chin
 PCL,Pardhi
 PCM,Nigerian Pidgin
 PCN,Piti
-PCP,pacauara
+PCP,Pacahuara
 PCR,Panang
 PCW,Pyapun
 PDA,Anam
@@ -5141,7 +5141,7 @@ PID,Piaroa
 PIE,Piro
 PIF,Pingelapese
 PIG,Pisabo
-PIH,pitcairnês-norfolkino
+PIH,Pitcairn-Norfolk
 PII,Pini
 PIJ,Pijao
 PIL,Yom
@@ -5245,13 +5245,13 @@ POG,Potiguára
 POH,Poqomchi'
 POI,Highland Popoluca
 POK,Pokangá
-POL,polaco
+POL,Polish
 POM,Southeastern Pomo
 PON,Pohnpeian
 POO,Central Pomo
 POP,Pwapwa
 POQ,Texistepec Popoluca
-POR,português
+POR,Portuguese
 POS,Sayula Popoluca
 POT,Potawatomi
 POV,Upper Guinea Crioulo
@@ -5282,34 +5282,34 @@ PRG,Prussian
 PRH,Porohanon
 PRI,Paicî
 PRK,Parauk
-PRL,língua gestual peruana
+PRL,Peruvian Sign Language
 PRM,Kibiri
 PRN,Prasuni
 PRO,Old Provençal (to 1500)
 PRP,Parsi
 PRQ,Ashéninka Perené
 PRR,Puri
-PRS,dari
+PRS,Dari
 PRT,Phai
 PRU,Puragi
 PRW,Parawen
 PRX,Purik
 PRY,Pray 3
-PRZ,língua gestual da Providência
+PRZ,Providencia Sign Language
 PSA,Asue Awyu
 PSC,Persian Sign Language
-PSD,língua gestual dos Índios das Planícies
+PSD,Plains Indian Sign Language
 PSE,Central Malay
-PSG,língua gestual de Penão
+PSG,Penang Sign Language
 PSH,Southwest Pashayi
 PSI,Southeast Pashayi
 PSL,Puerto Rican Sign Language
-PSM,pauserna
+PSM,Pauserna
 PSN,Panasuan
 PSO,Polish Sign Language
-PSP,língua gestual filipina
+PSP,Philippine Sign Language
 PSQ,Pasi
-PSR,língua gestual portuguesa
+PSR,Portuguese Sign Language
 PSS,Kaulong
 PST,Central Pashto
 PSU,Sauraseni Prākrit
@@ -5340,9 +5340,9 @@ PUK,Pu Ko
 PUM,Puma
 PUO,Puoc
 PUP,Pulabu
-PUQ,puquina
+PUQ,Puquina
 PUR,Puruborá
-PUS,pachto
+PUS,Pashto
 PUT,Putoh
 PUU,Punu
 PUW,Puluwatese
@@ -5369,7 +5369,7 @@ QUA,Quapaw
 QUB,Huallaga Huánuco Quechua
 QUC,K'iche'
 QUD,Calderón Highland Quichua
-QUE,quíchua
+QUE,Quechua
 QUF,Lambayeque Quechua
 QUG,Chimborazo Highland Quichua
 QUH,South Bolivian Quechua
@@ -5439,7 +5439,7 @@ RAN,Riantana
 RAO,Rao
 RAP,Rapanui
 RAQ,Saam
-RAR,rarotongano
+RAR,Rarotongan
 RAS,Tegali
 RAT,Razajerdi
 RAU,Raute
@@ -5463,7 +5463,7 @@ REN,Rengao
 RER,Rer Bare
 RES,Reshe
 RET,Retta
-REY,reiesano
+REY,Reyesano
 RGA,Roria
 RGE,Romano-Greek
 RGK,Rangkas
@@ -5528,10 +5528,10 @@ ROD,Rogo
 ROE,Ronji
 ROF,Rombo
 ROG,Northern Roglai
-ROH,romanche
+ROH,Romansh
 ROL,Romblomanon
-ROM,romani
-RON,romeno
+ROM,Romani
+RON,Romanian
 ROO,Rotokas
 ROP,Kriol
 ROR,Rongga
@@ -5542,8 +5542,8 @@ RPT,Rapting
 RRI,Ririo
 RRO,Waima
 RSB,Romano-Serbian
-RSI,língua gestual de Rennell
-RSL,língua gestual russa
+RSI,Rennellese Sign Language
+RSL,Russian Sign Language
 RTH,Ratahan
 RTM,Rotuman
 RTW,Rathawi
@@ -5555,11 +5555,11 @@ RUG,Roviana
 RUH,Ruga
 RUI,Rufiji
 RUK,Che
-RUN,rundi
+RUN,Kirundi
 RUO,Istro Romanian
 RUP,Macedo-Romanian
 RUQ,Megleno Romanian
-RUS,russo
+RUS,Russian
 RUT,Rutul
 RUU,Lanas Lobu
 RUY,Mala (Nigeria)
@@ -5632,7 +5632,7 @@ SCI,Sri Lankan Creole Malay
 SCK,Sadri
 SCL,Shina
 SCN,Sicilian
-SCO,scots
+SCO,Scots
 SCP,Helambu Sherpa
 SCQ,Sa'och
 SCS,North Slavey
@@ -5646,10 +5646,10 @@ SDC,Sassarese Sardinian
 SDE,Surubu
 SDF,Sarli
 SDG,Savi
-SDH,curdo meridional
+SDH,Southern Kurdish
 SDJ,Suundi
 SDK,Sos Kundi
-SDL,língua gestual da Arábia Saudita
+SDL,Saudi Arabian Sign Language
 SDM,Semandang
 SDN,Gallurese Sardinian
 SDO,Bukar-Sadung Bidayuh
@@ -5686,13 +5686,13 @@ SEY,Secoya
 SEZ,Senthang Chin
 SFB,Langue des signes de Belgique Francophone
 SFM,Small Flowery Miao
-SFS,língua gestual sul-africana
+SFS,South African Sign Language
 SFW,Sehwi
 SGA,Old Irish (to 900)
 SGB,Mag-Anchi Ayta
 SGC,Kipsigis
 SGE,Segai
-SGG,língua gestual alemã da Suíça
+SGG,Swiss-German Sign Language
 SGH,Shughni
 SGI,Suga
 SGK,Sangkong
@@ -5742,8 +5742,8 @@ SIJ,Numbami
 SIK,Sikiana
 SIL,Tumulung Sisaala
 SIM,Mende (Papua New Guinea)
-SIN,cingalês
-SIP,siquimês
+SIN,Sinhala
+SIP,Sikkimese
 SIQ,Sonia
 SIR,Siri
 SIS,Siuslaw
@@ -5797,22 +5797,22 @@ SKZ,Sekar
 SLC,Sáliba
 SLD,Sissala
 SLE,Sholaga
-SLF,língua gestual italiana da Suíça
+SLF,Swiss-Italian Sign Language
 SLG,Selungai Murut
 SLH,Southern Puget Sound Salish
 SLI,Lower Silesian
 SLJ,Salumá
-SLK,eslovaco
+SLK,Slovak
 SLL,Salt-Yui
 SLM,Pangutaran Sama
 SLN,Salinan
 SLP,Lamaholot
 SLQ,Salchuq
 SLR,Salar
-SLS,língua gestual de Singapura
+SLS,Singapore Sign Language
 SLT,Sila
 SLU,Selaru
-SLV,esloveno
+SLV,Slovenian
 SLW,Sialum
 SLX,Salampasu
 SLY,Selayar
@@ -5821,7 +5821,7 @@ SMA,Southern Sami
 SMB,Simbari
 SMC,Som
 SMD,Sama
-SME,sami do Norte
+SME,Northern Sami
 SMF,Auwe
 SMG,Simbali
 SMH,Samei
@@ -5830,7 +5830,7 @@ SMK,Bolinao
 SML,Central Sama
 SMM,Musasa
 SMN,Inari Sami
-SMO,samoano
+SMO,Samoan
 SMP,Samaritan
 SMQ,Samo
 SMR,Simeulue
@@ -5878,20 +5878,20 @@ SOI,Sonha
 SOJ,Soi
 SOK,Sokoro
 SOL,Solos
-SOM,somali
+SOM,Somali
 SOO,Songo
 SOP,Songe
 SOQ,Kanasi
 SOR,Somrai
 SOS,Seeku
-SOT,soto meridional
+SOT,Southern Sotho
 SOU,Southern Thai
 SOV,Sonsorol
 SOW,Sowanda
 SOX,So (Cameroon)
 SOY,Miyobe
 SOZ,Temi
-SPA,espanhol
+SPA,Spanish
 SPB,Sepa (Indonesia)
 SPC,Sapé
 SPD,Saep
@@ -5912,13 +5912,13 @@ SPX,South Picene
 SPY,Sabaot
 SQA,Shama-Sambuga
 SQH,Shau
-SQI,albanês
+SQI,Albanian
 SQM,Suma
 SQN,Susquehannock
 SQO,Sorkhei
 SQQ,Sou
 SQR,Siculo Arabic
-SQS,língua gestual do Sri Lanka
+SQS,Sri Lankan Sign Language
 SQT,Soqotri
 SQU,Squamish
 SRA,Saruga
@@ -5935,8 +5935,8 @@ SRL,Isirawa
 SRM,Saramaccan
 SRN,Sranan Tongo
 SRO,Campidanese Sardinian
-SRP,sérvio
-SRQ,sirionó
+SRP,Serbian
+SRQ,Sirionó
 SRR,Serer
 SRS,Sarsi
 SRT,Sauri
@@ -5962,12 +5962,12 @@ SSN,Waata
 SSO,Sissano
 SSP,Spanish Sign Language
 SSQ,So'a
-SSR,língua gestual francesa da Suíça
+SSR,Swiss-French Sign Language
 SSS,Sô
 SST,Sinasina
 SSU,Susuami
 SSV,Shark Bay
-SSW,essuatiniano
+SSW,Swazi
 SSX,Samberigi
 SSY,Saho
 SSZ,Sengseng
@@ -6017,14 +6017,14 @@ SVA,Svan
 SVB,Ulau-Suain
 SVC,Vincentian Creole English
 SVE,Serili
-SVK,língua gestual eslovaca
+SVK,Slovakian Sign Language
 SVR,Savara
 SVS,Savosavo
 SVX,Skalvian
-SWA,suaíli
-SWB,comoriano
+SWA,Swahili
+SWB,Comorian
 SWC,Congo Swahili
-SWE,sueco
+SWE,Swedish
 SWF,Sere
 SWG,Swabian
 SWH,Swahili (individual language)
@@ -6070,7 +6070,7 @@ SYO,Suoy
 SYR,Syriac
 SYS,Sinyar
 SYW,Kagate
-SYY,língua gestual dos beduínos de Al-Sayyid
+SYY,Al-Sayyid Bedouin Sign Language
 SZA,Semelai
 SZB,Ngalum
 SZC,Semaq Beri
@@ -6093,7 +6093,7 @@ TAH,Tahitian
 TAJ,Eastern Tamang
 TAK,Tala
 TAL,Tal
-TAM,tâmil
+TAM,Tamil
 TAN,Tangale
 TAO,Yami
 TAP,Taabwa
@@ -6194,7 +6194,7 @@ TEP,Tepecano
 TEQ,Temein
 TER,Tereno
 TES,Tengger
-TET,tétum
+TET,Tetum
 TEU,Soo
 TEV,Teor
 TEW,Tewa (USA)
@@ -6214,7 +6214,7 @@ TGF,Chalikha
 TGG,Tangga
 TGH,Tobagonian Creole English
 TGI,Lawunuia
-TGK,tajique
+TGK,Tajik
 TGL,Tagalog
 TGO,Sudest
 TGP,Tangoa
@@ -6227,7 +6227,7 @@ TGV,Tingui-Boto
 TGW,Tagwana Senoufo
 TGX,Tagish
 TGY,Togoyo
-THA,tailandês
+THA,Thai
 THC,Tai Hang Tong
 THD,Thayore
 THE,Chitwania Tharu
@@ -6265,7 +6265,7 @@ TIN,Tindi
 TIO,Teop
 TIP,Trimuris
 TIQ,Tiéfo
-TIR,tigrínia
+TIR,Tigrinya
 TIS,Masadiit Itneg
 TIT,Tinigua
 TIU,Adasen
@@ -6288,7 +6288,7 @@ TKD,Tukudede
 TKE,Takwane
 TKF,Tukumanféd
 TKK,Takpa
-TKL,toquelauano
+TKL,Tokelauan
 TKM,Takelma
 TKN,Toku-No-Shima
 TKP,Tikopia
@@ -6349,7 +6349,7 @@ TMV,Tembo (Motembo)
 TMW,Temuan
 TMY,Tami
 TMZ,Tamanaku
-TNA,tacana
+TNA,Tacana
 TNB,Western Tunebo
 TNC,Tanimuca-Retuarã
 TND,Angosturas Tunebo
@@ -6362,7 +6362,7 @@ TNK,Kwamera
 TNL,Lenakel
 TNM,Tabla
 TNN,North Tanna
-TNO,toromono
+TNO,Toromono
 TNP,Whitesands
 TNQ,Taino
 TNR,Bedik
@@ -6385,7 +6385,7 @@ TOI,Tonga (Zambia)
 TOJ,Tojolabal
 TOL,Tolowa
 TOM,Tombulu
-TON,tonganês
+TON,Tongan
 TOO,Xicotepec De Juárez Totonac
 TOP,Papantla Totonac
 TOQ,Toposa
@@ -6402,8 +6402,8 @@ TPC,Azoyú Me'phaa
 TPE,Tippera
 TPF,Tarpia
 TPG,Kula
-TPI,tok pisin
-TPJ,tapieté
+TPI,Tok Pisin
+TPJ,Tapieté
 TPK,Tupinikin
 TPL,Tlacoapa Me'phaa
 TPM,Tampulma
@@ -6442,7 +6442,7 @@ TRI,Trió
 TRJ,Toram
 TRL,Traveller Scottish
 TRM,Tregami
-TRN,trinitário
+TRN,Trinitario
 TRO,Tarao Naga
 TRP,Kok Borok
 TRQ,San Martín Itunyoso Triqui
@@ -6468,12 +6468,12 @@ TSJ,Tshangla
 TSK,Tseku
 TSL,Ts'ün-Lao
 TSM,Turkish Sign Language
-TSN,setsuana
-TSO,xitsonga
+TSN,Tswana
+TSO,Tsonga
 TSP,Northern Toussian
-TSQ,língua gestual tailandesa
+TSQ,Thai Sign Language
 TSR,Akei
-TSS,língua gestual de Taiwan
+TSS,Taiwanese Sign Language
 TSU,Tsou
 TSV,Tsogo
 TSW,Tsishingini
@@ -6515,13 +6515,13 @@ TUG,Tunia
 TUH,Taulil
 TUI,Tupuri
 TUJ,Tugutil
-TUK,turquemeno
+TUK,Turkmen
 TUL,Tula
 TUM,Tumbuka
 TUN,Tunica
 TUO,Tucano
 TUQ,Tedaga
-TUR,turco
+TUR,Turkish
 TUS,Tuscarora
 TUU,Tututni
 TUV,Turkana
@@ -6532,7 +6532,7 @@ TVA,Vaghua
 TVD,Tsuvadi
 TVE,Te'un
 TVK,Southeast Ambrym
-TVL,tuvaluano
+TVL,Tuvaluan
 TVM,Tela-Masbuar
 TVN,Tavoyan
 TVO,Tidore
@@ -6593,7 +6593,7 @@ TYU,Kua
 TYV,Tuvinian
 TYX,Teke-Tyee
 TYZ,Tày
-TZA,língua gestual da Tanzânia
+TZA,Tanzanian Sign Language
 TZH,Tzeltal
 TZJ,Tz'utujil
 TZM,Central Atlas Tamazight
@@ -6623,7 +6623,7 @@ UGB,Kuku-Ugbanh
 UGE,Ughele
 UGN,Ugandan Sign Language
 UGO,Ugong
-UGY,língua gestual do Uruguai
+UGY,Uruguayan Sign Language
 UHA,Uhami
 UHN,Damal
 UIG,Uighur
@@ -6633,11 +6633,11 @@ UJI,Tanjijili
 UKA,Kaburi
 UKG,Ukuriguma
 UKH,Ukhwejo
-UKL,língua gestual ucraniana
+UKL,Ukrainian Sign Language
 UKP,Ukpe-Bayobiri
 UKQ,Ukwa
-UKR,ucraniano
-UKS,língua gestual Kaapor brasileira
+UKR,Ukrainian
+UKS,Urubú-Kaapor Sign Language
 UKU,Ukue
 UKW,Ukwuani-Aboh-Ndoni
 ULA,Fungwa
@@ -6664,7 +6664,7 @@ UMR,Umbugarla
 UMS,Pendau
 UMU,Munsee
 UNA,North Watut
-UND,indeterminada
+UND,Undetermined
 UNE,Uneme
 UNG,Ngarinyin
 UNK,Enawené-Nawé
@@ -6679,8 +6679,8 @@ UPV,Uripiv-Wala-Rano-Atchin
 URA,Urarina
 URB,Urubú-Kaapor
 URC,Urningangg
-URD,urdu
-URE,uro
+URD,Urdu
+URE,Uru
 URF,Uradhi
 URG,Urigina
 URH,Urhobo
@@ -6719,7 +6719,7 @@ UVH,Uri
 UVL,Lote
 UWA,Kuku-Uwanh
 UYA,Doko-Uyanga
-UZB,usbeque
+UZB,Uzbek
 UZN,Northern Uzbek
 UZS,Southern Uzbek
 VAA,Vaagri Booli
@@ -6744,7 +6744,7 @@ VEC,Venetian
 VED,Veddah
 VEL,Veluws
 VEM,Vemgo-Mabas
-VEN,venda
+VEN,Venda
 VEO,Ventureño
 VEP,Veps
 VER,Mom Jango
@@ -6752,7 +6752,7 @@ VGR,Vaghri
 VGT,Vlaamse Gebarentaal
 VIC,Virgin Islands Creole English
 VID,Vidunda
-VIE,vietnamita
+VIE,Vietnamese
 VIF,Vili
 VIG,Viemo
 VIL,Vilela
@@ -6771,7 +6771,7 @@ VKP,Korlai Creole Portuguese
 VKT,Tenggarong Kutai Malay
 VKU,Kurrama
 VLP,Valpei
-VLS,flamengo
+VLS,Flemish
 VMA,Martuyhunira
 VMB,Mbabaram
 VMC,Juxtlahuaca Mixtec
@@ -6805,8 +6805,8 @@ VRA,Vera'a
 VRO,Võro
 VRS,Varisi
 VRT,Burmbar
-VSI,língua gestual da Moldávia
-VSL,língua gestual venezuelana
+VSI,Moldovan Sign Language
+VSL,Venezuelan Sign Language
 VSV,Valencian Sign Language
 VTO,Vitou
 VUM,Vumbu
@@ -6918,7 +6918,7 @@ WLI,Waioli
 WLK,Wailaki
 WLL,Wali (Sudan)
 WLM,Middle Welsh
-WLN,valão
+WLN,Walloon
 WLO,Wolio
 WLR,Wailapa
 WLS,Wallisian
@@ -6961,7 +6961,7 @@ WOF,Gambian Wolof
 WOG,Wogamusin
 WOI,Kamang
 WOK,Longto
-WOL,wolof
+WOL,Wolof
 WOM,Wom (Nigeria)
 WON,Wongo
 WOO,Manombai
@@ -7088,7 +7088,7 @@ XHA,Harami
 XHC,Hunnic
 XHD,Hadrami
 XHE,Khetrani
-XHO,xossa
+XHO,Xhosa
 XHR,Hernican
 XHT,Hattic
 XHU,Hurrian
@@ -7110,7 +7110,7 @@ XKE,Kereho
 XKF,Khengkha
 XKG,Kagoro
 XKH,Karahawyana
-XKI,língua gestual queniana
+XKI,Kenyan Sign Language
 XKJ,Kajali
 XKK,Kaco'
 XKL,Mainstream Kenyah
@@ -7150,7 +7150,7 @@ XMG,Mengaka
 XMH,Kuku-Muminh
 XMJ,Majera
 XMK,Ancient Macedonian
-XML,língua gestual malaia
+XML,Malaysian Sign Language
 XMM,Manado Malay
 XMN,Manichaean Middle Persian
 XMO,Morerebi
@@ -7279,7 +7279,7 @@ XYL,Yalakalore
 XZH,Zhang-Zhung
 XZM,Zemgalian
 XZP,Ancient Zapotec
-YAA,jaminauá
+YAA,Yaminava
 YAB,Yuhup
 YAC,Pass Valley Yali
 YAD,Yagua
@@ -7349,7 +7349,7 @@ YHA,Baha Buyang
 YHD,Judeo-Iraqi Arabic
 YHL,Hlepho Phowa
 YIA,Yinggarda
-YID,yiddish
+YID,Yiddish
 YIF,Ache
 YIG,Wusa Nasu
 YIH,Western Yiddish
@@ -7476,14 +7476,14 @@ YUL,Yulu
 YUM,Quechan
 YUN,Bena (Nigeria)
 YUP,Yukpa
-YUQ,juquí
+YUQ,Yuqui
 YUR,Yurok
 YUT,Yopno
 YUU,Yugh
 YUW,Yau (Morobe Province)
 YUX,Southern Yukaghir
 YUY,East Yugur
-YUZ,juracaré
+YUZ,Yuracare
 YVA,Yawa
 YVT,Yavitero
 YWA,Kalou
@@ -7544,7 +7544,7 @@ ZHB,Zhaba
 ZHD,Dai Zhuang
 ZHI,Zhire
 ZHN,Nong Zhuang
-ZHO,chinês
+ZHO,Chinese
 ZHW,Zhoa
 ZIA,Zia
 ZIB,Zimbabwean Sign Language
@@ -7567,7 +7567,7 @@ ZKU,Kaurna
 ZKV,Krevinian
 ZKZ,Khazar
 ZLJ,Liujiang Zhuang
-ZLM,malaio
+ZLM,Malay
 ZLN,Lianshan Zhuang
 ZLQ,Liuqian Zhuang
 ZMA,Manda (Australia)
@@ -7661,12 +7661,12 @@ ZTX,Zaachila Zapotec
 ZTY,Yatee Zapotec
 ZUA,Zeem
 ZUH,Tokano
-ZUL,zulu
+ZUL,Zulu
 ZUM,Kumzari
 ZUN,Zuni
 ZUY,Zumaya
 ZWA,Zay
-ZXX,sem conteúdo linguístico
+ZXX,No linguistic content
 ZYB,Yongbei Zhuang
 ZYG,Yang Zhuang
 ZYJ,Youjiang Zhuang
@@ -7720,10 +7720,10 @@ ROA,Romance languages
 SAI,South American Indian languages
 SAL,Salishan languages
 SEM,Semitic languages
-SGN,línguas gestuais
+SGN,Sign Languages
 SIO,Siouan languages
 SIT,Sino-Tibetan languages
-SLA,línguas eslavas
+SLA,Slavic languages
 SMI,Sami languages
 SON,Songhai languages
 SSA,Nilo-Saharan languages
@@ -7734,5 +7734,5 @@ WAK,Wakashan languages
 WEN,Sorbian languages
 YPK,Yupik languages
 ZND,Zande languages
-MSA,malaio
-CNR,montenegrino
+MSA,Malaysian
+CNR,Montenegrin
