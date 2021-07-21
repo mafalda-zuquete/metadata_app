@@ -10,27 +10,7 @@ import json
 from datetime import datetime
 
 #data theme
-with open('Vocabularies/data-theme.xml','r') as f:
-    data_theme = f.read()
-
-data_theme_bs = BeautifulSoup(data_theme, 'xml')
-theme_all = data_theme_bs.find_all('record',{'deprecated':'false'})
-data_theme_df = pd.DataFrame(columns=['code','label','description'])
-
-for i in range(len(theme_all)):
-    data_theme_df.loc[i,'code'] = theme_all[i].find('authority-code').contents[0]
-    data_theme_df.loc[i,'label'] = theme_all[i].find('label').find('lg.version',{'lg':'por'}).contents[0]
-    data_theme_df.loc[i,'description'] = theme_all[i].find('description').contents[0]
-
-    if len(theme_all[i].find('description').contents) > 1:
-        description = ''
-        for j in theme_all[i].find('description').contents:
-            if isinstance(j,str):
-                description += j
-            else:
-                description += j.contents[0]
-
-        data_theme_df.loc[i,'description'] = description
+data_theme_df = pd.read_csv('data-theme.csv')
 
 theme_zip = zip(data_theme_df['code'],data_theme_df['label'])
 
@@ -41,32 +21,7 @@ for theme in theme_zip:
     theme_options.append(theme_dict)
 
 #access right
-with open("Vocabularies/access-right.xml",'r') as f:
-    access_right = f.read()
-
-access_right_bs = BeautifulSoup(access_right, 'xml')
-access_right_all = access_right_bs.find_all('record',{'deprecated':'false'})
-access_right_df = pd.DataFrame(columns=['code','name','description'])
-
-for i in range(len(access_right_all)):
-    access_right_df.loc[i,'code'] = access_right_all[i].find('authority-code').contents[0]
-
-    if access_right_all[i].find('label').find('lg.version',{'lg':'por'}) is not None:
-        access_right_df.loc[i,'name'] = access_right_all[i].find('label').find('lg.version',{'lg':'por'}).contents[0]
-    elif access_right_all[i].find('label').find('lg.version',{'lg':'eng'}) is not None:
-        access_right_df.loc[i,'name'] = access_right_all[i].find('label').find('lg.version',{'lg':'eng'}).contents[0]
-
-    access_right_df.loc[i,'description'] = access_right_all[i].find('description').contents[0]
-
-    if len(access_right_all[i].find('description').contents) > 1:
-        description = ''
-        for j in access_right_all[i].find('description').contents:
-            if isinstance(j,str):
-                description += j
-            else:
-                description += j.contents[0]
-
-        access_right_df.loc[i,'description'] = description
+access_right_df = pd.read_csv('access-right.csv')
 
 access_right_zip = zip(access_right_df['code'],access_right_df['name'])
 
@@ -77,32 +32,7 @@ for access in access_right_zip:
     access_right_options.append(access_right_dict)
 
 #frequencies
-with open("Vocabularies/frequencies.xml",'r') as f:
-    frequencies = f.read()
-
-frequencies_bs = BeautifulSoup(frequencies, 'xml')
-frequencies_all = frequencies_bs.find_all('record',{'deprecated':'false'})
-frequencies_df = pd.DataFrame(columns=['code','name','description'])
-
-for i in range(len(frequencies_all)):
-    frequencies_df.loc[i,'code'] = frequencies_all[i].find('authority-code').contents[0]
-
-    if frequencies_all[i].find('label').find('lg.version',{'lg':'por'}) is not None:
-        frequencies_df.loc[i,'name'] = frequencies_all[i].find('label').find('lg.version',{'lg':'por'}).contents[0]
-    elif frequencies_all[i].find('label').find('lg.version',{'lg':'eng'}) is not None:
-        frequencies_df.loc[i,'name'] = frequencies_all[i].find('label').find('lg.version',{'lg':'eng'}).contents[0]
-
-    frequencies_df.loc[i,'description'] = frequencies_all[i].find('description').contents[0]
-
-    if len(frequencies_all[i].find('description').contents) > 1:
-        description = ''
-        for j in frequencies_all[i].find('description').contents:
-            if isinstance(j,str):
-                description += j
-            else:
-                description += j.contents[0]
-
-        frequencies_df.loc[i,'description'] = description
+frequencies_df = pd.read_csv('frequencies.csv')
 
 frequencies_zip = zip(frequencies_df['code'],frequencies_df['name'])
 
@@ -113,22 +43,7 @@ for frequency in frequencies_zip:
     frequencies_options.append(frequencies_dict)
 
 #languages
-with open("Vocabularies/languages.xml",'r') as f:
-    languages = f.read()
-
-languages_bs = BeautifulSoup(languages, 'xml')
-languages_all = languages_bs.find_all('record',{'deprecated':'false'})
-languages_df = pd.DataFrame(columns=['code','name'])
-
-for i in range(len(languages_all)):
-    languages_df.loc[i,'code'] = languages_all[i].find('authority-code').contents[0]
-
-    if languages_all[i].find('label').find('lg.version',{'lg':'por'}) is not None:
-        languages_df.loc[i,'name'] = languages_all[i].find('label').find('lg.version',{'lg':'por'}).contents[0]
-    elif languages_all[i].find('label').find('lg.version',{'lg':'eng'}) is not None:
-        languages_df.loc[i,'name'] = languages_all[i].find('label').find('lg.version',{'lg':'eng'}).contents[0]
-    else:
-        languages_df.loc[i,'name'] = languages_all[i].find('original.name').find('lg.version').contents[0]
+languages_df = pd.read_csv('languages.csv')
 
 languages_zip = zip(languages_df['code'],languages_df['name'])
 
@@ -139,34 +54,7 @@ for language in languages_zip:
     languages_options.append(languages_dict)
 
 #filetypes
-with open("Vocabularies/filetypes.xml",'r') as f:
-    filetypes = f.read()
-
-filetypes_bs = BeautifulSoup(filetypes, 'xml')
-filetypes_all = filetypes_bs.find_all('record',{'deprecated':'false'})
-filetypes_df = pd.DataFrame(columns=['code','name','description','mediaType'])
-
-for i in range(len(filetypes_all)):
-    filetypes_df.loc[i,'code'] = filetypes_all[i].find('authority-code').contents[0]
-
-    if filetypes_all[i].find('label').find('lg.version',{'lg':'por'}) is not None:
-        filetypes_df.loc[i,'name'] = filetypes_all[i].find('label').find('lg.version',{'lg':'por'}).contents[0]
-    elif filetypes_all[i].find('label').find('lg.version',{'lg':'eng'}) is not None:
-        filetypes_df.loc[i,'name'] = filetypes_all[i].find('label').find('lg.version',{'lg':'eng'}).contents[0]
-
-    filetypes_df.loc[i,'description'] = filetypes_all[i].find('description').contents[0]
-
-    if len(filetypes_all[i].find('description').contents) > 1:
-        description = ''
-        for j in filetypes_all[i].find('description').contents:
-            if isinstance(j,str):
-                description += j
-            else:
-                description += j.contents[0]
-
-        filetypes_df.loc[i,'description'] = description
-
-    filetypes_df.loc[i,'mediaType'] = filetypes_all[i].find('internet-media-type').contents[0]#.split('/')[1]
+filetypes_df = pd.read_csv('filetypes.csv')
 
 filetypes_zip = zip(filetypes_df['code'],filetypes_df['name'])
 
@@ -184,32 +72,7 @@ for filetype in filetypes_zip_2:
     file_mediatypes[filetype[0]] = filetype[1]
 
 #licenses
-with open("Vocabularies/licences.xml",'r') as f:
-    licenses = f.read()
-
-licenses_bs = BeautifulSoup(licenses, 'xml')
-licenses_all = licenses_bs.find_all('record',{'deprecated':'false'})
-licenses_df = pd.DataFrame(columns=['code','name','description'])
-
-for i in range(len(licenses_all)):
-    licenses_df.loc[i,'code'] = licenses_all[i].find('authority-code').contents[0]
-
-    if licenses_all[i].find('label').find('lg.version',{'lg':'por'}) is not None:
-        licenses_df.loc[i,'name'] = licenses_all[i].find('label').find('lg.version',{'lg':'por'}).contents[0]
-    elif licenses_all[i].find('label').find('lg.version',{'lg':'eng'}) is not None:
-        licenses_df.loc[i,'name'] = licenses_all[i].find('label').find('lg.version',{'lg':'eng'}).contents[0]
-
-    licenses_df.loc[i,'description'] = licenses_all[i].find('description').contents[0]
-
-    if len(licenses_all[i].find('description').contents) > 1:
-        description = ''
-        for j in licenses_all[i].find('description').contents:
-            if isinstance(j,str):
-                description += j
-            else:
-                description += j.contents[0]
-
-        licenses_df.loc[i,'description'] = description
+licenses_df = pd.read_csv('licenses.csv')
 
 licenses_zip = zip(licenses_df['code'],licenses_df['name'])
 
@@ -220,16 +83,7 @@ for license in licenses_zip:
     licenses_options.append(licenses_dict)
 
 #countries
-with open('Vocabularies/countries.xml','r') as f:
-    countries = f.read()
-
-countries_bs = BeautifulSoup(countries, 'xml')
-countries_all = countries_bs.find_all('record',{'deprecated':'false'})
-countries_df = pd.DataFrame(columns=['code','name'])
-
-for i in range(len(countries_all)):
-    countries_df.loc[i,'code'] = countries_all[i].find('authority-code').contents[0]
-    countries_df.loc[i,'name'] = countries_all[i].find('label').find('lg.version',{'lg':'por'}).contents[0]
+countries_df = pd.read_csv('countries.csv')
 
 countries_zip = zip(countries_df['code'],countries_df['name'])
 
@@ -240,16 +94,7 @@ for country in countries_zip:
     countries_options.append(countries_dict)
 
 #continents
-with open('Vocabularies/continents.xml','r') as f:
-    continents = f.read()
-
-continents_bs = BeautifulSoup(continents, 'xml')
-continents_all = continents_bs.find_all('record',{'deprecated':'false'})
-continents_df = pd.DataFrame(columns=['code','name'])
-
-for i in range(len(continents_all)):
-    continents_df.loc[i,'code'] = continents_all[i].find('authority-code').contents[0]
-    continents_df.loc[i,'name'] = continents_all[i].find('label').find('lg.version',{'lg':'por'}).contents[0]
+continents_df = pd.read_csv('continents.csv')
 
 continents_zip = zip(continents_df['code'],continents_df['name'])
 
@@ -260,20 +105,7 @@ for continent in continents_zip:
     continents_options.append(continents_dict)
 
 #places
-with open('Vocabularies/places.xml','r') as f:
-    places = f.read()
-
-places_bs = BeautifulSoup(places, 'xml')
-places_all = places_bs.find_all('record',{'deprecated':'false'})
-places_df = pd.DataFrame(columns=['code','name'])
-
-for i in range(len(places_all)):
-    places_df.loc[i,'code'] = places_all[i].find('authority-code').contents[0]
-
-    if places_all[i].find('label').find('lg.version',{'lg':'por'}) is not None:
-        places_df.loc[i,'name'] = places_all[i].find('label').find('lg.version',{'lg':'por'}).contents[0]
-    elif places_all[i].find('label').find('lg.version',{'lg':'eng'}) is not None:
-        places_df.loc[i,'name'] = places_all[i].find('label').find('lg.version',{'lg':'eng'}).contents[0]
+places_df = pd.read_csv('places.csv')
 
 places_zip = zip(places_df['code'],places_df['name'])
 
