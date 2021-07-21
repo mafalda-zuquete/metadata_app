@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<continents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            original.entries.date="2014-10-10"
+            current.entries.date="2021-02-12"
+            table.structure.version="01-02.39-20210212"
+            table.id="continent"
+            ref.administration="cat.admin.xml"
+            xsi:noNamespaceSchemaLocation="http://publications.europa.eu/mdr/resource/authority-schema/cat-01-02.39-20210212.xsd"
+            version="20210317-0">
+   <record deprecated="false"
+           id="CONT001"
+           date.creation="2014-10-10"
+           adm.status="current">
+      <authority-code>EUROPE</authority-code>
+      <start.use>1952-07-24</start.use>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Европа</lg.version>
+         <lg.version lg="ces">Evropa</lg.version>
+         <lg.version lg="dan">Europa</lg.version>
+         <lg.version lg="deu">Europa</lg.version>
+         <lg.version lg="ell" script="Greek">Ευρώπη</lg.version>
+         <lg.version lg="eng">Europe</lg.version>
+         <lg.version lg="est">Euroopa</lg.version>
+         <lg.version lg="fin">Eurooppa</lg.version>
+         <lg.version lg="fra">Europe</lg.version>
+         <lg.version lg="gle">An Eoraip</lg.version>
+         <lg.version lg="hrv">Europa</lg.version>
+         <lg.version lg="hun">Európa</lg.version>
+         <lg.version lg="ita">Europa</lg.version>
+         <lg.version lg="lav">Eiropa</lg.version>
+         <lg.version lg="lit">Europa</lg.version>
+         <lg.version lg="mlt">L-Ewropa</lg.version>
+         <lg.version lg="nld">Europa</lg.version>
+         <lg.version lg="pol">Europa</lg.version>
+         <lg.version lg="por">Europa</lg.version>
+         <lg.version lg="ron">Europa</lg.version>
+         <lg.version lg="slk">Európa</lg.version>
+         <lg.version lg="slv">Evropa</lg.version>
+         <lg.version lg="spa">Europa</lg.version>
+         <lg.version lg="swe">Europa</lg.version>
+      </label>
+   </record>
+   <record deprecated="false"
+           id="CONT002"
+           date.creation="2014-10-10"
+           adm.status="current">
+      <authority-code>AMERICA</authority-code>
+      <start.use>1952-07-24</start.use>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Америка</lg.version>
+         <lg.version lg="ces">Amerika</lg.version>
+         <lg.version lg="dan">Amerika</lg.version>
+         <lg.version lg="deu">Amerika</lg.version>
+         <lg.version lg="ell" script="Greek">Αμερική</lg.version>
+         <lg.version lg="eng">America</lg.version>
+         <lg.version lg="est">Ameerika</lg.version>
+         <lg.version lg="fin">Amerikka</lg.version>
+         <lg.version lg="fra">Amérique</lg.version>
+         <lg.version lg="gle">Meiriceá</lg.version>
+         <lg.version lg="hrv">Amerika</lg.version>
+         <lg.version lg="hun">Amerika</lg.version>
+         <lg.version lg="ita">America</lg.version>
+         <lg.version lg="lav">Amerika</lg.version>
+         <lg.version lg="lit">Amerika</lg.version>
+         <lg.version lg="mlt">L-Amerika</lg.version>
+         <lg.version lg="nld">Amerika</lg.version>
+         <lg.version lg="pol">Ameryka</lg.version>
+         <lg.version lg="por">América</lg.version>
+         <lg.version lg="ron">America</lg.version>
+         <lg.version lg="slk">Amerika</lg.version>
+         <lg.version lg="slv">Amerika</lg.version>
+         <lg.version lg="spa">América</lg.version>
+         <lg.version lg="swe">Amerika</lg.version>
+      </label>
+   </record>
+   <record deprecated="false"
+           id="CONT003"
+           date.creation="2014-10-10"
+           adm.status="current">
+      <authority-code>ASIA</authority-code>
+      <start.use>1952-07-24</start.use>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Азия</lg.version>
+         <lg.version lg="ces">Asie</lg.version>
+         <lg.version lg="dan">Asien</lg.version>
+         <lg.version lg="deu">Asien</lg.version>
+         <lg.version lg="ell" script="Greek">Ασία</lg.version>
+         <lg.version lg="eng">Asia</lg.version>
+         <lg.version lg="est">Aasia</lg.version>
+         <lg.version lg="fin">Aasia</lg.version>
+         <lg.version lg="fra">Asie</lg.version>
+         <lg.version lg="gle">An Áise</lg.version>
+         <lg.version lg="hrv">Azija</lg.version>
+         <lg.version lg="hun">Ázsia</lg.version>
+         <lg.version lg="ita">Asia</lg.version>
+         <lg.version lg="lav">Āzija</lg.version>
+         <lg.version lg="lit">Azija</lg.version>
+         <lg.version lg="mlt">L-Asja</lg.version>
+         <lg.version lg="nld">Azië</lg.version>
+         <lg.version lg="pol">Azja</lg.version>
+         <lg.version lg="por">Ásia</lg.version>
+         <lg.version lg="ron">Asia</lg.version>
+         <lg.version lg="slk">Ázia</lg.version>
+         <lg.version lg="slv">Azija</lg.version>
+         <lg.version lg="spa">Asia</lg.version>
+         <lg.version lg="swe">Asien</lg.version>
+      </label>
+   </record>
+   <record deprecated="false"
+           id="CONT004"
+           date.creation="2014-10-10"
+           adm.status="current">
+      <authority-code>AFRICA</authority-code>
+      <start.use>1952-07-24</start.use>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Африка</lg.version>
+         <lg.version lg="ces">Afrika</lg.version>
+         <lg.version lg="dan">Afrika</lg.version>
+         <lg.version lg="deu">Afrika</lg.version>
+         <lg.version lg="ell" script="Greek">Αφρική</lg.version>
+         <lg.version lg="eng">Africa</lg.version>
+         <lg.version lg="est">Aafrika</lg.version>
+         <lg.version lg="fin">Afrikka</lg.version>
+         <lg.version lg="fra">Afrique</lg.version>
+         <lg.version lg="gle">An Afraic</lg.version>
+         <lg.version lg="hrv">Afrika</lg.version>
+         <lg.version lg="hun">Afrika</lg.version>
+         <lg.version lg="ita">Africa</lg.version>
+         <lg.version lg="lav">Āfrika</lg.version>
+         <lg.version lg="lit">Afrika</lg.version>
+         <lg.version lg="mlt">L-Afrika</lg.version>
+         <lg.version lg="nld">Afrika</lg.version>
+         <lg.version lg="pol">Afryka</lg.version>
+         <lg.version lg="por">África</lg.version>
+         <lg.version lg="ron">Africa</lg.version>
+         <lg.version lg="slk">Afrika</lg.version>
+         <lg.version lg="slv">Afrika</lg.version>
+         <lg.version lg="spa">África</lg.version>
+         <lg.version lg="swe">Afrika</lg.version>
+      </label>
+   </record>
+   <record deprecated="false"
+           id="CONT005"
+           date.creation="2014-10-10"
+           adm.status="current">
+      <authority-code>OCEANIA</authority-code>
+      <start.use>1952-07-24</start.use>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Океания</lg.version>
+         <lg.version lg="ces">Oceánie</lg.version>
+         <lg.version lg="dan">Oceanien</lg.version>
+         <lg.version lg="deu">Ozeanien</lg.version>
+         <lg.version lg="ell" script="Greek">Ωκεανία</lg.version>
+         <lg.version lg="eng">Oceania</lg.version>
+         <lg.version lg="est">Okeaania</lg.version>
+         <lg.version lg="fin">Oseania</lg.version>
+         <lg.version lg="fra">Océanie</lg.version>
+         <lg.version lg="gle">An Aigéine</lg.version>
+         <lg.version lg="hrv">Oceanija</lg.version>
+         <lg.version lg="hun">Óceánia</lg.version>
+         <lg.version lg="ita">Oceania</lg.version>
+         <lg.version lg="lav">Okeānija</lg.version>
+         <lg.version lg="lit">Okeanija</lg.version>
+         <lg.version lg="mlt">L-Oċeanja</lg.version>
+         <lg.version lg="nld">Oceanië</lg.version>
+         <lg.version lg="pol">Oceania</lg.version>
+         <lg.version lg="por">Oceânia</lg.version>
+         <lg.version lg="ron">Oceania</lg.version>
+         <lg.version lg="slk">Oceánia</lg.version>
+         <lg.version lg="slv">Oceanija</lg.version>
+         <lg.version lg="spa">Oceanía</lg.version>
+         <lg.version lg="swe">Oceanien</lg.version>
+      </label>
+   </record>
+   <record deprecated="false"
+           id="CONT006"
+           date.creation="2014-10-10"
+           adm.status="current">
+      <authority-code>ANTARCTICA</authority-code>
+      <start.use>1952-07-24</start.use>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Антарктида</lg.version>
+         <lg.version lg="ces">Antarktida</lg.version>
+         <lg.version lg="dan">Antarktis</lg.version>
+         <lg.version lg="deu">Antarktis</lg.version>
+         <lg.version lg="ell" script="Greek">Ανταρκτική</lg.version>
+         <lg.version lg="eng">Antarctica</lg.version>
+         <lg.version lg="est">Antarktis</lg.version>
+         <lg.version lg="fin">Etelämanner</lg.version>
+         <lg.version lg="fra">Antarctique</lg.version>
+         <lg.version lg="gle">Antartaice</lg.version>
+         <lg.version lg="hrv">Antarktika</lg.version>
+         <lg.version lg="hun">Antarktisz</lg.version>
+         <lg.version lg="ita">Antartide</lg.version>
+         <lg.version lg="lav">Antarktīda</lg.version>
+         <lg.version lg="lit">Antarktida</lg.version>
+         <lg.version lg="mlt">L-Antartika</lg.version>
+         <lg.version lg="nld">Antarctica</lg.version>
+         <lg.version lg="pol">Antarktyda</lg.version>
+         <lg.version lg="por">Antártida</lg.version>
+         <lg.version lg="ron">Antarctica</lg.version>
+         <lg.version lg="slk">Antarktída</lg.version>
+         <lg.version lg="slv">Antarktika</lg.version>
+         <lg.version lg="spa">Antártida</lg.version>
+         <lg.version lg="swe">Antarktis</lg.version>
+      </label>
+   </record>
+</continents>

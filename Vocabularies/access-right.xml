@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<access-right xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              original.entries.date="2016-07-21"
+              current.entries.date="2021-03-05"
+              table.structure.version="01-02.41-20210218"
+              table.id="access-right"
+              ref.administration="cat.admin.xml"
+              xsi:noNamespaceSchemaLocation="http://publications.europa.eu/mdr/resource/authority-schema/cat-01-02.41-20210218.xsd"
+              version="20210317-0">
+   <record deprecated="false"
+           id="ACCESSR001"
+           IMMC.proposal.date="2016-08-31"
+           IMMC.approval.date="2016-08-31"
+           date.creation="2016-07-21"
+           adm.status="current">
+      <authority-code>PUBLIC</authority-code>
+      <label>
+         <lg.version lg="eng">public</lg.version>
+         <lg.version lg="est">Avalik</lg.version>
+      </label>
+      <sources>
+         <source date="2016-08-31" lg="eng">
+            <description>
+               <p>Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys.</p>
+            </description>
+            <provenance>DCAT-AP / Join Up</provenance>
+         </source>
+      </sources>
+      <start.use>2013-01-01</start.use>
+      <use.context>DCAT_AP</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+   </record>
+   <record deprecated="false"
+           id="ACCESSR002"
+           IMMC.proposal.date="2016-08-31"
+           IMMC.approval.date="2016-08-31"
+           date.creation="2016-07-21"
+           adm.status="current">
+      <authority-code>RESTRICTED</authority-code>
+      <label>
+         <lg.version lg="eng">restricted</lg.version>
+         <lg.version lg="est">Piiratud</lg.version>
+      </label>
+      <sources>
+         <source date="2016-08-31" lg="eng">
+            <description>
+               <p>Only available under certain conditions. Usage note: This category may include resources that require payment, resources shared under non-disclosure agreements, resources for which the publisher or owner has not yet decided if they can be publicly released.</p>
+            </description>
+            <provenance>DCAT-AP / Join Up</provenance>
+         </source>
+      </sources>
+      <start.use>2013-01-01</start.use>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+   </record>
+   <record deprecated="false"
+           id="ACCESSR003"
+           IMMC.proposal.date="2016-08-31"
+           IMMC.approval.date="2016-08-31"
+           date.creation="2016-07-21"
+           adm.status="current">
+      <authority-code>NON_PUBLIC</authority-code>
+      <label>
+         <lg.version lg="eng">non-public</lg.version>
+         <lg.version lg="est">Mitteavalik</lg.version>
+      </label>
+      <sources>
+         <source date="2016-08-31" lg="eng">
+            <description>
+               <p>Not publicly accessible for privacy, security or other reasons. Usage note: This category may include resources that contain sensitive or personal information.</p>
+            </description>
+            <provenance>DCAT-AP / Join Up</provenance>
+         </source>
+      </sources>
+      <start.use>2013-01-01</start.use>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+   </record>
+   <record deprecated="false"
+           id="ACCESSR004"
+           IMMC.proposal.date="2020-02-25"
+           IMMC.approval.date="2020-03-11"
+           date.creation="2020-02-25"
+           adm.status="current">
+      <authority-code>SENSITIVE</authority-code>
+      <label>
+         <lg.version lg="eng">sensitive</lg.version>
+         <lg.version lg="est">Tundlik</lg.version>
+         <lg.version lg="fra">sensible</lg.version>
+      </label>
+      <sources>
+         <source date="2020-02-26" lg="eng">
+            <description>Sensitive non-classified (SNC) information, information whose unauthorised disclosure could cause damage to the Commission or other interested parties such as businesses, companies, intellectual property or personal data but which is not EU classified information.</description>
+            <provenance>Secretariat-General of the European Commission</provenance>
+         </source>
+         <source date="2020-02-26" lg="fra">
+            <description>Informations «sensibles non classifiées» (SNC), informations dont la divulgation non autorisée pourrait causer un préjudice à la Commission ou à d’autres parties intéressées telles que les entreprises, les sociétés, la propriété intellectuelle ou les données à caractère personnel, mais qui ne sont pas des informations classifiées de l’UE.</description>
+            <provenance>Secretariat-General of the European Commission</provenance>
+         </source>
+      </sources>
+      <start.use>2020-03-18</start.use>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>WHOISWHO</use.context>
+   </record>
+   <record deprecated="false"
+           id="ACCESSR005"
+           IMMC.proposal.date="2021-02-17"
+           IMMC.approval.date="2021-03-03"
+           date.creation="2021-02-25"
+           adm.status="current">
+      <authority-code>CONFIDENTIAL</authority-code>
+      <label>
+         <lg.version lg="eng">confidential</lg.version>
+         <lg.version lg="est">Konfidentsiaalne</lg.version>
+      </label>
+      <sources>
+         <source date="2021-02-25" lg="eng">
+            <description>Information that is not disclosed. Usage note: Disclosure of this data could cause damage to interested parties such as public administrations and businesses. It may refer to personal and professional information as well as to information in the context of business, commerce or trade.</description>
+            <provenance>Publications Office / DG GROW</provenance>
+         </source>
+      </sources>
+      <start.use>2021-03-17</start.use>
+      <use.context>ESPD</use.context>
+      <use.context>IMMC</use.context>
+   </record>
+</access-right>
