@@ -486,6 +486,32 @@ def dataset_json(title,description,keywords,theme,access_right,frequency,languag
             return "Submitted"
             #return str(dataset_meta)
 
+"""@app.callback(
+    Output("div_n_distribution","children"),
+    Input("n_distributions","value")
+)
+def many_distributions(n_distributions):
+    tabs = []
+
+    if n_distributions is None:
+        n_distributions = 0
+
+    for i in range(n_distributions):
+        j = i+1
+        tab = dcc.Tab(
+            label=str(j),
+            value=str(j)
+        )
+        tabs.append(tab)
+
+    dist_tab = dcc.Tabs(
+        id="dist_tabs",
+        value="1",
+        children=tabs
+    )
+
+    return dist_tab"""
+
 @app.callback(
     Output("div_distribution","children"),
     [
@@ -502,11 +528,13 @@ def dataset_json(title,description,keywords,theme,access_right,frequency,languag
     ]
 )
 def distribution_json(title,description,accessURL,downloadURL,format,byteSize,language,issued,modified,n_clicks):
+    print(n_clicks)
     changed_id = [p["prop_id"] for p in dash.callback_context.triggered][0]
     if "button_distribution" in changed_id:
         if (format is not None) and (language is not None):
+            distribution_id = "distribution_" + str(n_clicks)
             distribution_meta = {
-                "@id":"distribution_id",
+                "@id":distribution_id,
                 "@type":"dcat:Distribution",
                 "accessURL":accessURL,
                 "description":description,
@@ -520,7 +548,9 @@ def distribution_json(title,description,accessURL,downloadURL,format,byteSize,la
                 "modified":modified
             }
 
-            with open("distribution.json", "w") as outfile:
+            filename = 'distribution_' + str(n_clicks) + '.json'
+
+            with open(filename, "w") as outfile:
                 json.dump(distribution_meta, outfile)
         
             return "Submitted"
@@ -670,12 +700,13 @@ def location_places_json(place,n_clicks):
     #Output("div_final","children"),
     Output("download","data"),
     [
+        Input("button_distribution","n_clicks"),
         Input("filename","value"),
         Input("button_download","n_clicks")
         #Input("button_submit","n_clicks")
     ]
 )
-def submit(file_name,n_clicks):
+def submit(n_dist,file_name,n_clicks):
     changed_id = [p["prop_id"] for p in dash.callback_context.triggered][0]
     if "button_download" in changed_id:
         with open("agent.json") as agent_file:
@@ -684,8 +715,14 @@ def submit(file_name,n_clicks):
             contact_point = json.load(contact_point_file)
         with open("dataset.json") as dataset_file:
             dataset = json.load(dataset_file)
-        with open("distribution.json") as distribution_file:
-            distribution = json.load(distribution_file)
+
+        dists = []
+        for i in range(1,n_dist+1):
+            file = 'distribution_' + str(i) + '.json'
+            with open(file) as distribution_file:
+                distribution = json.load(distribution_file)
+                dists.append(distribution)
+
         with open("license.json") as license_file:
             license = json.load(license_file)
         with open("location.json") as location_file:
@@ -694,7 +731,12 @@ def submit(file_name,n_clicks):
             period_of_time = json.load(period_of_time_file)
 
         dataset["contactPoint"] = contact_point["@id"]
-        dataset["distribution"] = distribution["@id"]
+
+        dists_id = []
+        for d in dists:
+            dists_id.append(d['@id'])
+
+        dataset["distribution"] = dists_id
         dataset["publisher"] = agent["@id"]
         dataset["spatial"] = location["@id"]
         dataset["temporal"] = period_of_time["@id"]
@@ -1004,11 +1046,10 @@ def submit(file_name,n_clicks):
                 agent,
                 contact_point,
                 dataset,
-                distribution,
                 license,
                 location,
                 period_of_time
-            ]
+            ] + dists
         }
 
         #with open(filename + ".jsonld", "w") as outfile:
