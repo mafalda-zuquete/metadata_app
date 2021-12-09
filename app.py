@@ -569,8 +569,8 @@ def license_json(license,n_clicks):
         if (license is not None):
             license_meta = {
                 "@id":"_:b2",
-                "@type":"dct:LicenseDocument",
-                "type":"http://publications.europa.eu/resource/authority/license/" + license
+                "@type":"dct:license",
+                "type":"http://publications.europa.eu/resource/authority/licence/" + license
             }
 
             with open("license.json", "w") as outfile:
