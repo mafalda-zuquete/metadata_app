@@ -1,13 +1,26 @@
 import dash
 import dash_core_components as dcc
+#import dash as dcc
 import dash_html_components as html
+#from dash import html
 from dash.dependencies import Input, Output
+import dash_bootstrap_components as dbc
 
 import pandas as pd
 from bs4 import BeautifulSoup
 import plotly.graph_objs as go
 import json
 from datetime import datetime
+
+#external_stylesheets = [
+    #'https://codepen.io/Lewitje/pen/doJRBX.css',
+    #{
+        #'href': 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',
+        #'rel': 'stylesheet',
+        #'integrity': 'sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO',
+        #'crossorigin': 'anonymous'
+    #}
+#]
 
 #data theme
 data_theme_df = pd.read_csv("data-theme.csv")
@@ -115,7 +128,7 @@ for place in places_zip:
     places_dict = {"label":place[1],"value":place[0]}
     places_options.append(places_dict)
 
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])#, external_stylesheets=external_stylesheets)
 
 server = app.server
 
@@ -397,6 +410,17 @@ app.layout = html.Div([
                 ]
             )
         ]
+    ),
+    dbc.Row(
+        id='images',
+        children=[
+            html.Img(src='/assets/nova_ims.png',style={'width':'10%'}),
+            html.Img(src='/assets/CML.jpg',style={'width':'10%'}),
+            html.Img(src='/assets/ama.jpg',style={'width':'10%'}),
+            html.Img(src='/assets/nec.png',style={'width':'10%'}),
+            html.Img(src='/assets/bsc.png',style={'width':'10%'})
+        ],
+        #style={'display':'inline-block','vertical-align':'bottom'}
     )
 ])
 
