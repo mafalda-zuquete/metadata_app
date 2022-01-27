@@ -441,7 +441,8 @@ app.layout = html.Div([
             [
                 html.Img(src='assets/financiamento_&_parceiros_v2.png',style={'margin':'auto'}),
                 html.H6("novacidade@novaims.unl.pt"),
-                dcc.Link("User manual in Portuguese", href="https://www.urbandatalab.pt/images/JSON-LD_generator_user_manual.pdf")
+                html.A("User manual in Portuguese", href="https://www.urbandatalab.pt/images/JSON-LD_generator_user_manual.pdf")
+                #dcc.Link("User manual in Portuguese", href="https://www.urbandatalab.pt/images/JSON-LD_generator_user_manual.pdf")
             ]
         ),        
         style={'display':'flex', 'height':'10%','padding':'1%'}
