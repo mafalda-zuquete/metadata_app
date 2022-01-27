@@ -133,296 +133,333 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])#, externa
 server = app.server
 
 app.layout = html.Div([
-
-    html.H1("Metadata JSON Generator"),
-    html.Div("Fill out all the fields with information related with the file that you want to generate a metadata file for. When you are done, name the metada file and download the information."),
-    html.Div("Write the name of the metadata file"),
-    dcc.Input(
-        id="filename",
-        placeholder="File name",
-        type="text",
-        value=""
-    ),
-    html.Button("Download file", id="button_download"),
-    dcc.Download(id="download"),
-    dcc.Tabs(
-        id="tabs",
-        value="agent",
-        children=[
-            dcc.Tab(
-                label="Agent",
+    html.Div([
+        html.Div(
+            children=[
+                html.Div(
+                    children=[
+                        html.H1("Metadata JSON Generator"),
+                        html.Div("Fill out all the fields with information related with the file that you want to generate a metadata file for. When you are done, name the metada file and download the information."),
+                        html.Div("Write the name of the metadata file"),
+                        dcc.Input(
+                            id="filename",
+                            placeholder="File name",
+                            type="text",
+                            value=""
+                        ),
+                        html.Button("Download file", id="button_download"),
+                        dcc.Download(id="download")
+                    ],
+                    style={'width':'70%'}
+                ),
+                html.Div(
+                    html.A(
+                        [
+                            html.Img(src='assets/projeto.png',style={'width':'100%','margin-left':'auto','margin-right':'0'})
+                        ],
+                        href='https://www.urbandatalab.pt/'
+                    ),
+                    style={'width':'30%','margin-left':'auto','margin-right':'0'}
+                )   
+            ],
+            style={'display':'flex'}
+        ),
+        html.Div(
+            dcc.Tabs(
+                id="tabs",
                 value="agent",
                 children=[
-                    html.Div("Write the name of the entitiy responsible for making the dataset available"),
-                    dcc.Input(
-                        id="agent",
-                        placeholder="Agent",
-                        type="text",
-                        value=""
-                    ),
-                    html.Button("Submit",id="button_agent",n_clicks=0),
-                    html.Div(id="div_agent")
-                ]
-            ),
-            dcc.Tab(
-                label="Contact Point",
-                value="contact_point",
-                children=[
-                    html.Div("Write a contact e-mail in case there are comments or doubts regarding the dataset"),
-                    dcc.Input(
-                        id="contact_point",
-                        placeholder="Contact point",
-                        type="email",
-                        value=""
-                    ),
-                    html.Button("Submit",id="button_contact_point",n_clicks=0),
-                    html.Div(id="div_contact_point")
-                ]
-            ),
-            dcc.Tab(
-                label="Dataset",
-                value="dataset",
-                children=[
-                    html.Div("Dataset title"),
-                    dcc.Input(
-                        id="title_dataset",
-                        placeholder="Title",
-                        type="text",
-                        value=""
-                    ),
-                    html.Div("Dataset description"),
-                    dcc.Textarea(
-                        id="description_dataset",
-                        placeholder="Description",
-                        value=""
-                    ),
-                    html.Div("Write keywords related to the dataset (separated by commas)"),
-                    dcc.Textarea(
-                        id="keywords",
-                        placeholder="Keywords",
-                        value=""
-                    ),
-                    html.Div("Select the dataset's theme"),
-                    dcc.Dropdown(
-                        id="theme",
-                        options=theme_options,
-                        placeholder="Theme"
-                    ),
-                    html.Div("Select the dataset's access rights"),
-                    dcc.Dropdown(
-                        id="access_right",
-                        options=access_right_options,
-                        placeholder="Acess"
-                    ),
-                    html.Div("Select the dataset's update frequency"),
-                    dcc.Dropdown(
-                        id="frequency",
-                        options=frequencies_options,
-                        placeholder="Frequency"
-                    ),
-                    html.Div("Select the dataset's language"),
-                    dcc.Dropdown(
-                        id="language_dataset",
-                        options=languages_options,
-                        placeholder="Langugage"
-                    ),
-                    html.Div("Date when the dataset was issued"),
-                    dcc.DatePickerSingle(
-                        id="issued_dataset",
-                        date=datetime.today(),
-                    ),
-                    html.Div("Date when the dataset was most recently modified"),
-                    dcc.DatePickerSingle(
-                        id="modified_dataset",
-                        date=datetime.today(),
-                    ),
-                    html.Button("Submit",id="button_dataset",n_clicks=0),
-                    html.Div(id="div_dataset")
-                ]
-            ),
-            dcc.Tab(
-                label="Distribution",
-                value="distribution",
-                children=[
-                    html.Div("Distribution title"),
-                    dcc.Input(
-                        id="title_distribution",
-                        placeholder="Title",
-                        type="text",
-                        value=""
-                    ),
-                    html.Div("Distribution description"),
-                    dcc.Textarea(
-                        id="description_distribution",
-                        placeholder="Description",
-                        value=""
-                    ),
-                    html.Div("URL to access the distribution"),
-                    dcc.Input(
-                        id="accessURL",
-                        placeholder="Access URL",
-                        type="url",
-                        value=""
-                    ),
-                    html.Div("URL to download the distribution"),
-                    dcc.Input(
-                        id="downloadURL",
-                        placeholder="Download URL",
-                        type="url",
-                        value=""
-                    ),
-                    html.Div("Select the distribution's format"),
-                    dcc.Dropdown(
-                        id="format",
-                        options=filetypes_options,
-                        placeholder="Format"
-                    ),
-                    html.Div("Distribution size in bytes"),
-                    dcc.Input(
-                        id="byteSize",
-                        placeholder="Byte size",
-                        type="number",
-                        value=""
-                    ),
-                    html.Div("Select the dataset's language"),
-                    dcc.Dropdown(
-                        id="language_distribution",
-                        options=languages_options,
-                        placeholder="Language"
-                    ),
-                    html.Div("Date when the distribution was issued"),
-                    dcc.DatePickerSingle(
-                        id="issued_distribution",
-                        date=datetime.today(),
-                    ),
-                    html.Div("Date when the distribution was most recently modified"),
-                    dcc.DatePickerSingle(
-                        id="modified_distribution",
-                        date=datetime.today(),
-                    ),
-                    html.Button("Submit",id="button_distribution",n_clicks=0),
-                    html.Div(id="div_distribution")
-                ]
-            ),
-            dcc.Tab(
-                label="License Document",
-                value="license_document",
-                children=[
-                    html.Div("Select the dataset's license type"),
-                    dcc.Dropdown(
-                        id="license",
-                        options=licenses_options,
-                        placeholder="License"
-                    ),
-                    html.Button("Submit",id="button_license",n_clicks=0),
-                    html.Div(id="div_license")
-                ]
-            ),
-            dcc.Tab(
-                label="Location",
-                value="location",
-                children=[
-                    html.Div("Select the dataset's location type"),
-                    dcc.Tabs(
-                        id="location_tabs",
-                        value="coordinates",
+                    dcc.Tab(
+                        label="Agent",
+                        value="agent",
                         children=[
-                            dcc.Tab(
-                                label="Coordinates",
+                            html.Div("Write the name of the entitiy responsible for making the dataset available"),
+                            dcc.Input(
+                                id="agent",
+                                placeholder="Agent",
+                                type="text",
+                                value=""
+                            ),
+                            html.Button("Submit",id="button_agent",n_clicks=0),
+                            html.Div(id="div_agent")
+                        ]
+                    ),
+                    dcc.Tab(
+                        label="Contact Point",
+                        value="contact_point",
+                        children=[
+                            html.Div("Write a contact e-mail in case there are comments or doubts regarding the dataset"),
+                            dcc.Input(
+                                id="contact_point",
+                                placeholder="Contact point",
+                                type="email",
+                                value=""
+                            ),
+                            html.Button("Submit",id="button_contact_point",n_clicks=0),
+                            html.Div(id="div_contact_point")
+                        ]
+                    ),
+                    dcc.Tab(
+                        label="Dataset",
+                        value="dataset",
+                        children=[
+                            html.Div("Dataset title"),
+                            dcc.Input(
+                                id="title_dataset",
+                                placeholder="Title",
+                                type="text",
+                                value=""
+                            ),
+                            html.Div("Dataset description"),
+                            dcc.Textarea(
+                                id="description_dataset",
+                                placeholder="Description",
+                                value=""
+                            ),
+                            html.Div("Write keywords related to the dataset (separated by commas)"),
+                            dcc.Textarea(
+                                id="keywords",
+                                placeholder="Keywords",
+                                value=""
+                            ),
+                            html.Div("Select the dataset's theme"),
+                            dcc.Dropdown(
+                                id="theme",
+                                options=theme_options,
+                                placeholder="Theme"
+                            ),
+                            html.Div("Select the dataset's access rights"),
+                            dcc.Dropdown(
+                                id="access_right",
+                                options=access_right_options,
+                                placeholder="Acess"
+                            ),
+                            html.Div("Select the dataset's update frequency"),
+                            dcc.Dropdown(
+                                id="frequency",
+                                options=frequencies_options,
+                                placeholder="Frequency"
+                            ),
+                            html.Div("Select the dataset's language"),
+                            dcc.Dropdown(
+                                id="language_dataset",
+                                options=languages_options,
+                                placeholder="Langugage"
+                            ),
+                            html.Div("Date when the dataset was issued"),
+                            dcc.DatePickerSingle(
+                                id="issued_dataset",
+                                date=datetime.today(),
+                            ),
+                            html.Div("Date when the dataset was most recently modified"),
+                            dcc.DatePickerSingle(
+                                id="modified_dataset",
+                                date=datetime.today(),
+                            ),
+                            html.Button("Submit",id="button_dataset",n_clicks=0),
+                            html.Div(id="div_dataset")
+                        ]
+                    ),
+                    dcc.Tab(
+                        label="Distribution",
+                        value="distribution",
+                        children=[
+                            html.Div("Distribution title"),
+                            dcc.Input(
+                                id="title_distribution",
+                                placeholder="Title",
+                                type="text",
+                                value=""
+                            ),
+                            html.Div("Distribution description"),
+                            dcc.Textarea(
+                                id="description_distribution",
+                                placeholder="Description",
+                                value=""
+                            ),
+                            html.Div("URL to access the distribution"),
+                            dcc.Input(
+                                id="accessURL",
+                                placeholder="Access URL",
+                                type="url",
+                                value=""
+                            ),
+                            html.Div("URL to download the distribution"),
+                            dcc.Input(
+                                id="downloadURL",
+                                placeholder="Download URL",
+                                type="url",
+                                value=""
+                            ),
+                            html.Div("Select the distribution's format"),
+                            dcc.Dropdown(
+                                id="format",
+                                options=filetypes_options,
+                                placeholder="Format"
+                            ),
+                            html.Div("Distribution size in bytes"),
+                            dcc.Input(
+                                id="byteSize",
+                                placeholder="Byte size",
+                                type="number",
+                                value=""
+                            ),
+                            html.Div("Select the dataset's language"),
+                            dcc.Dropdown(
+                                id="language_distribution",
+                                options=languages_options,
+                                placeholder="Language"
+                            ),
+                            html.Div("Date when the distribution was issued"),
+                            dcc.DatePickerSingle(
+                                id="issued_distribution",
+                                date=datetime.today(),
+                            ),
+                            html.Div("Date when the distribution was most recently modified"),
+                            dcc.DatePickerSingle(
+                                id="modified_distribution",
+                                date=datetime.today(),
+                            ),
+                            html.Button("Submit",id="button_distribution",n_clicks=0),
+                            html.Div(id="div_distribution")
+                        ]
+                    ),
+                    dcc.Tab(
+                        label="License Document",
+                        value="license_document",
+                        children=[
+                            html.Div("Select the dataset's license type"),
+                            dcc.Dropdown(
+                                id="license",
+                                options=licenses_options,
+                                placeholder="License"
+                            ),
+                            html.Button("Submit",id="button_license",n_clicks=0),
+                            html.Div(id="div_license")
+                        ]
+                    ),
+                    dcc.Tab(
+                        label="Location",
+                        value="location",
+                        children=[
+                            html.Div("Select the dataset's location type"),
+                            dcc.Tabs(
+                                id="location_tabs",
                                 value="coordinates",
                                 children=[
-                                    html.Div("Write the coordinates of the bounding box of the location described by the dataset"),
-                                    dcc.Textarea(
-                                        id="bbox",
-                                        placeholder="Bounding box coordinates",
-                                        value=""
+                                    dcc.Tab(
+                                        label="Coordinates",
+                                        value="coordinates",
+                                        children=[
+                                            html.Div("Write the coordinates of the bounding box of the location described by the dataset"),
+                                            dcc.Textarea(
+                                                id="bbox",
+                                                placeholder="Bounding box coordinates",
+                                                value=""
+                                            ),
+                                            html.Div("Write the coordinates of the centroid of the location described by the dataset"),
+                                            dcc.Input(
+                                                id="centroid",
+                                                placeholder="Centroid coordinates",
+                                                value="",
+                                                type="text"
+                                            ),
+                                            html.Div(id="div_location_coordinates")
+                                        ]
                                     ),
-                                    html.Div("Write the coordinates of the centroid of the location described by the dataset"),
-                                    dcc.Input(
-                                        id="centroid",
-                                        placeholder="Centroid coordinates",
-                                        value="",
-                                        type="text"
+                                    dcc.Tab(
+                                        label="Continent",
+                                        value="continents",
+                                        children=[
+                                            html.Div("Select the continent that the dataset refers to"),
+                                            dcc.Dropdown(
+                                                id="continent",
+                                                options=continents_options,
+                                                placeholder="Continent"
+                                            ),
+                                            html.Div(id="div_location_continents")
+                                        ]
                                     ),
-                                    html.Div(id="div_location_coordinates")
-                                ]
+                                    dcc.Tab(
+                                        label="Country",
+                                        value="countries",
+                                        children=[
+                                            html.Div("Select the country that the dataset refers to"),
+                                            dcc.Dropdown(
+                                                id="country",
+                                                options=countries_options,
+                                                placeholder="Country"
+                                            ),
+                                            html.Div(id="div_location_countries")
+                                        ]
+                                    ),
+                                    dcc.Tab(
+                                        label="Place",
+                                        value="places",
+                                        children=[
+                                            html.Div("Select the place that the dataset refers to"),
+                                            dcc.Dropdown(
+                                                id="place",
+                                                options=places_options,
+                                                placeholder="Place"
+                                            ),
+                                            html.Div(id="div_location_places")
+                                        ]
+                                    ),
+                                ],
                             ),
-                            dcc.Tab(
-                                label="Continent",
-                                value="continents",
-                                children=[
-                                    html.Div("Select the continent that the dataset refers to"),
-                                    dcc.Dropdown(
-                                        id="continent",
-                                        options=continents_options,
-                                        placeholder="Continent"
-                                    ),
-                                    html.Div(id="div_location_continents")
-                                ]
-                            ),
-                            dcc.Tab(
-                                label="Country",
-                                value="countries",
-                                children=[
-                                    html.Div("Select the country that the dataset refers to"),
-                                    dcc.Dropdown(
-                                        id="country",
-                                        options=countries_options,
-                                        placeholder="Country"
-                                    ),
-                                    html.Div(id="div_location_countries")
-                                ]
-                            ),
-                            dcc.Tab(
-                                label="Place",
-                                value="places",
-                                children=[
-                                    html.Div("Select the place that the dataset refers to"),
-                                    dcc.Dropdown(
-                                        id="place",
-                                        options=places_options,
-                                        placeholder="Place"
-                                    ),
-                                    html.Div(id="div_location_places")
-                                ]
-                            ),
-                        ],
+                            html.Button("Submit",id="button_location",n_clicks=0),
+                        ]
                     ),
-                    html.Button("Submit",id="button_location",n_clicks=0),
+                    dcc.Tab(
+                        label="Period of Time",
+                        value="period_of_time",
+                        children=[
+                            html.Div("Start of the period of time described by the dataset"),
+                            dcc.DatePickerSingle(
+                                id="startDate",
+                                date=datetime.today(),
+                            ),
+                            html.Div("End of the period of time described by the dataset"),
+                            dcc.DatePickerSingle(
+                                id="endDate",
+                                date=datetime.today(),
+                            ),
+                            html.Button("Submit",id="button_period_of_time",n_clicks=0),
+                            html.Div(id="div_period_of_time")
+                        ]
+                    )
                 ]
             ),
-            dcc.Tab(
-                label="Period of Time",
-                value="period_of_time",
-                children=[
-                    html.Div("Start of the period of time described by the dataset"),
-                    dcc.DatePickerSingle(
-                        id="startDate",
-                        date=datetime.today(),
-                    ),
-                    html.Div("End of the period of time described by the dataset"),
-                    dcc.DatePickerSingle(
-                        id="endDate",
-                        date=datetime.today(),
-                    ),
-                    html.Button("Submit",id="button_period_of_time",n_clicks=0),
-                    html.Div(id="div_period_of_time")
-                ]
-            )
-        ]
+            style={'margin-top':'1%'}
+        )
+    ],
+    style={'height':'90%','padding':'1%', 'overflow':'auto'}
     ),
-    dbc.Row(
-        id='images',
-        children=[
-            html.Img(src='/assets/nova_ims.png',style={'width':'10%'}),
-            html.Img(src='/assets/CML.jpg',style={'width':'10%'}),
-            html.Img(src='/assets/ama.jpg',style={'width':'10%'}),
-            html.Img(src='/assets/nec.png',style={'width':'10%'}),
-            html.Img(src='/assets/bsc.png',style={'width':'10%'})
-        ],
+    html.Div(
+        html.Div(
+            [
+                html.Img(src='assets/financiamento_&_parceiros_v2.png',style={'margin':'auto'}),
+                html.H6("novacidade@novaims.unl.pt"),
+                dcc.Link("User manual in Portuguese", href="https://www.urbandatalab.pt/images/JSON-LD_generator_user_manual.pdf")
+            ]
+        ),        
+        style={'display':'flex', 'height':'10%','padding':'1%'}
+    ),
+    #dbc.Row(
+        #id='images',
+        #children=[
+            #html.Img(src='/assets/nova_ims.png',style={'width':'15%'}),
+            #html.Img(src='/assets/CML.jpg',style={'width':'22%'}),
+            #html.Img(src='/assets/ama.jpg',style={'width':'30%'}),
+            #html.Img(src='/assets/nec.png',style={'width':'15%'}),
+            #html.Img(src='/assets/bsc.png',style={'width':'18%'})
+        #],
         #style={'display':'inline-block','vertical-align':'bottom'}
-    )
-])
+    #),
+],
+style={'height':'90vh'}
+)
 
 @app.callback(
     Output("div_agent","children"),
