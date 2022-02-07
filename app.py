@@ -434,18 +434,20 @@ app.layout = html.Div([
             style={'margin-top':'1%'}
         )
     ],
-    style={'height':'90%','padding':'1%', 'overflow':'auto'}
+    style={'height':'88%','padding':'1%', 'overflow':'auto'}
     ),
     html.Div(
         html.Div(
             [
                 html.Img(src='assets/financiamento_&_parceiros_v2.png',style={'margin':'auto'}),
                 html.H6("novacidade@novaims.unl.pt"),
-                html.A("User manual in Portuguese", href="https://www.urbandatalab.pt/images/JSON-LD_generator_user_manual.pdf")
+                html.A("User manual in Portuguese", href="https://urbandatalab.pt/images/JSON_generator_manual_PT.pdf"),
+                html.Br(),
+                html.A("User manual in English", href="https://urbandatalab.pt/images/JSON_generator_manual_EN.pdf")
                 #dcc.Link("User manual in Portuguese", href="https://www.urbandatalab.pt/images/JSON-LD_generator_user_manual.pdf")
             ]
         ),        
-        style={'display':'flex', 'height':'10%','padding':'1%'}
+        style={'display':'flex', 'height':'12%','padding':'1%'}
     ),
     #dbc.Row(
         #id='images',
